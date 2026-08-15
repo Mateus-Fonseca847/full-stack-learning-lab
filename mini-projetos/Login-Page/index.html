@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Login</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    >
+</head>
+<body>
+<div class="container" id="secaoCadastro">
+	<div class="form-container sign-up-container">
+		<form action="#" id="formularioCadastro">
+			<h1>Crie sua conta</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>ou use seu email para cadastro</span>
+			<input type="text" placeholder="Nome" id="nomeInputCadastro"/>
+      <div class="errorMessage" id="nomeErrorCadastro" >
+          Por favor, insira seu nome.
+      </div>
+			<input type="email" placeholder="Email" id="emailInputCadastro"/>
+      <div class="errorMessage" id="emailErrorCadastro" >
+          Por favor, insira seu email.
+      </div>
+			<input type="password" placeholder="Senha" id="senhaInputCadastro"/>
+      <div class="errorMessage" id="senhaErrorCadastro" >
+          Por favor, insira sua senha.
+      </div>
+      <div class="errorMessage" id="senhaErrorInválida" >
+          Sua senha é invalida, ela deve conter ao menos 8 carácteres e 1 símbolo(@,*,&)
+      </div>
+			<button>Cadastrar</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container" id="secaoLogin">
+		<form action="#" id="formularioLogin">
+			<h1>Login</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>ou use sua conta</span>
+			<input type="email" placeholder="Email" name="email" id="emailInputLogin"/>
+      <div id="emailErrorLogin" class="errorMessage">
+          Por favor, insira seu email.
+      </div>
+			<input type="password" placeholder="Senha" name="senha" id="senhaInputLogin"/>
+      <div class="errorMessage" id="senhaErrorLogin">
+          Por favor, insira sua senha.
+      </div>
+			<a href="#">Esqueceu sua senha?</a>
+      <div class="mensagemSucesso" id="loginMessage">
+          Login realizado com sucesso
+      </div>
+			<button>Login</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Bem-vindo de volta!</h1>
+				<p>Para se manter conectado conosco, por favor adicione suas informações</p>
+				<button class="ghost" id="login">Login</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Olá, Amigo!</h1>
+				<p>Cadastre seus dados e comece sua jornada conosco!</p>
+				<button class="ghost" id="signUp">Cadastre-se</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

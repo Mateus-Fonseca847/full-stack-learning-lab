@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bingo de Futebol</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="cabecalho">
+    <div class="cabecalho-conteudo">
+      <h1>Bingo de Futebol</h1>
+    </div>
+  </header>
+
+  <main class="pagina">
+    <section class="area-jogo">
+      <div class="painel-superior">
+        <div class="bloco-jogador">
+          <div class="cartao-jogador">
+            <img
+              id="fotoJogador"
+              class="foto-jogador"
+              alt="Foto do jogador sorteado"
+            />
+            <div class="foto-placeholder" id="fotoPlaceholder"></div>
+          </div>
+
+          <h2 class="nome-jogador" id="nomeJogador">JOGADOR SORTEADO</h2>
+          <p class="timer-jogador" id="timerJogador">10s</p>
+        </div>
+
+        <button class="botao-pular" id="botaoPular" type="button">
+          Pular jogador
+        </button>
+      </div>
+
+      <section class="painel-bingo">
+        <div class="tabuleiro" id="tabuleiro">
+          <button class="casa-bingo" type="button"><img class="logo-casa" alt="" /></button>
+          <button class="casa-bingo" type="button"><img class="logo-casa" alt="" /></button>
+          <button class="casa-bingo" type="button"><img class="logo-casa" alt="" /></button>
+          <button class="casa-bingo" type="button"><img class="logo-casa" alt="" /></button>
+          <button class="casa-bingo" type="button"><img class="logo-casa" alt="" /></button>
+          <button class="casa-bingo" type="button"><img class="logo-casa" alt="" /></button>
+          <button class="casa-bingo" type="button"><img class="logo-casa" alt="" /></button>
+          <button class="casa-bingo" type="button"><img class="logo-casa" alt="" /></button>
+          <button class="casa-bingo" type="button"><img class="logo-casa" alt="" /></button>
+        </div>
+
+        <p class="mensagem-api" id="mensagemApi"></p>
+      </section>
+    </section>
+  </main>
+
+  <div class="modal-pontuacao" id="modalPontuacao">
+    <div class="conteudo-modal">
+        <h2 id="tituloModal">Fim de jogo</h2>
+        <p id="mensagemModal">Sua pontuação foi:</p>
+        <strong id="pontuacaoFinal">0/9</strong>
+        <button
+            id="botaoJogarNovamente"
+            type="button"
+        >
+            Jogar novamente
+        </button>
+    </div>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
