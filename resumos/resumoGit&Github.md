@@ -8,6 +8,20 @@ Irei atualizando-o conforme meus estudos avançarem
 
 ---
 
+# 0. Boas normas para commits 
+
+## Conventional commits
+
+Servem para organizar o controle de versões, normas importantíssimas para o trabalho em grupo (!!!)
+
+feat: nova funcionalidade
+fix: correção de bug
+docs: documentação
+style: formatação/visual
+refactor: melhoria interna sem mudar comportamento
+test: testes
+chore: manutenção
+
 # 1. Git e controle de versão
 
 ## Git
