@@ -1,6 +1,6 @@
 # JavaScript — Programação Assíncrona
 
-> Data: 24/08/2026  
+> Data: 24/08/2026 & 25/08/2026
 ---
 
 ## 1. Conceitos básicos
@@ -63,6 +63,25 @@ Um objeto que representa o resultado futuro de uma operação assíncrona
 **Async/await**:
 Sintaxe que simplifica o trabalho com Promises, facilitando a leitura do código
 
+Async -> Avisa que a função vai trabalhar com operações assíncronas e permite a utilização do await dentro dela
+Await -> Aguarda o retorno de uma promise
+
+EXEMPLO:
+```javascript
+// Busca Dados de um servidor - https://jsonplaceholder.typicode.com/
+async function buscarDados() {
+  try {
+    await fetch("https://jsonplaceholder.typicode.com/todos/1")
+      .then((response) => response.json())
+      .then((json) => console.log(json));
+  } catch (error) {
+    console.error("Erro:", error);
+  }
+}
+
+buscarDados();
+```
+
 
 ### 1.2 Exemplos úteis:
 ```javascript
@@ -93,21 +112,21 @@ Exemplo básico:
 function tarefa1(callback) = {
   setTimeout(function(){
     console.log("Tarefa concluída")
-    callback;
+    callback();
   }, 1000)
 }
 
 function tarefa2(callback) = {
   setTimeout(function(){
     console.log("Tarefa concluída")
-    callback;
+    callback();
   }, 1000)
 }
 
 function tarefa3(callback) = {
   setTimeout(function(){
     console.log("Tarefa concluída")
-    callback;
+    callback();
   }, 1000)
 }
 
@@ -119,6 +138,48 @@ tarefa1(function () {
     })
 })
 ```
+
+**Resolução de um callback hell**:
+
+```javascript
+async function tarefa1() {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      console.log("Tarefa 1 concluída");
+      resolve();
+    }, 1000);
+  });
+}
+
+async function tarefa2() {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      console.log("Tarefa 2 concluída");
+      resolve();
+    }, 1000);
+  });
+}
+
+async function tarefa3() {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      console.log("Tarefa 3 concluída");
+      resolve();
+    }, 1000);
+  });
+}
+
+tarefa1()
+  .then(() => tarefa2())
+  .then(() => tarefa3())
+  .then(() => console.log("Todas as tarefas concluídas"));
+
+realizarTarefas();
+
+
+```
+
+
 
 **Promises**
 Promises representam resultados de operações assíncronas, como requisições em um banco de dados ou operações com um sistema de arquivos.
