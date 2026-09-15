@@ -227,13 +227,14 @@ STORE z, R1
 As instruções podem operar tanto entre registradores quanto diretamente entre registrador e memória, mais flexível, porém mais complexo. Foi o modelo usado no x86 clássico.
 
 #### Load/store (arquitetura RISC)
-
+```assembly
 LOAD R1, x
 LOAD R2, y
 ADD  R3, R1, R2
 LOAD R4, w
 MUL  R5, R3, R4
 STORE z, R5
+```
 
 Todas as operações aritméticas acontecem apenas entre registradores, a memória só é acessada por instruções explícitas de LOAD e STORE.
 
