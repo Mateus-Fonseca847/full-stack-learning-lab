@@ -1,6 +1,6 @@
-# Guia de Estudos – AEDI (Algoritmos e Estruturas de Dados I)
+# Guia de Estudos – AEDI (Algoritmos e Estruturas de Sistemas I)
 
-2026-09-22 · @Someone
+2026-09-22 ·
 
 Guia baseado nos slides e nos exercícios postados pelo professor André Monteiro (turma 2026/2, GCOM1305PE), cobrindo as 7 partes da matéria: Ordenação/Complexidade, Pesquisa em Vetores, Merge de Vetores, Filas/Pilhas e Listas Encadeadas (1 a 3).
 
