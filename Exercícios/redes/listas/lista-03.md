@@ -32,4 +32,4 @@ Aula: [`aulas/03-modelos-de-referencia.md`](../aulas/03-modelos-de-referencia.md
 
 ---
 
-**Legenda das fontes:** `P1·L1`…`P1·L5` = listas da P1 (partes 1 a 5) · `P2·L2` = lista da P2 (STP/VLAN/Metro Ethernet) · `P2·Wi-Fi`, `P2·Óptica` = listas de Wi-Fi e de redes óticas · `P2·Docx` = lista da P2 em Word (STP, TRILL, ATM, Frame Relay, PDH, SDH) · `extra` = exercício de fixação criado para o curso
+**Legenda das fontes:** `P1·L1`…`P1·L5` = listas da P1 (partes 1 a 5) · `extra` = exercício de fixação criado para o curso
