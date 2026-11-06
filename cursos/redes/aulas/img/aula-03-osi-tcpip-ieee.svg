@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 352" width="680" height="352" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">OSI, TCP/IP e IEEE lado a lado</title>
+<desc id="d">Quatro colunas alinhadas pelas camadas OSI: OSI com sete camadas, modelo híbrido com cinco, TCP/IP com quatro e IEEE cobrindo só física e enlace, este dividido em LLC e MAC.</desc>
+<defs></defs>
+<rect x="0.5" y="0.5" width="679" height="351" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<text x="95.0" y="36" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">OSI</text>
+<text x="265.0" y="36" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Híbrido</text>
+<text x="435.0" y="36" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">TCP/IP</text>
+<text x="595.0" y="36" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">IEEE 802</text>
+<rect x="20" y="56" width="150" height="36" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="95.0" y="78.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">7 Aplicação</text>
+<rect x="20" y="96" width="150" height="36" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="95.0" y="118.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">6 Apresentação</text>
+<rect x="20" y="136" width="150" height="36" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="95.0" y="158.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">5 Sessão</text>
+<rect x="20" y="176" width="150" height="36" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="95.0" y="198.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">4 Transporte</text>
+<rect x="20" y="216" width="150" height="36" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="95.0" y="238.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">3 Rede</text>
+<rect x="20" y="256" width="150" height="36" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="95.0" y="278.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">2 Enlace</text>
+<rect x="20" y="296" width="150" height="36" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="95.0" y="318.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">1 Física</text>
+<rect x="190" y="56" width="150" height="116" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="265.0" y="118.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Aplicação</text>
+<rect x="190" y="176" width="150" height="36" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="265.0" y="198.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Transporte</text>
+<rect x="190" y="216" width="150" height="36" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="265.0" y="238.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Rede</text>
+<rect x="190" y="256" width="150" height="36" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="265.0" y="278.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Enlace</text>
+<rect x="190" y="296" width="150" height="36" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="265.0" y="318.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Física</text>
+<rect x="360" y="56" width="150" height="116" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="435.0" y="118.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">Aplicação</text>
+<rect x="360" y="176" width="150" height="36" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="435.0" y="190.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">Transporte</text>
+<text x="435.0" y="207.2" font-size="12" text-anchor="middle" fill="#085041">TCP e UDP</text>
+<rect x="360" y="216" width="150" height="36" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="435.0" y="230.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">Inter-rede</text>
+<text x="435.0" y="247.2" font-size="12" text-anchor="middle" fill="#085041">IP</text>
+<rect x="360" y="256" width="150" height="76" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="435.0" y="290.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">Intra-rede</text>
+<text x="435.0" y="307.2" font-size="12" text-anchor="middle" fill="#085041">host/rede</text>
+<text x="595" y="140" font-size="12" text-anchor="middle" fill="#2C2C2A">só física e enlace</text>
+<rect x="530" y="256" width="62" height="36" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="561.0" y="278.9" font-size="14" text-anchor="middle" fill="#633806" font-weight="500">LLC</text>
+<rect x="598" y="256" width="62" height="36" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="629.0" y="278.9" font-size="14" text-anchor="middle" fill="#633806" font-weight="500">MAC</text>
+<rect x="530" y="296" width="130" height="36" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="595.0" y="318.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Física</text>
+</svg>

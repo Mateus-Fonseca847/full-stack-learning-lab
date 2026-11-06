@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 298" width="680" height="298" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Modos de comunicação</title>
+<desc id="d">Três linhas mostram simplex (uma seta), half-duplex (setas alternadas) e full-duplex (setas simultâneas) entre duas estações.</desc>
+<defs><marker id="a5F5E5A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#5F5E5A" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="297" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<rect x="20" y="24" width="190" height="56" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="115.0" y="48.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Simplex</text>
+<text x="115.0" y="65.2" font-size="12" text-anchor="middle" fill="#2C2C2A">só um lado transmite</text>
+<rect x="250" y="32" width="80" height="40" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="290.0" y="56.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">A</text>
+<rect x="560" y="32" width="80" height="40" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="600.0" y="56.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">B</text>
+<path d="M332 52 L558 52" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<text x="445" y="32" font-size="12" text-anchor="middle" fill="#2C2C2A">um sentido</text>
+<rect x="20" y="104" width="190" height="56" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="115.0" y="128.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Half-duplex</text>
+<text x="115.0" y="145.2" font-size="12" text-anchor="middle" fill="#2C2C2A">um de cada vez</text>
+<rect x="250" y="112" width="80" height="40" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="290.0" y="136.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">A</text>
+<rect x="560" y="112" width="80" height="40" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="600.0" y="136.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">B</text>
+<path d="M332 124 L558 124" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<path d="M558 140 L332 140" fill="none" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 3" marker-end="url(#a5F5E5A)"/>
+<text x="445" y="112" font-size="12" text-anchor="middle" fill="#2C2C2A">alternando</text>
+<rect x="20" y="184" width="190" height="56" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="115.0" y="208.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Full-duplex</text>
+<text x="115.0" y="225.2" font-size="12" text-anchor="middle" fill="#2C2C2A">os dois ao mesmo tempo</text>
+<rect x="250" y="192" width="80" height="40" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="290.0" y="216.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">A</text>
+<rect x="560" y="192" width="80" height="40" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="600.0" y="216.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">B</text>
+<path d="M332 204 L558 204" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<path d="M558 220 L332 220" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<text x="445" y="192" font-size="12" text-anchor="middle" fill="#2C2C2A">simultâneo</text>
+<text x="445" y="274" font-size="12" text-anchor="middle" fill="#2C2C2A">tracejado: transmite em outro momento</text>
+</svg>

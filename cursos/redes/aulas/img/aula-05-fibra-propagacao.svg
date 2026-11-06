@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 385" width="680" height="385" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Construção e propagação da luz na fibra óptica</title>
+<desc id="d">Corte longitudinal de uma fibra multimodo, com vários raios refletidos, e de uma monomodo, com um só raio no núcleo fino; camadas núcleo, casca e coating identificadas.</desc>
+<defs><marker id="a5F5E5A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#5F5E5A" stroke-width="1.2"/></marker><marker id="a854F0B" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#854F0B" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="384" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<text x="20" y="30" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">Multimodo</text>
+<text x="112" y="30" font-size="12" text-anchor="start" fill="#2C2C2A">vários raios, núcleo mais grosso</text>
+<rect x="200" y="44" width="450" height="100" rx="0" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<rect x="200" y="56" width="450" height="76" rx="0" fill="#F8F8F6" stroke="#5F5E5A" stroke-width="1"/>
+<rect x="200" y="76.0" width="450" height="36" rx="0" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="188" y="54" font-size="12" text-anchor="end" fill="#2C2C2A">coating</text>
+<path d="M190 50 L204 50" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="188" y="68" font-size="12" text-anchor="end" fill="#2C2C2A">casca</text>
+<path d="M190 64 L204 64" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="188" y="98" font-size="12" text-anchor="end" fill="#2C2C2A">núcleo</text>
+<path d="M190 94 L204 94" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<path d="M200 94 L650 94" fill="none" stroke="#854F0B" stroke-width="1"/>
+<path d="M210 94 L240 112 L300 76 L360 112 L420 76 L480 112 L540 76 L600 112 L640 94" fill="none" stroke="#854F0B" stroke-width="1"/>
+<path d="M210 94 L230 112 L270 76 L310 112 L350 76 L390 112 L430 76 L470 112 L510 76 L550 112 L590 76 L630 112 L650 94" fill="none" stroke="#854F0B" stroke-width="1"/>
+<text x="20" y="190" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">Monomodo</text>
+<text x="112" y="190" font-size="12" text-anchor="start" fill="#2C2C2A">um só raio, núcleo bem fino</text>
+<rect x="200" y="204" width="450" height="100" rx="0" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<rect x="200" y="216" width="450" height="76" rx="0" fill="#F8F8F6" stroke="#5F5E5A" stroke-width="1"/>
+<rect x="200" y="248.0" width="450" height="12" rx="0" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<path d="M200 254 L650 254" fill="none" stroke="#854F0B" stroke-width="1"/>
+<text x="425" y="330" font-size="12" text-anchor="middle" fill="#2C2C2A">Reflexão interna total: acima do ângulo crítico, a luz volta ao núcleo</text>
+<rect x="20" y="350" width="14" height="14" rx="3" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="40" y="361" font-size="12" text-anchor="start" fill="#2C2C2A">núcleo e luz</text>
+<rect x="148" y="350" width="14" height="14" rx="3" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="168" y="361" font-size="12" text-anchor="start" fill="#2C2C2A">casca e coating</text>
+</svg>

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 397" width="680" height="397" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Topologias de rede</title>
+<desc id="d">Cinco topologias lado a lado: malha completa, estrela, anel, barramento e árvore, com estações em roxo e concentradores em coral.</desc>
+<defs><marker id="a5F5E5A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#5F5E5A" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="396" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<text x="120" y="28" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Malha</text>
+<text x="120" y="46" font-size="12" text-anchor="middle" fill="#2C2C2A">n(n−1)/2 = 10 enlaces</text>
+<path d="M120.0 72.0 L165.7 105.2" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<path d="M120.0 72.0 L148.2 158.8" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<path d="M120.0 72.0 L91.8 158.8" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<path d="M120.0 72.0 L74.3 105.2" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<path d="M165.7 105.2 L148.2 158.8" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<path d="M165.7 105.2 L91.8 158.8" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<path d="M165.7 105.2 L74.3 105.2" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<path d="M148.2 158.8 L91.8 158.8" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<path d="M148.2 158.8 L74.3 105.2" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<path d="M91.8 158.8 L74.3 105.2" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<circle cx="120.0" cy="72.0" r="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<circle cx="165.7" cy="105.2" r="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<circle cx="148.2" cy="158.8" r="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<circle cx="91.8" cy="158.8" r="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<circle cx="74.3" cy="105.2" r="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="340" y="28" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Estrela</text>
+<text x="340" y="46" font-size="12" text-anchor="middle" fill="#2C2C2A">nó central</text>
+<path d="M340 120 L340.0 70.0" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<path d="M340 120 L383.3 95.0" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<path d="M340 120 L383.3 145.0" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<path d="M340 120 L340.0 170.0" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<path d="M340 120 L296.7 145.0" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<path d="M340 120 L296.7 95.0" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<circle cx="340.0" cy="70.0" r="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<circle cx="383.3" cy="95.0" r="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<circle cx="383.3" cy="145.0" r="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<circle cx="340.0" cy="170.0" r="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<circle cx="296.7" cy="145.0" r="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<circle cx="296.7" cy="95.0" r="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<circle cx="340" cy="120" r="12" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<text x="560" y="28" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Anel</text>
+<text x="560" y="46" font-size="12" text-anchor="middle" fill="#2C2C2A">sinal em um sentido</text>
+<path d="M567.8 76.5 L592.9 91.0" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<path d="M601.6 105.0 L601.6 134.0" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<path d="M593.8 148.5 L568.7 163.0" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<path d="M552.2 163.5 L527.1 149.0" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<path d="M518.4 135.0 L518.4 106.0" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<path d="M526.2 91.5 L551.3 77.0" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<circle cx="560.0" cy="72.0" r="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<circle cx="601.6" cy="96.0" r="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<circle cx="601.6" cy="144.0" r="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<circle cx="560.0" cy="168.0" r="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<circle cx="518.4" cy="144.0" r="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<circle cx="518.4" cy="96.0" r="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="230" y="200" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Barramento</text>
+<text x="230" y="218" font-size="12" text-anchor="middle" fill="#2C2C2A">um cabo comum</text>
+<path d="M130 270 L330 270" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<path d="M145 270 L145 248" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<circle cx="145" cy="240" r="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<path d="M185 270 L185 292" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<circle cx="185" cy="300" r="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<path d="M225 270 L225 248" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<circle cx="225" cy="240" r="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<path d="M265 270 L265 292" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<circle cx="265" cy="300" r="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<path d="M315 270 L315 248" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<circle cx="315" cy="240" r="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="480" y="200" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Árvore</text>
+<text x="480" y="218" font-size="12" text-anchor="middle" fill="#2C2C2A">hierarquia</text>
+<path d="M480 252 L425 285" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<path d="M480 252 L535 285" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<path d="M425 285 L397 320" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<path d="M425 285 L453 320" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<path d="M535 285 L507 320" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<path d="M535 285 L563 320" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<circle cx="480" cy="252" r="11" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<circle cx="425" cy="285" r="11" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<circle cx="397" cy="322" r="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<circle cx="453" cy="322" r="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<circle cx="535" cy="285" r="11" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<circle cx="507" cy="322" r="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<circle cx="563" cy="322" r="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<rect x="20" y="362" width="14" height="14" rx="3" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="40" y="373" font-size="12" text-anchor="start" fill="#2C2C2A">estação</text>
+<rect x="113" y="362" width="14" height="14" rx="3" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<text x="133" y="373" font-size="12" text-anchor="start" fill="#2C2C2A">nó central ou concentrador</text>
+</svg>

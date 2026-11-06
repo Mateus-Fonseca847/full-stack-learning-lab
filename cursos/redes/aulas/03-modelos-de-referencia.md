@@ -53,6 +53,9 @@ Enlace      [H2][H3][H4][ dados ][T2]   ← quadro
 Física      0101011101...               ← bits
 ```
 
+![Duas pilhas OSI de sete camadas; setas tracejadas ligam as camadas pares (comunicação virtual) e uma seta contínua mostra o caminho real pelo meio físico.](img/aula-03-pilha-osi-encapsulamento.svg)
+*Figura 03.1: Comunicação virtual entre camadas pares e caminho real pelo meio físico.*
+
 ## 3. Arquitetura TCP/IP
 
 Nasceu na ARPANET (rede de pesquisa do DoD americano); o DoD queria uma rede **resistente a ataques** (guerra fria).
@@ -111,6 +114,9 @@ Série de padrões das camadas **física e de enlace**, em sua maioria para LANs
 | Camadas | 7 | 4 (ou 5 híbrido) | só 1 e 2 (enlace dividido em LLC/MAC) |
 | Foco | referência/teoria | prática, Internet | LANs/MANs |
 | Rede | com e sem conexão | sem conexão | — |
+
+![Quatro colunas alinhadas: OSI com sete camadas, modelo híbrido com cinco, TCP/IP com quatro e IEEE cobrindo só física e enlace, este dividido em LLC e MAC.](img/aula-03-osi-tcpip-ieee.svg)
+*Figura 03.2: OSI, modelo híbrido, TCP/IP e IEEE lado a lado.*
 
 ---
 

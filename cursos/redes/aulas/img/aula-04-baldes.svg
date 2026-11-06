@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 375" width="680" height="375" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Balde furado e balde de fichas</title>
+<desc id="d">À esquerda, o balde furado entrega saída constante e descarta o excesso quando cheio. À direita, o balde de fichas acumula fichas à taxa r e permite rajada de até b.</desc>
+<defs><marker id="a5F5E5A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#5F5E5A" stroke-width="1.2"/></marker><marker id="a854F0B" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#854F0B" stroke-width="1.2"/></marker><marker id="aD3D1C7" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#D3D1C7" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="374" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<path d="M340 20 L340 330" fill="none" stroke="#D3D1C7" stroke-width="1"/>
+<text x="170" y="30" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Balde furado</text>
+<text x="170" y="48" font-size="12" text-anchor="middle" fill="#2C2C2A">saída constante</text>
+<rect x="138" y="62" width="16" height="14" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="158" y="62" width="16" height="14" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="178" y="62" width="16" height="14" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="128" y="74" font-size="12" text-anchor="end" fill="#2C2C2A">rajada</text>
+<path d="M170 80 L170 106" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<rect x="101" y="140" width="138" height="30" rx="0" fill="#F1EFE8" stroke="#F1EFE8" stroke-width="1"/>
+<path d="M100 100 L100 170 L160 170" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<path d="M240 100 L240 170 L180 170" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<path d="M242 108 L306 108" fill="none" stroke="#854F0B" stroke-width="1" stroke-dasharray="5 3" marker-end="url(#a854F0B)"/>
+<text x="274" y="100" font-size="12" text-anchor="middle" fill="#633806">descarta</text>
+<rect x="159" y="202" width="22" height="16" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="159" y="236" width="22" height="16" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="159" y="270" width="22" height="16" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<path d="M170 172 L170 196" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<text x="200" y="232" font-size="12" text-anchor="start" fill="#2C2C2A">saída constante</text>
+<text x="170" y="322" font-size="12" text-anchor="middle" fill="#2C2C2A">balde cheio: descarta o pacote</text>
+<text x="510" y="30" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Balde de fichas</text>
+<text x="510" y="48" font-size="12" text-anchor="middle" fill="#2C2C2A">permite rajada, mas a limita</text>
+<text x="510" y="66" font-size="12" text-anchor="middle" fill="#2C2C2A">fichas à taxa r</text>
+<path d="M510 72 L510 104" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<path d="M440 100 L440 170 L580 170 L580 100" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<circle cx="470" cy="160" r="7" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<circle cx="490" cy="160" r="7" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<circle cx="510" cy="160" r="7" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<circle cx="530" cy="160" r="7" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<circle cx="550" cy="160" r="7" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<circle cx="480" cy="142" r="7" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<circle cx="500" cy="142" r="7" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<circle cx="520" cy="142" r="7" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<circle cx="540" cy="142" r="7" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="590" y="130" font-size="12" text-anchor="start" fill="#2C2C2A">tamanho b</text>
+<rect x="352" y="120" width="80" height="40" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="392.0" y="136.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">pacote</text>
+<text x="392.0" y="153.2" font-size="12" text-anchor="middle" fill="#085041">d fichas</text>
+<path d="M434 140 L438 140" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<path d="M510 172 L510 196" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<rect x="499" y="202" width="22" height="16" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="499" y="222" width="22" height="16" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="499" y="242" width="22" height="16" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="499" y="270" width="22" height="16" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="540" y="232" font-size="12" text-anchor="start" fill="#2C2C2A">rajada até b</text>
+<text x="510" y="322" font-size="12" text-anchor="middle" fill="#2C2C2A">sem ficha: o pacote espera</text>
+<rect x="20" y="340" width="14" height="14" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="40" y="351" font-size="12" text-anchor="start" fill="#2C2C2A">pacote</text>
+<rect x="106" y="340" width="14" height="14" rx="3" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="126" y="351" font-size="12" text-anchor="start" fill="#2C2C2A">ficha ou descarte</text>
+<rect x="269" y="340" width="14" height="14" rx="3" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="289" y="351" font-size="12" text-anchor="start" fill="#2C2C2A">pacotes no balde</text>
+</svg>

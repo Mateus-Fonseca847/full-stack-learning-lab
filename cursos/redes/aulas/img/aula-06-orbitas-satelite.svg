@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 364" width="680" height="364" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Órbitas de satélite GEO, MEO e LEO</title>
+<desc id="d">A Terra no centro com três órbitas concêntricas: LEO, MEO e GEO, fora de escala, com satélites e as características citadas na aula.</desc>
+<defs><marker id="a993C1D" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#993C1D" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="363" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<circle cx="165" cy="175" r="150" fill="#F8F8F6" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 3"/>
+<circle cx="165" cy="175" r="105" fill="#F8F8F6" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 3"/>
+<circle cx="165" cy="175" r="68" fill="#F8F8F6" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 3"/>
+<circle cx="165" cy="175" r="36" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="165" y="179" font-size="12" text-anchor="middle" fill="#2C2C2A">Terra</text>
+<rect x="18.0" y="117.7" width="12" height="12" rx="2" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<rect x="107.7" y="310.0" width="12" height="12" rx="2" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<rect x="273.9" y="72.6" width="12" height="12" rx="2" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<rect x="60.3" y="204.9" width="12" height="12" rx="2" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<rect x="257.7" y="204.9" width="12" height="12" rx="2" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<rect x="159.0" y="237.0" width="12" height="12" rx="2" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<rect x="91.0" y="169.0" width="12" height="12" rx="2" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<rect x="159.0" y="101.0" width="12" height="12" rx="2" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<rect x="217.9" y="135.0" width="12" height="12" rx="2" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<path d="M261.4 60.1 L336 60.1" fill="none" stroke="#993C1D" stroke-width="1"/>
+<text x="344" y="64.1" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">GEO · 35.800 km, 24 h</text>
+<text x="344" y="82.1" font-size="12" text-anchor="start" fill="#2C2C2A">parece parado; latência alta</text>
+<text x="344" y="98.1" font-size="12" text-anchor="start" fill="#2C2C2A">no máximo 180 satélites</text>
+<path d="M270.0 175.0 L336 175.0" fill="none" stroke="#993C1D" stroke-width="1"/>
+<text x="344" y="179.0" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">MEO · ~6 h por volta</text>
+<text x="344" y="197.0" font-size="12" text-anchor="start" fill="#2C2C2A">menor latência; ex.: GPS</text>
+<path d="M208.7 227.1 L336 227.1" fill="none" stroke="#993C1D" stroke-width="1"/>
+<text x="344" y="231.1" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">LEO · movimento rápido</text>
+<text x="344" y="249.1" font-size="12" text-anchor="start" fill="#2C2C2A">muitos satélites</text>
+<text x="344" y="265.1" font-size="12" text-anchor="start" fill="#2C2C2A">menor latência</text>
+<text x="344" y="340" font-size="12" text-anchor="start" fill="#2C2C2A">esquema fora de escala</text>
+</svg>

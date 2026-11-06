@@ -59,6 +59,9 @@ As redes podem ser classificadas por quatro critérios: modo de comunicação, m
 | **Half-duplex** | os dois transmitem, mas **não ao mesmo tempo** | walkie-talkie |
 | **Full-duplex** | os dois transmitem **simultaneamente** | telefone |
 
+![Três linhas com duas estações, A e B: simplex tem uma seta de A para B, half-duplex alterna as setas e full-duplex tem as duas setas ao mesmo tempo.](img/aula-01-modos-comunicacao.svg)
+*Figura 01.1: simplex, half-duplex e full-duplex.*
+
 ### 3.2 Modo de conexão
 
 - **Ponto a ponto:** link dedicado entre dois dispositivos (controle remoto ↔ TV).
@@ -84,6 +87,9 @@ As redes podem ser classificadas por quatro critérios: modo de comunicação, m
 
 **Conta para a prova:** malha completa com 10 nós = 10·9/2 = **45 enlaces** (e cada nó precisa de 9 portas).
 
+![Cinco topologias desenhadas lado a lado: malha completa com cinco nós e dez enlaces, estrela com nó central, anel com sinal em um sentido, barramento com cabo comum e árvore hierárquica.](img/aula-01-topologias.svg)
+*Figura 01.2: Topologias de rede: malha, estrela, anel, barramento e árvore.*
+
 ### Por que compartilhar o meio?
 
 - **Vantagem:** reduz custo (menos cabo, menos portas) e simplifica a instalação.
@@ -99,6 +105,9 @@ As redes podem ser classificadas por quatro critérios: modo de comunicação, m
 | **MAN** | Metropolitan Area Network | cidade; TV a cabo. Sem fio: WMAN/WiMAX (802.16) |
 | **WAN** | Wide Area Network | país ou continente; taxas moderadas/baixas, erros moderados; dá acesso à Internet |
 | **SAN** | Storage Area Network | liga servidores e armazenamento numa área limitada, altas taxas; Fibre Channel |
+
+![Retângulos aninhados: PAN dentro de LAN, dentro de MAN, dentro de WAN, com o alcance de cada uma ao lado e a SAN separada.](img/aula-01-abrangencia.svg)
+*Figura 01.3: Abrangência geográfica: PAN < LAN < MAN < WAN, e a SAN à parte.*
 
 ### Caminho até um servidor no Japão (esquema típico)
 

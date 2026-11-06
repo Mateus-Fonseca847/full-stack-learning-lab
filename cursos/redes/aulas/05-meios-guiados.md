@@ -59,6 +59,9 @@ Em **todas** as categorias o limite é **100 m**. O que muda é a **frequência 
 - **Cabo direto:** mesmo padrão (A–A ou B–B) nas duas pontas. Liga dispositivos **diferentes** (PC ↔ switch).
 - **Cabo crossover:** A numa ponta e B na outra. Liga dispositivos **iguais** (hub–hub, PC–PC, switch–switch). *(Switches modernos têm Auto-MDIX e dispensam o crossover.)*
 
+![Tabela com a cor de cada pino em T568A e T568B, destacando os pinos 1, 2, 3 e 6, e dois esquemas de ligação: cabo direto pino a pino e crossover trocando 1 e 2 por 3 e 6.](img/aula-05-pinagem-rj45.svg)
+*Figura 05.1: Pinagem T568A/T568B, cabo direto e crossover.*
+
 ### Certificação do cabo (o que o testador mede)
 
 | Parâmetro | O que verifica |
@@ -111,6 +114,9 @@ Por **reflexão interna total**: a luz que incide na fronteira núcleo/casca com
 | Custo | menor | maior |
 | Alcance | curto (LAN/prédio) | longo (ex.: **50 Gbps por 100 km sem amplificação**) |
 | Dispersão | maior (pulsos se alargam) | mínima |
+
+![Corte de uma fibra multimodo, com vários raios de luz refletidos no núcleo grosso, e de uma monomodo, com um só raio no núcleo fino; camadas núcleo, casca e coating.](img/aula-05-fibra-propagacao.svg)
+*Figura 05.2: Fibra multimodo × monomodo.*
 
 **Limitações:** a atenuação depende do **comprimento de onda** e do vidro; os pulsos de luz se **expandem** ao se propagar (dispersão), podendo sobrepor sinais e **reduzir a taxa de sinalização**.
 

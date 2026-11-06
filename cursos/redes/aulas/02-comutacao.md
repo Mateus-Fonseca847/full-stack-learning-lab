@@ -60,6 +60,9 @@ Mensagem de **M = 12.000 bits**, caminho com **3 enlaces** (2 roteadores) de **R
 
 Os pacotes seguem em "pipeline": enquanto o roteador 1 retransmite o pacote 1, a origem já envia o pacote 2.
 
+![Linha do tempo de três enlaces: a mensagem inteira em cada salto termina em 36 ms; três pacotes de 4.000 bits em pipeline terminam em 20 ms.](img/aula-02-pipeline-fragmentacao.svg)
+*Figura 02.1: Mensagem inteira (36 ms) × três pacotes em pipeline (20 ms).*
+
 ### 3.1 Datagramas × Circuitos virtuais
 
 | | **Datagramas** | **Circuitos virtuais (CV)** |
@@ -71,6 +74,9 @@ Os pacotes seguem em "pipeline": enquanto o roteador 1 retransmite o pacote 1, a
 | Estado nos nós | **não mantém** | mantém **tabela de tradução** de números de CV |
 | Falha de enlace | pacotes seguintes tomam outra rota | o circuito virtual **se desfaz** |
 | Exemplos | **IP / Internet** | MPLS, ATM, X.25, Frame Relay |
+
+![Duas redes lado a lado: em datagramas os pacotes 1 e 2 seguem rotas diferentes pelo endereço de destino; em circuitos virtuais todos seguem o mesmo caminho pelo número do circuito.](img/aula-02-datagrama-vs-cv.svg)
+*Figura 02.2: Datagramas × circuitos virtuais.*
 
 ### 3.2 Pacotes × Células
 

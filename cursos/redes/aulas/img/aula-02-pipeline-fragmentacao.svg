@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 348" width="680" height="348" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Benefício de fragmentar a mensagem</title>
+<desc id="d">Linha do tempo de três enlaces de 1 Mbps: a mensagem inteira leva 36 ms; em três pacotes de 4.000 bits em pipeline leva 20 ms.</desc>
+<defs><marker id="a5F5E5A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#5F5E5A" stroke-width="1.2"/></marker><marker id="a854F0B" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#854F0B" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="347" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<text x="20" y="30" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">Sem fragmentar: 3 × 12 ms = 36 ms</text>
+<text x="20" y="60" font-size="12" text-anchor="start" fill="#2C2C2A">Enlace 1</text>
+<rect x="120" y="44" width="168" height="22" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="204.0" y="59.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">mensagem</text>
+<text x="20" y="88" font-size="12" text-anchor="start" fill="#2C2C2A">Enlace 2</text>
+<rect x="288" y="72" width="168" height="22" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="372.0" y="87.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">mensagem</text>
+<text x="20" y="116" font-size="12" text-anchor="start" fill="#2C2C2A">Enlace 3</text>
+<rect x="456" y="100" width="168" height="22" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="540.0" y="115.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">mensagem</text>
+<path d="M120 134 L624 134" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<path d="M120 134 L120 139" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="120" y="154" font-size="12" text-anchor="middle" fill="#2C2C2A">0</text>
+<path d="M288 134 L288 139" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="288" y="154" font-size="12" text-anchor="middle" fill="#2C2C2A">12</text>
+<path d="M456 134 L456 139" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="456" y="154" font-size="12" text-anchor="middle" fill="#2C2C2A">24</text>
+<path d="M624 134 L624 139" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="624" y="154" font-size="12" text-anchor="middle" fill="#2C2C2A">36</text>
+<text x="648" y="154" font-size="12" text-anchor="middle" fill="#2C2C2A">ms</text>
+<path d="M624 40 L624 134" fill="none" stroke="#854F0B" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="20" y="200" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">Em 3 pacotes de 4.000 bits: (3 + 3 − 1) × 4 ms = 20 ms</text>
+<text x="20" y="230" font-size="12" text-anchor="start" fill="#2C2C2A">Enlace 1</text>
+<rect x="120" y="214" width="56" height="22" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="148.0" y="229.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">P1</text>
+<rect x="176" y="214" width="56" height="22" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="204.0" y="229.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">P2</text>
+<rect x="232" y="214" width="56" height="22" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="260.0" y="229.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">P3</text>
+<text x="20" y="258" font-size="12" text-anchor="start" fill="#2C2C2A">Enlace 2</text>
+<rect x="176" y="242" width="56" height="22" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="204.0" y="257.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">P1</text>
+<rect x="232" y="242" width="56" height="22" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="260.0" y="257.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">P2</text>
+<rect x="288" y="242" width="56" height="22" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="316.0" y="257.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">P3</text>
+<text x="20" y="286" font-size="12" text-anchor="start" fill="#2C2C2A">Enlace 3</text>
+<rect x="232" y="270" width="56" height="22" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="260.0" y="285.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">P1</text>
+<rect x="288" y="270" width="56" height="22" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="316.0" y="285.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">P2</text>
+<rect x="344" y="270" width="56" height="22" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="372.0" y="285.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">P3</text>
+<path d="M120 304 L400 304" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<path d="M120 304 L120 309" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="120" y="324" font-size="12" text-anchor="middle" fill="#2C2C2A">0</text>
+<path d="M176 304 L176 309" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="176" y="324" font-size="12" text-anchor="middle" fill="#2C2C2A">4</text>
+<path d="M232 304 L232 309" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="232" y="324" font-size="12" text-anchor="middle" fill="#2C2C2A">8</text>
+<path d="M288 304 L288 309" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="288" y="324" font-size="12" text-anchor="middle" fill="#2C2C2A">12</text>
+<path d="M344 304 L344 309" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="344" y="324" font-size="12" text-anchor="middle" fill="#2C2C2A">16</text>
+<path d="M400 304 L400 309" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="400" y="324" font-size="12" text-anchor="middle" fill="#2C2C2A">20</text>
+<text x="424" y="324" font-size="12" text-anchor="middle" fill="#2C2C2A">ms</text>
+<path d="M400 210 L400 304" fill="none" stroke="#854F0B" stroke-width="1" stroke-dasharray="5 3"/>
+</svg>

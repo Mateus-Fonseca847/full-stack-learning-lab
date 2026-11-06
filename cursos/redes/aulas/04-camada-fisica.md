@@ -72,6 +72,9 @@ Fichas entram no balde (tamanho **b**) à taxa **r**; se encher, fichas novas s�
 | Saída | constante | pode ter rajada (até b) |
 | Excesso | descarta | atrasa (ou descarta) |
 
+![À esquerda o balde furado, com saída constante e descarte quando cheio; à direita o balde de fichas, que acumula fichas à taxa r e permite rajada de até b.](img/aula-04-baldes.svg)
+*Figura 04.1: Balde furado × balde de fichas.*
+
 ### Descarte antecipado
 - **RED (Random Early Detection):** descarta pacotes **antes** da fila encher; a probabilidade de descarte cresce com a **ocupação da fila**. O descarte sinaliza o congestionamento.
 - **WRED:** como o RED, mas **por classe**; a probabilidade também depende do **peso do pacote** e de haver reserva de recursos (RSVP).
@@ -80,6 +83,9 @@ Fichas entram no balde (tamanho **b**) à taxa **r**; se encher, fichas novas s�
 Ambos **identificam** violações do contrato de tráfego do mesmo jeito; diferem na **reação**:
 - **Policiamento:** **descarta** ou marca o excesso como elegível para descarte.
 - **Modelagem (shaping):** **atrasa** o excesso, deixando o tráfego conforme os parâmetros.
+
+![Três gráficos de taxa por tempo: a entrada com uma rajada acima do limite; o policiamento corta e descarta o excesso; a modelagem atrasa o excesso e o espalha nos instantes seguintes.](img/aula-04-shaping-policing.svg)
+*Figura 04.2: Policiamento descarta o excesso; modelagem o atrasa.*
 
 > **Projeto Glasnost:** permite testar se há traffic shaping numa conexão (VoIP, P2P/FTP, streaming, torrent, jogos).
 

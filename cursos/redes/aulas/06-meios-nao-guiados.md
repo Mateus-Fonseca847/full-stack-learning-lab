@@ -23,6 +23,9 @@ $$ f \cdot \lambda = c \quad\Rightarrow\quad f(\text{MHz}) \cdot \lambda(\text{m
 | 2,4 GHz (Wi-Fi) | 0,125 m |
 | 5 GHz (Wi-Fi) | 0,06 m |
 
+![Barras em escala logarítmica com o comprimento de onda de 100 MHz (3 m), 1 GHz (0,3 m), 2,4 GHz (0,125 m) e 5 GHz (0,06 m), com as faixas de Wi-Fi destacadas.](img/aula-06-frequencia-comprimento-onda.svg)
+*Figura 06.1: Comprimento de onda por f·λ = 300.*
+
 (No cobre ou na fibra a velocidade cai para ~2/3 de c.) Uma antena de **tamanho adequado** (relacionado a λ) transmite bem.
 
 **O que serve para comunicação:** rádio, micro-ondas, infravermelho e luz visível. Ultravioleta, raios X e gama seriam melhores em banda, mas são **difíceis de produzir, perigosos e propagam mal**.
@@ -65,6 +68,9 @@ O período orbital depende da altitude: a **35.800 km** é 24 h; a 384.000 km (L
 | **GEO** (geoestacionária) | 35.800 km, 24 h (parece parado) | cobertura enorme; **latência alta** (~250 ms de propagação); precisa ficar a **2°** de distância dos vizinhos → no máximo **180 satélites** (360°/2°); disputa política por posições e frequências; permite **VSAT** (terminais pequenos, antena ~1 m, baixo custo, uso de HUB) |
 | **MEO** (média) | ~6 h por volta | área de cobertura menor; menos potência; **menor latência**; ex.: **GPS** |
 | **LEO** (baixa) | movimento rápido | exige **muitos satélites** para cobrir grande área; **menor latência**, **menor potência** |
+
+![A Terra no centro com três órbitas concêntricas, LEO, MEO e GEO, fora de escala, com as características de cada uma.](img/aula-06-orbitas-satelite.svg)
+*Figura 06.2: Órbitas LEO, MEO e GEO (fora de escala).*
 
 ## 7. Pratique
 

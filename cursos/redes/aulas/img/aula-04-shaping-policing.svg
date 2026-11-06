@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 409" width="680" height="409" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Policiamento e modelagem de tráfego</title>
+<desc id="d">Mesma rajada de entrada tratada de duas formas: o policiamento corta e descarta o excesso, a modelagem atrasa o excesso e espalha a saída.</desc>
+<defs><marker id="a5F5E5A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#5F5E5A" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="408" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<text x="20" y="56" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">Entrada</text>
+<text x="20" y="74" font-size="12" text-anchor="start" fill="#2C2C2A">rajada acima do limite</text>
+<path d="M230 100 L528 100" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="558" y="104" font-size="12" text-anchor="middle" fill="#2C2C2A">tempo</text>
+<path d="M224 22 L224 100" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<rect x="233" y="76" width="30" height="24" rx="0" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="269" y="76" width="30" height="24" rx="0" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="305" y="64" width="30" height="36" rx="0" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="305" y="28" width="30" height="36" rx="0" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<rect x="341" y="64" width="30" height="36" rx="0" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="341" y="28" width="30" height="36" rx="0" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<rect x="377" y="76" width="30" height="24" rx="0" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="413" y="76" width="30" height="24" rx="0" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="449" y="76" width="30" height="24" rx="0" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<path d="M224 64 L524 64" fill="none" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="532" y="68" font-size="12" text-anchor="start" fill="#2C2C2A">limite</text>
+<text x="20" y="180" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">Policiamento</text>
+<text x="20" y="198" font-size="12" text-anchor="start" fill="#2C2C2A">descarta o excesso</text>
+<path d="M230 224 L528 224" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="558" y="228" font-size="12" text-anchor="middle" fill="#2C2C2A">tempo</text>
+<path d="M224 146 L224 224" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<rect x="233" y="200" width="30" height="24" rx="0" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="269" y="200" width="30" height="24" rx="0" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="305" y="188" width="30" height="36" rx="0" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="305" y="152" width="30" height="36" rx="0" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<rect x="341" y="188" width="30" height="36" rx="0" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="341" y="152" width="30" height="36" rx="0" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<rect x="377" y="200" width="30" height="24" rx="0" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="413" y="200" width="30" height="24" rx="0" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="449" y="200" width="30" height="24" rx="0" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<path d="M224 188 L524 188" fill="none" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="338" y="142" font-size="12" text-anchor="middle" fill="#633806">descartado</text>
+<text x="20" y="304" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">Modelagem</text>
+<text x="20" y="322" font-size="12" text-anchor="start" fill="#2C2C2A">atrasa o excesso</text>
+<path d="M230 348 L528 348" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="558" y="352" font-size="12" text-anchor="middle" fill="#2C2C2A">tempo</text>
+<path d="M224 270 L224 348" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<rect x="233" y="324" width="30" height="24" rx="0" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="269" y="324" width="30" height="24" rx="0" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="305" y="312" width="30" height="36" rx="0" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="341" y="312" width="30" height="36" rx="0" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="377" y="324" width="30" height="24" rx="0" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="377" y="312" width="30" height="12" rx="0" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<rect x="413" y="324" width="30" height="24" rx="0" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="413" y="312" width="30" height="12" rx="0" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<rect x="449" y="324" width="30" height="24" rx="0" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="449" y="312" width="30" height="12" rx="0" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<rect x="485" y="312" width="30" height="36" rx="0" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<path d="M224 312 L524 312" fill="none" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="452" y="288" font-size="12" text-anchor="middle" fill="#633806">atrasado</text>
+<rect x="20" y="374" width="14" height="14" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="40" y="385" font-size="12" text-anchor="start" fill="#2C2C2A">tráfego enviado</text>
+<rect x="169" y="374" width="14" height="14" rx="3" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="189" y="385" font-size="12" text-anchor="start" fill="#2C2C2A">excesso</text>
+</svg>

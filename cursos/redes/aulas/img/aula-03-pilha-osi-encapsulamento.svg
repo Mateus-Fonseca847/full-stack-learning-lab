@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 432" width="680" height="432" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Comunicação entre camadas pares no modelo OSI</title>
+<desc id="d">Duas pilhas de sete camadas OSI: as camadas pares conversam virtualmente (tracejado), mas o caminho real desce a pilha, cruza o meio físico e sobe a pilha do destino.</desc>
+<defs><marker id="a5F5E5A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#5F5E5A" stroke-width="1.2"/></marker><marker id="a5F5E5As" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M9 1 L1 5 L9 9" fill="none" stroke="#5F5E5A" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="431" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<text x="140" y="32" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Máquina A</text>
+<text x="540" y="32" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Máquina B</text>
+<text x="340" y="32" font-size="12" text-anchor="middle" fill="#2C2C2A">comunicação virtual</text>
+<rect x="60" y="50" width="160" height="34" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="140.0" y="71.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">7 Aplicação</text>
+<rect x="460" y="50" width="160" height="34" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="540.0" y="71.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">7 Aplicação</text>
+<path d="M222 67 L458 67" fill="none" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 3" marker-end="url(#a5F5E5A)" marker-start="url(#a5F5E5As)"/>
+<rect x="60" y="88" width="160" height="34" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="140.0" y="109.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">6 Apresentação</text>
+<rect x="460" y="88" width="160" height="34" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="540.0" y="109.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">6 Apresentação</text>
+<path d="M222 105 L458 105" fill="none" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 3" marker-end="url(#a5F5E5A)" marker-start="url(#a5F5E5As)"/>
+<rect x="60" y="126" width="160" height="34" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="140.0" y="147.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">5 Sessão</text>
+<rect x="460" y="126" width="160" height="34" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="540.0" y="147.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">5 Sessão</text>
+<path d="M222 143 L458 143" fill="none" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 3" marker-end="url(#a5F5E5A)" marker-start="url(#a5F5E5As)"/>
+<rect x="60" y="164" width="160" height="34" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="140.0" y="185.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">4 Transporte</text>
+<rect x="460" y="164" width="160" height="34" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="540.0" y="185.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">4 Transporte</text>
+<path d="M222 181 L458 181" fill="none" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 3" marker-end="url(#a5F5E5A)" marker-start="url(#a5F5E5As)"/>
+<rect x="60" y="202" width="160" height="34" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="140.0" y="223.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">3 Rede</text>
+<rect x="460" y="202" width="160" height="34" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="540.0" y="223.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">3 Rede</text>
+<path d="M222 219 L458 219" fill="none" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 3" marker-end="url(#a5F5E5A)" marker-start="url(#a5F5E5As)"/>
+<rect x="60" y="240" width="160" height="34" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="140.0" y="261.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">2 Enlace</text>
+<rect x="460" y="240" width="160" height="34" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="540.0" y="261.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">2 Enlace</text>
+<path d="M222 257 L458 257" fill="none" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 3" marker-end="url(#a5F5E5A)" marker-start="url(#a5F5E5As)"/>
+<rect x="60" y="278" width="160" height="34" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="140.0" y="299.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">1 Física</text>
+<rect x="460" y="278" width="160" height="34" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="540.0" y="299.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">1 Física</text>
+<path d="M222 295 L458 295" fill="none" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 3" marker-end="url(#a5F5E5A)" marker-start="url(#a5F5E5As)"/>
+<path d="M140 312 L140 350 L280 350" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<rect x="280" y="334" width="120" height="32" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="340.0" y="354.9" font-size="14" text-anchor="middle" fill="#633806" font-weight="500">meio físico</text>
+<path d="M400 350 L540 350 L540 314" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<text x="340" y="388" font-size="12" text-anchor="middle" fill="#2C2C2A">caminho real: desce a pilha, cruza o meio e sobe</text>
+<text x="340" y="408" font-size="12" text-anchor="middle" fill="#2C2C2A">tracejado: virtual; contínuo: real</text>
+</svg>

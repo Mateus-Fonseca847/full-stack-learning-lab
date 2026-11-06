@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 369" width="680" height="369" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Pinagem T568A e T568B e tipos de cabo</title>
+<desc id="d">Tabela com a cor de cada pino nos padrões T568A e T568B e dois esquemas: cabo direto liga pino a pino; crossover troca os pares dos pinos 1 e 2 pelos 3 e 6.</desc>
+<defs><marker id="a5F5E5A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#5F5E5A" stroke-width="1.2"/></marker><marker id="a854F0B" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#854F0B" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="368" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<text x="55" y="74" font-size="12" text-anchor="middle" fill="#2C2C2A">Pino</text>
+<text x="135" y="74" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">T568A</text>
+<text x="240" y="74" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">T568B</text>
+<rect x="20" y="96" width="270" height="26" rx="4" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="55" y="113" font-size="12" text-anchor="middle" fill="#2C2C2A">1</text>
+<text x="135" y="113" font-size="12" text-anchor="middle" fill="#2C2C2A">branco/verde</text>
+<text x="240" y="113" font-size="12" text-anchor="middle" fill="#2C2C2A">branco/laranja</text>
+<rect x="20" y="124" width="270" height="26" rx="4" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="55" y="141" font-size="12" text-anchor="middle" fill="#2C2C2A">2</text>
+<text x="135" y="141" font-size="12" text-anchor="middle" fill="#2C2C2A">verde</text>
+<text x="240" y="141" font-size="12" text-anchor="middle" fill="#2C2C2A">laranja</text>
+<rect x="20" y="152" width="270" height="26" rx="4" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="55" y="169" font-size="12" text-anchor="middle" fill="#2C2C2A">3</text>
+<text x="135" y="169" font-size="12" text-anchor="middle" fill="#2C2C2A">branco/laranja</text>
+<text x="240" y="169" font-size="12" text-anchor="middle" fill="#2C2C2A">branco/verde</text>
+<rect x="20" y="180" width="270" height="26" rx="4" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="55" y="197" font-size="12" text-anchor="middle" fill="#2C2C2A">4</text>
+<text x="135" y="197" font-size="12" text-anchor="middle" fill="#2C2C2A">azul</text>
+<text x="240" y="197" font-size="12" text-anchor="middle" fill="#2C2C2A">azul</text>
+<rect x="20" y="208" width="270" height="26" rx="4" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="55" y="225" font-size="12" text-anchor="middle" fill="#2C2C2A">5</text>
+<text x="135" y="225" font-size="12" text-anchor="middle" fill="#2C2C2A">branco/azul</text>
+<text x="240" y="225" font-size="12" text-anchor="middle" fill="#2C2C2A">branco/azul</text>
+<rect x="20" y="236" width="270" height="26" rx="4" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="55" y="253" font-size="12" text-anchor="middle" fill="#2C2C2A">6</text>
+<text x="135" y="253" font-size="12" text-anchor="middle" fill="#2C2C2A">laranja</text>
+<text x="240" y="253" font-size="12" text-anchor="middle" fill="#2C2C2A">verde</text>
+<rect x="20" y="264" width="270" height="26" rx="4" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="55" y="281" font-size="12" text-anchor="middle" fill="#2C2C2A">7</text>
+<text x="135" y="281" font-size="12" text-anchor="middle" fill="#2C2C2A">branco/marrom</text>
+<text x="240" y="281" font-size="12" text-anchor="middle" fill="#2C2C2A">branco/marrom</text>
+<rect x="20" y="292" width="270" height="26" rx="4" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="55" y="309" font-size="12" text-anchor="middle" fill="#2C2C2A">8</text>
+<text x="135" y="309" font-size="12" text-anchor="middle" fill="#2C2C2A">marrom</text>
+<text x="240" y="309" font-size="12" text-anchor="middle" fill="#2C2C2A">marrom</text>
+<text x="373" y="56" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Direto</text>
+<text x="373" y="74" font-size="12" text-anchor="middle" fill="#2C2C2A">A–A ou B–B</text>
+<rect x="320" y="96" width="32" height="26" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="336.0" y="113.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">1</text>
+<rect x="400" y="96" width="32" height="26" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="416.0" y="113.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">1</text>
+<path d="M352 109 L400 109" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<rect x="320" y="124" width="32" height="26" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="336.0" y="141.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">2</text>
+<rect x="400" y="124" width="32" height="26" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="416.0" y="141.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">2</text>
+<path d="M352 137 L400 137" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<rect x="320" y="152" width="32" height="26" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="336.0" y="169.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">3</text>
+<rect x="400" y="152" width="32" height="26" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="416.0" y="169.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">3</text>
+<path d="M352 165 L400 165" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<rect x="320" y="180" width="32" height="26" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="336.0" y="197.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">4</text>
+<rect x="400" y="180" width="32" height="26" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="416.0" y="197.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">4</text>
+<path d="M352 193 L400 193" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<rect x="320" y="208" width="32" height="26" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="336.0" y="225.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">5</text>
+<rect x="400" y="208" width="32" height="26" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="416.0" y="225.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">5</text>
+<path d="M352 221 L400 221" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<rect x="320" y="236" width="32" height="26" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="336.0" y="253.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">6</text>
+<rect x="400" y="236" width="32" height="26" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="416.0" y="253.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">6</text>
+<path d="M352 249 L400 249" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<rect x="320" y="264" width="32" height="26" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="336.0" y="281.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">7</text>
+<rect x="400" y="264" width="32" height="26" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="416.0" y="281.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">7</text>
+<path d="M352 277 L400 277" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<rect x="320" y="292" width="32" height="26" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="336.0" y="309.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">8</text>
+<rect x="400" y="292" width="32" height="26" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="416.0" y="309.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">8</text>
+<path d="M352 305 L400 305" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="533" y="56" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Crossover</text>
+<text x="533" y="74" font-size="12" text-anchor="middle" fill="#2C2C2A">A–B</text>
+<rect x="480" y="96" width="32" height="26" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="496.0" y="113.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">1</text>
+<rect x="560" y="96" width="32" height="26" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="576.0" y="113.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">1</text>
+<path d="M512 109 L560 165" fill="none" stroke="#854F0B" stroke-width="1"/>
+<rect x="480" y="124" width="32" height="26" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="496.0" y="141.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">2</text>
+<rect x="560" y="124" width="32" height="26" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="576.0" y="141.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">2</text>
+<path d="M512 137 L560 249" fill="none" stroke="#854F0B" stroke-width="1"/>
+<rect x="480" y="152" width="32" height="26" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="496.0" y="169.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">3</text>
+<rect x="560" y="152" width="32" height="26" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="576.0" y="169.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">3</text>
+<path d="M512 165 L560 109" fill="none" stroke="#854F0B" stroke-width="1"/>
+<rect x="480" y="180" width="32" height="26" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="496.0" y="197.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">4</text>
+<rect x="560" y="180" width="32" height="26" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="576.0" y="197.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">4</text>
+<path d="M512 193 L560 193" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<rect x="480" y="208" width="32" height="26" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="496.0" y="225.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">5</text>
+<rect x="560" y="208" width="32" height="26" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="576.0" y="225.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">5</text>
+<path d="M512 221 L560 221" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<rect x="480" y="236" width="32" height="26" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="496.0" y="253.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">6</text>
+<rect x="560" y="236" width="32" height="26" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="576.0" y="253.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">6</text>
+<path d="M512 249 L560 137" fill="none" stroke="#854F0B" stroke-width="1"/>
+<rect x="480" y="264" width="32" height="26" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="496.0" y="281.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">7</text>
+<rect x="560" y="264" width="32" height="26" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="576.0" y="281.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">7</text>
+<path d="M512 277 L560 277" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<rect x="480" y="292" width="32" height="26" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="496.0" y="309.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">8</text>
+<rect x="560" y="292" width="32" height="26" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="576.0" y="309.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">8</text>
+<path d="M512 305 L560 305" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="623" y="302" font-size="12" text-anchor="middle" fill="#2C2C2A"></text>
+<rect x="20" y="334" width="14" height="14" rx="3" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="40" y="345" font-size="12" text-anchor="start" fill="#2C2C2A">pinos que diferem entre A e B</text>
+</svg>
