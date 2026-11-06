@@ -16,6 +16,9 @@ Analogia: a **portadora** é uma onda "mensageira" constante; modular é **mexer
 | Fase | deslocamento da onda | **PSK** |
 | Amplitude + fase | as duas | **QAM** |
 
+![Os bits 1 0 1 1 0 1 e a portadora modulada por amplitude, por frequência e por fase.](img/aula-18-ask-fsk-psk.svg)
+*Figura 18.1: Os mesmos bits em ASK, FSK e PSK.*
+
 ## 2. ASK — Amplitude Shift Keying
 
 Bit 1 = portadora; bit 0 = amplitude reduzida.
@@ -61,6 +64,9 @@ Combina **modulação de amplitude (AM) com fase (PSK)**, formando uma **constel
 | 16-QAM | 4 | média |
 | 64-QAM | 6 | alta |
 | 256-QAM | 8 | muito alta |
+
+![Constelações BPSK, QPSK, 16-QAM e 64-QAM com 2, 4, 16 e 64 pontos.](img/aula-18-constelacoes.svg)
+*Figura 18.2: Constelações: mais pontos, mais bits por símbolo e mais SNR necessária.*
 
 O Wi-Fi escolhe a modulação **dinamicamente**, conforme a qualidade do canal (veja a [aula 06](06-canalizacao-e-mcs.md), MCS).
 

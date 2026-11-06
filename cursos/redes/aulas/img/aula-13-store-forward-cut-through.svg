@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 435" width="680" height="435" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Store-and-forward e cut-through</title>
+<desc id="d">Duas linhas do tempo: no store-and-forward o switch espera o quadro inteiro e confere o CRC antes de enviar; no cut-through começa a enviar assim que lê o MAC de destino.</desc>
+<defs><marker id="a854F0B" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#854F0B" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="434" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<text x="20" y="28" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">Store-and-forward</text>
+<text x="172" y="28" font-size="12" text-anchor="start" fill="#2C2C2A">recebe o quadro inteiro e confere o CRC</text>
+<text x="20" y="68" font-size="12" text-anchor="start" fill="#2C2C2A">chega</text>
+<rect x="110" y="50" width="40" height="26" rx="0" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<rect x="150" y="50" width="140" height="26" rx="0" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="220.0" y="67" font-size="12" text-anchor="middle" fill="#085041">resto do quadro</text>
+<rect x="290" y="50" width="40" height="26" rx="0" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="20" y="118" font-size="12" text-anchor="start" fill="#2C2C2A">sai</text>
+<rect x="330" y="100" width="40" height="26" rx="0" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<rect x="370" y="100" width="140" height="26" rx="0" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="440.0" y="117" font-size="12" text-anchor="middle" fill="#085041">resto do quadro</text>
+<rect x="510" y="100" width="40" height="26" rx="0" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<path d="M330 44 L330 134" fill="none" stroke="#854F0B" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="336" y="162" font-size="12" text-anchor="start" fill="#2C2C2A">confere o CRC</text>
+<text x="336" y="180" font-size="12" text-anchor="start" fill="#2C2C2A">descarta quadros com erro</text>
+<text x="20" y="198" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">Cut-through</text>
+<text x="124" y="198" font-size="12" text-anchor="start" fill="#2C2C2A">encaminha ao ler o MAC de destino</text>
+<text x="20" y="238" font-size="12" text-anchor="start" fill="#2C2C2A">chega</text>
+<rect x="110" y="220" width="40" height="26" rx="0" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<rect x="150" y="220" width="140" height="26" rx="0" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="220.0" y="237" font-size="12" text-anchor="middle" fill="#085041">resto do quadro</text>
+<rect x="290" y="220" width="40" height="26" rx="0" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="20" y="288" font-size="12" text-anchor="start" fill="#2C2C2A">sai</text>
+<rect x="150" y="270" width="40" height="26" rx="0" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<rect x="190" y="270" width="140" height="26" rx="0" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="260.0" y="287" font-size="12" text-anchor="middle" fill="#085041">resto do quadro</text>
+<rect x="330" y="270" width="40" height="26" rx="0" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<path d="M150 214 L150 304" fill="none" stroke="#854F0B" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="156" y="332" font-size="12" text-anchor="start" fill="#2C2C2A">leu o MAC de destino</text>
+<text x="156" y="350" font-size="12" text-anchor="start" fill="#2C2C2A">pode propagar quadros com erro</text>
+<rect x="20" y="400" width="14" height="14" rx="3" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="40" y="411" font-size="12" text-anchor="start" fill="#2C2C2A">MAC de destino</text>
+<rect x="162" y="400" width="14" height="14" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="182" y="411" font-size="12" text-anchor="start" fill="#2C2C2A">resto do quadro</text>
+<rect x="311" y="400" width="14" height="14" rx="3" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="331" y="411" font-size="12" text-anchor="start" fill="#2C2C2A">CRC</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 318" width="680" height="318" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">VLAN hopping por double tagging</title>
+<desc id="d">O atacante envia um quadro com duas tags, a da VLAN nativa e a da VLAN alvo; o primeiro switch remove a tag nativa e o segundo entrega o quadro à VLAN alvo.</desc>
+<defs><marker id="a5F5E5A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#5F5E5A" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="317" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<rect x="20" y="20" width="120" height="44" rx="6" fill="#FCEBEB" stroke="#A32D2D" stroke-width="1"/>
+<text x="80.0" y="46.9" font-size="14" text-anchor="middle" fill="#791F1F" font-weight="500">Atacante</text>
+<rect x="200" y="20" width="110" height="44" rx="6" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<text x="255.0" y="46.9" font-size="14" text-anchor="middle" fill="#712B13" font-weight="500">Switch 1</text>
+<rect x="380" y="20" width="110" height="44" rx="6" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<text x="435.0" y="46.9" font-size="14" text-anchor="middle" fill="#712B13" font-weight="500">Switch 2</text>
+<rect x="550" y="20" width="110" height="44" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="605.0" y="46.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">Vítima</text>
+<path d="M140 42 L200 42" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<path d="M310 42 L380 42" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<text x="345" y="34" font-size="12" text-anchor="middle" fill="#2C2C2A">tronco</text>
+<path d="M490 42 L550 42" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<text x="520" y="98" font-size="12" text-anchor="middle" fill="#2C2C2A"></text>
+<text x="60" y="108" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">No acesso: atacante → switch 1</text>
+<rect x="60" y="120" width="80" height="36" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="100.0" y="142.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Destino</text>
+<rect x="140" y="120" width="80" height="36" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="180.0" y="142.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Origem</text>
+<rect x="220" y="120" width="170" height="36" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="305.0" y="142.9" font-size="14" text-anchor="middle" fill="#633806" font-weight="500">tag da VLAN nativa</text>
+<rect x="390" y="120" width="170" height="36" rx="6" fill="#FCEBEB" stroke="#A32D2D" stroke-width="1"/>
+<text x="475.0" y="142.9" font-size="14" text-anchor="middle" fill="#791F1F" font-weight="500">tag da VLAN alvo</text>
+<rect x="560" y="120" width="80" height="36" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="600.0" y="142.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Dados</text>
+<text x="60" y="196" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">No tronco: switch 1 → switch 2</text>
+<rect x="60" y="208" width="80" height="36" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="100.0" y="230.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Destino</text>
+<rect x="140" y="208" width="80" height="36" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="180.0" y="230.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Origem</text>
+<rect x="220" y="208" width="170" height="36" rx="6" fill="#FCEBEB" stroke="#A32D2D" stroke-width="1"/>
+<text x="305.0" y="230.9" font-size="14" text-anchor="middle" fill="#791F1F" font-weight="500">tag da VLAN alvo</text>
+<rect x="390" y="208" width="80" height="36" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="430.0" y="230.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Dados</text>
+<text x="60" y="274" font-size="12" text-anchor="start" fill="#2C2C2A">a VLAN nativa não é etiquetada: o switch 1 remove a primeira tag</text>
+<text x="60" y="294" font-size="12" text-anchor="start" fill="#2C2C2A">o switch 2 vê só a tag alvo e entrega à VLAN que o atacante não acessava</text>
+</svg>

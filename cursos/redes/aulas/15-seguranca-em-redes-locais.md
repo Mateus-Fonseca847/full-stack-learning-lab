@@ -49,8 +49,14 @@ O atacante manda **milhares de quadros com MACs de origem falsos**, enchendo a t
 - **Fail-closed:** para de encaminhar → **DoS**.
 - **Defesas:** **port security** (limitar o nº máximo de MACs por porta), ACLs por MAC, tabelas MAC estáticas, switches gerenciáveis.
 
+![Dois cenários: switch normal encaminha só à porta de B; com o ataque de MAC flooding a tabela enche e o switch inunda todas as portas.](img/aula-15-mac-flooding.svg)
+*Figura 15.1: MAC flooding: com a tabela cheia, o switch se comporta como hub.*
+
 ### 2.3 ARP spoofing
 Envia **pacotes ARP com IP/MAC falsos** (em broadcast). Como o ARP **não tem autenticação** e hosts aceitam respostas **não solicitadas**, a vítima passa a mandar seus dados ao atacante. Gera **DoS** e **man-in-the-middle**.
+
+![A vítima recebe um ARP falso, passa a enviar os dados ao atacante, que captura, altera e reenvia ao destino.](img/aula-15-arp-spoofing.svg)
+*Figura 15.2: ARP spoofing: o atacante se coloca entre a vítima e o destino.*
 - **Defesas:** tabelas ARP estáticas, ACLs por MAC; **DAI (Dynamic ARP Inspection)** e **IP Source Guard** no switch.
   - **DAI:** portas **confiáveis (trusted)** e **não confiáveis (untrusted)**; resposta ARP numa porta untrusted é **comparada à tabela DHCP**; se inconsistente → **descartada** e a porta pode ser desativada.
   - **IP Source Guard:** filtra **IP de origem** por porta, impedindo que um host assuma o IP de outro.
@@ -68,6 +74,9 @@ O atacante tenta alcançar hosts de **outras VLANs sem passar por roteador**.
 - **Por negociação de tronco:** o modo padrão do 802.1Q/trunk permite que o atacante **crie um link tronco** com o switch e acesse todas as VLANs.
 - **Double tagging:** o atacante coloca **duas tags** no quadro: a primeira é da **VLAN nativa** (removida pelo primeiro switch, pois a nativa não é etiquetada); o quadro segue ao segundo switch com a **segunda tag (falsa)**, entregando-o a uma VLAN a que o atacante **não** tinha acesso.
 - **Defesas:** desativar negociação automática de tronco (portas de acesso fixas), **não usar a VLAN 1/nativa para hosts**, usar uma VLAN nativa dedicada e sem uso, permitir só as VLANs necessárias no tronco.
+
+![Quadro com duas tags, a nativa e a alvo, enviado pelo atacante; o primeiro switch remove a tag nativa e o segundo entrega à VLAN alvo.](img/aula-15-double-tagging.svg)
+*Figura 15.3: VLAN hopping por double tagging.*
 
 ## 3. Tabela-resumo
 

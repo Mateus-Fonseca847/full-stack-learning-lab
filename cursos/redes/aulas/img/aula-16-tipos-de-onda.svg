@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 386" width="680" height="386" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Tipos de onda conforme o caminho</title>
+<desc id="d">Esquema em camadas: ionosfera no alto, estratosfera, troposfera e solo; cinco caminhos numerados partem de um transmissor: de superfície, espacial direta, espacial refletida, troposférica e ionosférica.</desc>
+<defs><marker id="a0F6E56" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#0F6E56" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="385" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<rect x="20" y="30" width="640" height="50" rx="2" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="32" y="60" font-size="12" text-anchor="start" fill="#2C2C2A">ionosfera</text>
+<rect x="20" y="80" width="640" height="60" rx="0" fill="#F8F8F6" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="32" y="114" font-size="12" text-anchor="start" fill="#2C2C2A">estratosfera</text>
+<rect x="20" y="140" width="640" height="120" rx="0" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="32" y="164" font-size="12" text-anchor="start" fill="#2C2C2A">troposfera</text>
+<rect x="20" y="260" width="640" height="34" rx="2" fill="#D3D1C7" stroke="#5F5E5A" stroke-width="1"/>
+<text x="32" y="282" font-size="12" text-anchor="start" fill="#2C2C2A">solo</text>
+<rect x="45" y="232" width="10" height="28" rx="1" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<rect x="235" y="232" width="10" height="28" rx="1" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<rect x="445" y="232" width="10" height="28" rx="1" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<rect x="635" y="232" width="10" height="28" rx="1" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<path d="M60 266 L234 266" fill="none" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="148" cy="277" r="9" fill="#F8F8F6" stroke="#5F5E5A" stroke-width="1"/>
+<text x="148" y="281" font-size="12" text-anchor="middle" fill="#2C2C2A">1</text>
+<path d="M56 238 L234 238" fill="none" stroke="#0F6E56" stroke-width="1" marker-end="url(#a0F6E56)"/>
+<circle cx="148" cy="224" r="9" fill="#F8F8F6" stroke="#5F5E5A" stroke-width="1"/>
+<text x="148" y="228" font-size="12" text-anchor="middle" fill="#2C2C2A">2</text>
+<path d="M56 240 L145 260 L234 240" fill="none" stroke="#0F6E56" stroke-width="1" marker-end="url(#a0F6E56)"/>
+<circle cx="190" cy="258" r="9" fill="#F8F8F6" stroke="#5F5E5A" stroke-width="1"/>
+<text x="190" y="262" font-size="12" text-anchor="middle" fill="#2C2C2A">3</text>
+<path d="M56 232 L250 160 L444 232" fill="none" stroke="#0F6E56" stroke-width="1" marker-end="url(#a0F6E56)"/>
+<circle cx="250" cy="180" r="9" fill="#F8F8F6" stroke="#5F5E5A" stroke-width="1"/>
+<text x="250" y="184" font-size="12" text-anchor="middle" fill="#2C2C2A">4</text>
+<path d="M56 232 L345 82 L634 232" fill="none" stroke="#0F6E56" stroke-width="1" marker-end="url(#a0F6E56)"/>
+<circle cx="345" cy="100" r="9" fill="#F8F8F6" stroke="#5F5E5A" stroke-width="1"/>
+<text x="345" y="104" font-size="12" text-anchor="middle" fill="#2C2C2A">5</text>
+<text x="20" y="322" font-size="12" text-anchor="start" fill="#2C2C2A">1 de superfície (acompanha o solo)</text>
+<text x="350" y="322" font-size="12" text-anchor="start" fill="#2C2C2A">2 espacial direta (linha de visada)</text>
+<text x="20" y="342" font-size="12" text-anchor="start" fill="#2C2C2A">3 espacial refletida (bate no solo)</text>
+<text x="350" y="342" font-size="12" text-anchor="start" fill="#2C2C2A">4 troposférica (refletida ou espalhada)</text>
+<text x="20" y="362" font-size="12" text-anchor="start" fill="#2C2C2A">5 ionosférica (reflete ou espalha na ionosfera)</text>
+</svg>

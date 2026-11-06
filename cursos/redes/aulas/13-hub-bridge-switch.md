@@ -32,6 +32,9 @@ Comportamento:
 | **Roteador** | 1 por interface | **1 por interface** (segmenta broadcast) |
 | **VLAN** (switch) | idem switch | **1 por VLAN** |
 
+![Hub com um único domínio de colisão; switch com um domínio de colisão por porta; roteador ligando dois switches e separando dois domínios de broadcast.](img/aula-13-dominios.svg)
+*Figura 13.1: Domínios de colisão e de broadcast em hub, switch e roteador.*
+
 ## 3. Bridge ("ponte") — camada 2
 
 Junta duas redes locais (dois barramentos) numa só, **repassando um quadro à outra interface apenas quando necessário**. **Separa domínios de colisão** (mas não o de broadcast).
@@ -46,6 +49,9 @@ Junta duas redes locais (dois barramentos) numa só, **repassando um quadro à o
   3. Se **não está em nenhuma** → envia por **todas as portas** menos a de origem (*flooding*).
 - **Quadro broadcast:** envia para **todas as portas**.
 
+![Fluxograma de decisão: aprender o MAC de origem; broadcast vai a todas as portas; destino na mesma porta é descartado, em outra porta é encaminhado só por ela e desconhecido sofre flooding.](img/aula-13-decisao-bridge.svg)
+*Figura 13.2: Decisão de uma bridge ou switch ao receber um quadro.*
+
 ## 4. Switch — camada 2
 
 Evolução da bridge: **várias portas**, **várias transmissões simultâneas** entre pares de portas, e **buffers** para enfileirar quadros quando a porta de destino está ocupada. Usa a mesma lógica de aprendizado/filtragem/flooding.
@@ -58,6 +64,9 @@ Evolução da bridge: **várias portas**, **várias transmissões simultâneas**
 | Latência | maior | **menor (mais rápido)** |
 | Erros | **descarta quadros com erro** | pode propagar quadros com erro |
 | Uso | uso geral | latência crítica |
+
+![Duas linhas do tempo: no store-and-forward o quadro só sai depois de recebido por inteiro e conferido; no cut-through sai assim que o MAC de destino é lido.](img/aula-13-store-forward-cut-through.svg)
+*Figura 13.3: Store-and-forward × cut-through.*
 
 ### Hub × Switch
 

@@ -17,6 +17,9 @@ A antena **converte** corrente elétrica em onda eletromagnética (transmissão)
 - **Antena receptora:** modelada por uma **fonte** (tensão nos terminais em aberto) e a **impedância interna**.
 - **Reciprocidade:** tudo o que vale para a antena transmitindo **vale também recebendo**.
 
+![Curva de potência irradiada por frequência com pico na ressonância, largura de faixa na metade da potência, antena capacitiva abaixo e indutiva acima.](img/aula-17-ressonancia-largura-faixa.svg)
+*Figura 17.1: Ressonância e largura de faixa.*
+
 ## 3. Alimentação da antena
 
 A forma de alimentar influencia quase todas as outras características. O ponto-chave é o **melhor casamento possível** entre antena e linha. Quando não dá, usam-se dispositivos como o **toco de linha**.
@@ -44,6 +47,9 @@ A impedância da antena depende principalmente das **características construtiv
 - O diagrama **não muda a forma da frente de onda**: só concentra mais potência em certas regiões.
 
 **O que se lê no diagrama:** lóbulo principal e **direção do máximo**, **largura de feixe**, lóbulos secundários, **nulos** e **relação frente-costas**.
+
+![Gráfico polar com lóbulo principal, lóbulos secundários, nulos, largura de feixe entre os pontos de meia potência e relação frente-costas.](img/aula-17-diagrama-irradiacao.svg)
+*Figura 17.2: Diagrama de irradiação e o que se lê nele.*
 
 ### Largura de feixe
 Mede a capacidade de **concentrar a energia** em torno da direção do máximo. É o **ângulo entre os pontos do lóbulo principal com metade da potência (−3 dB)**. Não confundir com **largura de faixa**, que é sobre **frequência**.

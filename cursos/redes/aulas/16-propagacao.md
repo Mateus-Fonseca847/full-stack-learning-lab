@@ -25,6 +25,9 @@ Analogia: jogar uma pedra na água. A ondulação se espalha e fica mais fraca q
 | **Ionosférica (celeste)** | volta à Terra depois de **refletir ou espalhar na ionosfera** |
 | **Troposférica** | é **refletida ou espalhada na troposfera** |
 
+![Esquema com ionosfera, estratosfera, troposfera e solo, e cinco caminhos numerados partindo de um transmissor: superfície, espacial direta, espacial refletida, troposférica e ionosférica.](img/aula-16-tipos-de-onda.svg)
+*Figura 16.1: Tipos de onda conforme o caminho.*
+
 ## 3. A atmosfera
 
 | Camada | Altura | O que importa |
@@ -47,6 +50,9 @@ Analogia: jogar uma pedra na água. A ondulação se espalha e fica mais fraca q
 | **Refração** | a onda **muda de direção** ao passar por regiões de índice de refração diferente; na atmosfera, a trajetória **curva para baixo** | canudo "quebrado" no copo d'água |
 | **Absorção** | a energia vira calor (chuva, vapor d'água, oxigênio, paredes) | esponja |
 
+![Cinco miniaturas: reflexão, dispersão, difração, refração e absorção.](img/aula-16-mecanismos-propagacao.svg)
+*Figura 16.2: Os cinco mecanismos de propagação.*
+
 ### Zonas de Fresnel
 
 Zonas de Fresnel são regiões em volta da linha reta entre transmissor e receptor. Um obstáculo dentro delas atrapalha o sinal.
@@ -55,6 +61,9 @@ Zonas de Fresnel são regiões em volta da linha reta entre transmissor e recept
 - Obstrução de **metade do campo** (borda do obstáculo na linha de visada): **6 dB** de perda.
 - Abaixo da linha de visada (zona de sombra) a perda **aumenta continuamente**; acima dela há **oscilação** em torno do valor de espaço livre.
 - Cálculo: difração por **gume de faca** (obstáculo fino, de largura infinita).
+
+![Dois casos de obstáculo na zona de Fresnel entre transmissor e receptor: fora de 60% da primeira zona, sem perda, e com a borda na linha de visada, 6 dB.](img/aula-16-zona-fresnel.svg)
+*Figura 16.3: Zona de Fresnel e a perda causada por um obstáculo.*
 
 Analogia: a linha de visada é um fio, e a zona de Fresnel é o "tubo" em volta dele que precisa ficar desimpedido, não só o fio.
 

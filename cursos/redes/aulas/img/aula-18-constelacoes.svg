@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 306" width="680" height="306" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Constelações BPSK, QPSK, 16-QAM e 64-QAM</title>
+<desc id="d">Quatro diagramas de constelação: BPSK com 2 pontos, QPSK com 4, 16-QAM com 16 e 64-QAM com 64; mais pontos significam mais bits por símbolo e exigem SNR mais alta.</desc>
+<defs><marker id="a854F0B" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#854F0B" stroke-width="1.2"/></marker><marker id="aB4B2A9" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#B4B2A9" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="305" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<text x="90" y="28" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">BPSK</text>
+<text x="90" y="46" font-size="12" text-anchor="middle" fill="#2C2C2A">1 bit por símbolo</text>
+<rect x="25" y="60" width="130" height="130" rx="4" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<path d="M25 140 L155 140" fill="none" stroke="#B4B2A9" stroke-width="1"/>
+<path d="M90 60 L90 190" fill="none" stroke="#B4B2A9" stroke-width="1"/>
+<circle cx="58.8" cy="140" r="5" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="121.2" cy="140" r="5" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<text x="90" y="214" font-size="12" text-anchor="middle" fill="#2C2C2A">SNR exigida: baixa</text>
+<text x="257" y="28" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">QPSK</text>
+<text x="257" y="46" font-size="12" text-anchor="middle" fill="#2C2C2A">2 bits por símbolo</text>
+<rect x="192" y="60" width="130" height="130" rx="4" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<path d="M192 140 L322 140" fill="none" stroke="#B4B2A9" stroke-width="1"/>
+<path d="M257 60 L257 190" fill="none" stroke="#B4B2A9" stroke-width="1"/>
+<circle cx="231.0" cy="166.0" r="5" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="231.0" cy="114.0" r="5" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="283.0" cy="166.0" r="5" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="283.0" cy="114.0" r="5" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<text x="257" y="214" font-size="12" text-anchor="middle" fill="#2C2C2A">SNR exigida: baixa</text>
+<text x="424" y="28" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">16-QAM</text>
+<text x="424" y="46" font-size="12" text-anchor="middle" fill="#2C2C2A">4 bits por símbolo</text>
+<rect x="359" y="60" width="130" height="130" rx="4" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<path d="M359 140 L489 140" fill="none" stroke="#B4B2A9" stroke-width="1"/>
+<path d="M424 60 L424 190" fill="none" stroke="#B4B2A9" stroke-width="1"/>
+<circle cx="385.0" cy="179.0" r="5" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="385.0" cy="153.0" r="5" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="385.0" cy="127.0" r="5" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="385.0" cy="101.0" r="5" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="411.0" cy="179.0" r="5" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="411.0" cy="153.0" r="5" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="411.0" cy="127.0" r="5" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="411.0" cy="101.0" r="5" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="437.0" cy="179.0" r="5" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="437.0" cy="153.0" r="5" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="437.0" cy="127.0" r="5" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="437.0" cy="101.0" r="5" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="463.0" cy="179.0" r="5" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="463.0" cy="153.0" r="5" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="463.0" cy="127.0" r="5" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="463.0" cy="101.0" r="5" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<text x="424" y="214" font-size="12" text-anchor="middle" fill="#2C2C2A">SNR exigida: média</text>
+<text x="591" y="28" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">64-QAM</text>
+<text x="591" y="46" font-size="12" text-anchor="middle" fill="#2C2C2A">6 bits por símbolo</text>
+<rect x="526" y="60" width="130" height="130" rx="4" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<path d="M526 140 L656 140" fill="none" stroke="#B4B2A9" stroke-width="1"/>
+<path d="M591 60 L591 190" fill="none" stroke="#B4B2A9" stroke-width="1"/>
+<circle cx="545.5" cy="185.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="545.5" cy="172.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="545.5" cy="159.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="545.5" cy="146.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="545.5" cy="133.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="545.5" cy="120.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="545.5" cy="107.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="545.5" cy="94.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="558.5" cy="185.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="558.5" cy="172.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="558.5" cy="159.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="558.5" cy="146.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="558.5" cy="133.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="558.5" cy="120.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="558.5" cy="107.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="558.5" cy="94.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="571.5" cy="185.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="571.5" cy="172.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="571.5" cy="159.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="571.5" cy="146.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="571.5" cy="133.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="571.5" cy="120.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="571.5" cy="107.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="571.5" cy="94.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="584.5" cy="185.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="584.5" cy="172.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="584.5" cy="159.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="584.5" cy="146.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="584.5" cy="133.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="584.5" cy="120.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="584.5" cy="107.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="584.5" cy="94.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="597.5" cy="185.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="597.5" cy="172.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="597.5" cy="159.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="597.5" cy="146.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="597.5" cy="133.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="597.5" cy="120.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="597.5" cy="107.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="597.5" cy="94.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="610.5" cy="185.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="610.5" cy="172.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="610.5" cy="159.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="610.5" cy="146.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="610.5" cy="133.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="610.5" cy="120.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="610.5" cy="107.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="610.5" cy="94.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="623.5" cy="185.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="623.5" cy="172.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="623.5" cy="159.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="623.5" cy="146.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="623.5" cy="133.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="623.5" cy="120.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="623.5" cy="107.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="623.5" cy="94.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="636.5" cy="185.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="636.5" cy="172.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="636.5" cy="159.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="636.5" cy="146.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="636.5" cy="133.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="636.5" cy="120.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="636.5" cy="107.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<circle cx="636.5" cy="94.5" r="3" fill="#0F6E56" stroke="#0F6E56" stroke-width="1"/>
+<text x="591" y="214" font-size="12" text-anchor="middle" fill="#2C2C2A">SNR exigida: alta</text>
+<path d="M40 258 L640 258" fill="none" stroke="#854F0B" stroke-width="1" marker-end="url(#a854F0B)"/>
+<text x="340" y="282" font-size="12" text-anchor="middle" fill="#2C2C2A">mais pontos: mais bits por símbolo, mais SNR necessária (256-QAM: 8 bits)</text>
+</svg>

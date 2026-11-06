@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 270" width="680" height="270" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">MAC flooding: o switch vira hub</title>
+<desc id="d">À esquerda, switch normal encaminha o quadro só à porta de B; à direita, um atacante envia quadros com MACs falsos, a tabela enche e o switch inunda todas as portas.</desc>
+<defs><marker id="a5F5E5A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#5F5E5A" stroke-width="1.2"/></marker><marker id="aD3D1C7" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#D3D1C7" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="269" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<path d="M340 20 L340 250" fill="none" stroke="#D3D1C7" stroke-width="1"/>
+<text x="170" y="26" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Switch normal</text>
+<text x="170" y="44" font-size="12" text-anchor="middle" fill="#2C2C2A">tabela MAC com espaço</text>
+<rect x="18" y="126" width="90" height="36" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="63.0" y="148.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">Host A</text>
+<rect x="150" y="120" width="90" height="48" rx="6" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<text x="195.0" y="140.9" font-size="14" text-anchor="middle" fill="#712B13" font-weight="500">Switch</text>
+<text x="195.0" y="157.2" font-size="12" text-anchor="middle" fill="#712B13">tabela MAC</text>
+<path d="M108 144 L150 144" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<rect x="272" y="86" width="60" height="32" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="302.0" y="106.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">B</text>
+<rect x="272" y="170" width="60" height="32" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="302.0" y="190.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">C</text>
+<path d="M240 144 L256 144 L256 102 L272 102" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<text x="170" y="232" font-size="12" text-anchor="middle" fill="#2C2C2A">unicast só para a porta de B</text>
+<text x="510" y="26" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Com ataque</text>
+<text x="510" y="44" font-size="12" text-anchor="middle" fill="#2C2C2A">tabela MAC cheia</text>
+<rect x="358" y="126" width="90" height="36" rx="6" fill="#FCEBEB" stroke="#A32D2D" stroke-width="1"/>
+<text x="403.0" y="148.9" font-size="14" text-anchor="middle" fill="#791F1F" font-weight="500">Atacante</text>
+<rect x="490" y="120" width="90" height="48" rx="6" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<text x="535.0" y="140.9" font-size="14" text-anchor="middle" fill="#712B13" font-weight="500">Switch</text>
+<text x="535.0" y="157.2" font-size="12" text-anchor="middle" fill="#712B13">tabela MAC</text>
+<path d="M448 144 L490 144" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<rect x="612" y="86" width="60" height="32" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="642.0" y="106.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">B</text>
+<rect x="612" y="170" width="60" height="32" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="642.0" y="190.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">C</text>
+<path d="M580 144 L596 144 L596 102 L612 102" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<path d="M596 144 L596 186 L612 186" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<text x="358" y="186" font-size="12" text-anchor="start" fill="#2C2C2A">quadros com MACs</text>
+<text x="358" y="204" font-size="12" text-anchor="start" fill="#2C2C2A">de origem falsos</text>
+<text x="510" y="232" font-size="12" text-anchor="middle" fill="#2C2C2A">inunda todas as portas: age como hub</text>
+</svg>

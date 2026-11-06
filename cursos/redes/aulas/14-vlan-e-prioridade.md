@@ -46,6 +46,9 @@ O 802.1Q acrescenta ao quadro Ethernet uma **tag de 32 bits (4 bytes)**, inserid
               │    0x8100     │ prior.│canôn. │ id VLAN│
 ```
 
+![Quadro Ethernet com a tag 802.1Q entre origem e tipo, detalhada em 32 bits: TPID de 16 bits, PCP de 3, CFI de 1 e VID de 12.](img/aula-14-tag-8021q.svg)
+*Figura 14.1: A tag 802.1Q de 32 bits e seus campos.*
+
 | Campo | Bits | Função |
 |---|---|---|
 | **TPID** (Tag Protocol Identifier) | 16 | valor `0x8100`: indica que o quadro é **etiquetado** |
@@ -63,6 +66,9 @@ O 802.1Q acrescenta ao quadro Ethernet uma **tag de 32 bits (4 bytes)**, inserid
 - **Porta de acesso:** conecta um host a **uma** VLAN; o quadro sai **sem tag**.
 - **Tronco (trunk):** liga switches (ou switch–roteador) e **carrega várias VLANs** com tag.
 - **VLAN nativa:** o 802.1Q **não etiqueta** os quadros da VLAN nativa; **todos os demais** quadros transmitidos e recebidos no tronco são etiquetados. **A mesma VLAN nativa deve ser configurada nos dois lados do tronco.**
+
+![Dois switches ligados por um tronco 802.1Q com hosts das VLANs 10 e 20, e um roteador ou switch L3 ligado ao tronco.](img/aula-14-vlan-tronco.svg)
+*Figura 14.2: VLANs, tronco e roteamento entre VLANs.*
 
 ## 4. Tipos de VLAN (baseadas em...)
 

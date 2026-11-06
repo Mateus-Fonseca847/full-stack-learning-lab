@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 244" width="680" height="244" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">A tag 802.1Q no quadro Ethernet</title>
+<desc id="d">Quadro Ethernet com a tag de 4 bytes entre o endereço de origem e o Tipo, detalhada em 32 bits: TPID de 16 bits, PCP de 3, CFI de 1 e VID de 12.</desc>
+<defs><marker id="a5F5E5A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#5F5E5A" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="243" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<rect x="20" y="40" width="80" height="38" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="60.0" y="63.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Destino</text>
+<rect x="100" y="40" width="80" height="38" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="140.0" y="63.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Origem</text>
+<rect x="180" y="40" width="140" height="38" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="250.0" y="55.9" font-size="14" text-anchor="middle" fill="#633806" font-weight="500">TAG 802.1Q</text>
+<text x="250.0" y="72.2" font-size="12" text-anchor="middle" fill="#633806">4 B</text>
+<rect x="320" y="40" width="64" height="38" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="352.0" y="63.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Tipo</text>
+<rect x="384" y="40" width="100" height="38" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="434.0" y="63.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Dados</text>
+<rect x="484" y="40" width="64" height="38" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="516.0" y="63.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">FCS</text>
+<text x="570" y="64" font-size="12" text-anchor="start" fill="#2C2C2A">até 1522 B</text>
+<path d="M180 80 L180 102 L20 102 L20 128" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<path d="M320 80 L320 102 L660 102 L660 128" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<rect x="20" y="128" width="320" height="36" rx="0" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="180.0" y="151" font-size="14" text-anchor="middle" fill="#633806" font-weight="500">TPID</text>
+<text x="180.0" y="184" font-size="12" text-anchor="middle" fill="#2C2C2A">16 bits: 0x8100</text>
+<rect x="340" y="128" width="60" height="36" rx="0" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="370.0" y="151" font-size="14" text-anchor="middle" fill="#633806" font-weight="500">PCP</text>
+<text x="370.0" y="184" font-size="12" text-anchor="middle" fill="#2C2C2A">3 bits</text>
+<rect x="400" y="128" width="20" height="36" rx="0" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="410.0" y="122" font-size="12" text-anchor="middle" fill="#633806">CFI</text>
+<text x="410.0" y="184" font-size="12" text-anchor="middle" fill="#2C2C2A">1 bit</text>
+<rect x="420" y="128" width="240" height="36" rx="0" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="540.0" y="151" font-size="14" text-anchor="middle" fill="#633806" font-weight="500">VID</text>
+<text x="540.0" y="184" font-size="12" text-anchor="middle" fill="#2C2C2A">12 bits: id da VLAN</text>
+<text x="340" y="220" font-size="12" text-anchor="middle" fill="#2C2C2A">VID: 4096 valores; 0 e 4095 reservados, restam 4094 VLANs úteis</text>
+</svg>

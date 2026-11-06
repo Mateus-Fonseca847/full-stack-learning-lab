@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 286" width="680" height="286" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">ARP spoofing e man-in-the-middle</title>
+<desc id="d">O atacante envia ARP falso à vítima; a vítima passa a mandar ao atacante os dados que iriam ao destino; o atacante captura, altera e reenvia ao destino.</desc>
+<defs><marker id="a5F5E5A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#5F5E5A" stroke-width="1.2"/></marker><marker id="aA32D2D" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#A32D2D" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="285" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<rect x="40" y="40" width="120" height="44" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="100.0" y="66.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">Vítima</text>
+<rect x="520" y="40" width="120" height="44" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="580.0" y="66.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">Destino</text>
+<rect x="280" y="220" width="120" height="44" rx="6" fill="#FCEBEB" stroke="#A32D2D" stroke-width="1"/>
+<text x="340.0" y="246.9" font-size="14" text-anchor="middle" fill="#791F1F" font-weight="500">Atacante</text>
+<path d="M160 62 L520 62" fill="none" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 3" marker-end="url(#a5F5E5A)"/>
+<text x="340" y="54" font-size="12" text-anchor="middle" fill="#2C2C2A">caminho normal</text>
+<path d="M310 220 L310 180 L120 180 L120 84" fill="none" stroke="#A32D2D" stroke-width="1" stroke-dasharray="5 3" marker-end="url(#aA32D2D)"/>
+<text x="215" y="172" font-size="12" text-anchor="middle" fill="#2C2C2A">1. ARP falso: IP e MAC forjados</text>
+<path d="M70 84 L70 242 L280 242" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<text x="175" y="262" font-size="12" text-anchor="middle" fill="#2C2C2A">2. a vítima envia ao atacante</text>
+<path d="M400 242 L580 242 L580 84" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<text x="490" y="262" font-size="12" text-anchor="middle" fill="#2C2C2A">3. captura, altera e reenvia</text>
+</svg>

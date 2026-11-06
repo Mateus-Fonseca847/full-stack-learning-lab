@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 328" width="680" height="328" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Ressonância e largura de faixa de uma antena</title>
+<desc id="d">Curva de potência irradiada por frequência com pico na frequência de ressonância; a largura de faixa é medida onde a potência cai à metade; abaixo da ressonância a antena é capacitiva e acima, indutiva.</desc>
+<defs><marker id="a0F6E56" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#0F6E56" stroke-width="1.2"/></marker><marker id="a5F5E5A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#5F5E5A" stroke-width="1.2"/></marker><marker id="a854F0B" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#854F0B" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="327" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<path d="M60 240 L640 240" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<path d="M60 240 L60 40" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<text x="66" y="36" font-size="12" text-anchor="start" fill="#2C2C2A">potência irradiada</text>
+<text x="640" y="280" font-size="12" text-anchor="end" fill="#2C2C2A">frequência</text>
+<path d="M66 239.8 L71 239.7 L76 239.6 L81 239.5 L86 239.4 L91 239.3 L96 239.1 L101 238.9 L106 238.6 L111 238.3 L116 237.9 L121 237.5 L126 237.0 L131 236.4 L136 235.7 L141 234.9 L146 233.9 L151 232.8 L156 231.5 L161 230.1 L166 228.4 L171 226.5 L176 224.4 L181 222.1 L186 219.4 L191 216.5 L196 213.2 L201 209.7 L206 205.8 L211 201.5 L216 196.9 L221 192.0 L226 186.7 L231 181.0 L236 175.1 L241 168.8 L246 162.3 L251 155.5 L256 148.5 L261 141.3 L266 134.0 L271 126.6 L276 119.2 L281 111.8 L286 104.6 L291 97.5 L296 90.7 L301 84.2 L306 78.1 L311 72.4 L316 67.3 L321 62.8 L326 58.8 L331 55.6 L336 53.1 L341 51.3 L346 50.3 L351 50.0 L356 50.6 L361 51.9 L366 54.0 L371 56.8 L376 60.3 L381 64.5 L386 69.3 L391 74.6 L396 80.5 L401 86.8 L406 93.4 L411 100.3 L416 107.4 L421 114.7 L426 122.1 L431 129.5 L436 136.9 L441 144.2 L446 151.3 L451 158.2 L456 164.9 L461 171.4 L466 177.5 L471 183.3 L476 188.8 L481 194.0 L486 198.8 L491 203.3 L496 207.4 L501 211.1 L506 214.6 L511 217.7 L516 220.5 L521 223.0 L526 225.3 L531 227.3 L536 229.1 L541 230.7 L546 232.1 L551 233.3 L556 234.3 L561 235.2 L566 236.0 L571 236.6 L576 237.2 L581 237.7 L586 238.1 L591 238.4 L596 238.7 L601 239.0 L606 239.2 L611 239.3 L616 239.5 L621 239.6 L626 239.6 L631 239.7" fill="none" stroke="#0F6E56" stroke-width="1"/>
+<path d="M60 145.0 L442 145.0" fill="none" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 3"/>
+<path d="M258 145.0 L258 240" fill="none" stroke="#854F0B" stroke-width="1" stroke-dasharray="5 3"/>
+<path d="M442 145.0 L442 240" fill="none" stroke="#854F0B" stroke-width="1" stroke-dasharray="5 3"/>
+<path d="M350 50 L350 240" fill="none" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 3"/>
+<circle cx="350" cy="50" r="5" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="350" y="38" font-size="12" text-anchor="middle" fill="#2C2C2A">ressonância: impedância resistiva, irradiação máxima</text>
+<path d="M258 254 L258 260 L442 260 L442 254" fill="none" stroke="#854F0B" stroke-width="1"/>
+<text x="350" y="280" font-size="12" text-anchor="middle" fill="#2C2C2A">largura de faixa (metade da potência)</text>
+<text x="150" y="304" font-size="12" text-anchor="middle" fill="#2C2C2A">abaixo: capacitiva</text>
+<text x="550" y="304" font-size="12" text-anchor="middle" fill="#2C2C2A">acima: indutiva</text>
+</svg>
