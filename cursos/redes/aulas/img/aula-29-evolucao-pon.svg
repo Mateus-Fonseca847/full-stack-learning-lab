@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 397" width="680" height="397" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Taxas das evoluções das PON</title>
+<desc id="d">Barras de taxa de downstream e upstream: 10G-EPON simétrico 10/10 e assimétrico 10/1, XG-PON1 10/2,5, XG-PON2 10/10, XGS-PON 10/10 e NG-PON2 10/10 por canal.</desc>
+<defs></defs>
+<rect x="0.5" y="0.5" width="679" height="396" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<text x="20" y="46" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">10G-EPON simétrico</text>
+<rect x="210" y="24" width="200" height="16" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="418" y="37" font-size="12" text-anchor="start" fill="#2C2C2A">10 down</text>
+<rect x="210" y="44" width="200" height="16" rx="2" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="418" y="57" font-size="12" text-anchor="start" fill="#2C2C2A">10 up</text>
+<text x="20" y="98" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">10G-EPON assimétrico</text>
+<rect x="210" y="76" width="200" height="16" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="418" y="89" font-size="12" text-anchor="start" fill="#2C2C2A">10 down</text>
+<rect x="210" y="96" width="20" height="16" rx="2" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="238" y="109" font-size="12" text-anchor="start" fill="#2C2C2A">1 up</text>
+<text x="20" y="150" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">XG-PON1</text>
+<rect x="210" y="128" width="200" height="16" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="418" y="141" font-size="12" text-anchor="start" fill="#2C2C2A">10 down</text>
+<rect x="210" y="148" width="50" height="16" rx="2" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="268" y="161" font-size="12" text-anchor="start" fill="#2C2C2A">2,5 up</text>
+<text x="20" y="202" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">XG-PON2</text>
+<rect x="210" y="180" width="200" height="16" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="418" y="193" font-size="12" text-anchor="start" fill="#2C2C2A">10 down</text>
+<rect x="210" y="200" width="200" height="16" rx="2" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="418" y="213" font-size="12" text-anchor="start" fill="#2C2C2A">10 up</text>
+<text x="20" y="254" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">XGS-PON</text>
+<rect x="210" y="232" width="200" height="16" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="418" y="245" font-size="12" text-anchor="start" fill="#2C2C2A">10 down</text>
+<rect x="210" y="252" width="200" height="16" rx="2" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="418" y="265" font-size="12" text-anchor="start" fill="#2C2C2A">10 up</text>
+<text x="20" y="306" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">NG-PON2 (por canal)</text>
+<rect x="210" y="284" width="200" height="16" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="418" y="297" font-size="12" text-anchor="start" fill="#2C2C2A">10 down</text>
+<rect x="210" y="304" width="200" height="16" rx="2" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="418" y="317" font-size="12" text-anchor="start" fill="#2C2C2A">10 up</text>
+<text x="210" y="336" font-size="12" text-anchor="start" fill="#2C2C2A">até 40 Gbps; TWDM, WDM, OFDM</text>
+<rect x="20" y="362" width="14" height="14" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="40" y="373" font-size="12" text-anchor="start" fill="#2C2C2A">downstream (Gbps)</text>
+<rect x="183" y="362" width="14" height="14" rx="3" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="203" y="373" font-size="12" text-anchor="start" fill="#2C2C2A">upstream (Gbps)</text>
+</svg>

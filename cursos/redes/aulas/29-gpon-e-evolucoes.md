@@ -43,6 +43,9 @@ Tanto na OLT quanto na ONU, **duas camadas**, que correspondem à **física** e 
 └────────────────────────────────────────────┘
 ```
 
+![Pilha com a camada de enlace GTC, com framing e os adaptadores ATM TC, GEM TC e OMCI, sobre a camada física PMD.](img/aula-29-camadas-gpon.svg)
+*Figura 29.1: As camadas PMD e GTC do GPON.*
+
 ### PMD
 É **hardware**, definido pela **ITU-T G.984.2**: **taxa**, **método de transmissão**, **comprimento de onda**, **tipo de tráfego**, **split ratio**, **alcance lógico e físico** etc.
 
@@ -63,6 +66,9 @@ Tanto na OLT quanto na ONU, **duas camadas**, que correspondem à **física** e 
 ### Quadro GTC
 - **Downstream:** **PCBd** (*Physical Control Block downstream*), responsável pelo **controle físico** (localização do quadro, **sincronização** e **alocação de banda**), mais a seção de **payload** com os dados.
 - **Upstream:** vários **bursts (rajadas)**; cada um resulta numa seção **PLOu** (*Physical Layer Overhead upstream*) e em **um ou mais intervalos de alocação de banda** associados a **ALLOC_IDs**.
+
+![Quadro GTC no downstream, com PCBd e payload, e no upstream, com bursts de PLOu seguido de intervalos de alocação com ALLOC_IDs.](img/aula-29-quadro-gtc.svg)
+*Figura 29.2: Quadro GTC: downstream e upstream.*
 
 ## 3. As evoluções das PON
 
@@ -88,6 +94,9 @@ Tanto na OLT quanto na ONU, **duas camadas**, que correspondem à **física** e 
 | XG-PON2 | 10 / 10 | simétrico |
 | XGS-PON | 10 / 10 | simétrico (evolução do XG-PON1) |
 | NG-PON2 | 10 / 10 por canal, até 40 Gbps | TWDM, WDM, OFDM |
+
+![Barras de taxa de downstream e upstream das evoluções 10G-EPON, XG-PON1, XG-PON2, XGS-PON e NG-PON2.](img/aula-29-evolucao-pon.svg)
+*Figura 29.3: Taxas de downstream e upstream das evoluções das PON.*
 
 ---
 

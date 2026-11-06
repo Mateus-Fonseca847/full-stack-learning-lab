@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 415" width="680" height="415" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Perda de potência em splitters ópticos</title>
+<desc id="d">Barras horizontais com a perda de cada splitter balanceado de 1:2 a 1:128, de 3 a 21 dB, e do splitter não balanceado 90/10, com 0,46 dB na saída de 90% e 10 dB na de 10%.</desc>
+<defs></defs>
+<rect x="0.5" y="0.5" width="679" height="414" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<text x="20" y="42" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">1:2</text>
+<rect x="90" y="24" width="54" height="26" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="154" y="42" font-size="12" text-anchor="start" fill="#2C2C2A">3,0 dB</text>
+<text x="20" y="76" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">1:4</text>
+<rect x="90" y="58" width="108" height="26" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="208" y="76" font-size="12" text-anchor="start" fill="#2C2C2A">6,0 dB</text>
+<text x="20" y="110" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">1:8</text>
+<rect x="90" y="92" width="163" height="26" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="263" y="110" font-size="12" text-anchor="start" fill="#2C2C2A">9,0 dB</text>
+<text x="20" y="144" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">1:16</text>
+<rect x="90" y="126" width="217" height="26" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="317" y="144" font-size="12" text-anchor="start" fill="#2C2C2A">12,0 dB</text>
+<text x="20" y="178" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">1:32</text>
+<rect x="90" y="160" width="271" height="26" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="371" y="178" font-size="12" text-anchor="start" fill="#2C2C2A">15,1 dB</text>
+<text x="20" y="212" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">1:64</text>
+<rect x="90" y="194" width="325" height="26" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="425" y="212" font-size="12" text-anchor="start" fill="#2C2C2A">18,1 dB</text>
+<text x="20" y="246" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">1:128</text>
+<rect x="90" y="228" width="379" height="26" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="479" y="246" font-size="12" text-anchor="start" fill="#2C2C2A">21,1 dB</text>
+<text x="20" y="290" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">90/10</text>
+<rect x="90" y="272" width="8" height="26" rx="3" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="108" y="290" font-size="12" text-anchor="start" fill="#2C2C2A">saída de 90%: 0,46 dB</text>
+<rect x="90" y="306" width="180" height="26" rx="3" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="280" y="324" font-size="12" text-anchor="start" fill="#2C2C2A">saída de 10%: 10 dB</text>
+<text x="20" y="362" font-size="12" text-anchor="start" fill="#2C2C2A">balanceado: perda ideal de 10·log₁₀ N dB; não balanceado atende ramos com atenuação diferente</text>
+<rect x="20" y="380" width="14" height="14" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="40" y="391" font-size="12" text-anchor="start" fill="#2C2C2A">balanceado</text>
+<rect x="134" y="380" width="14" height="14" rx="3" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="154" y="391" font-size="12" text-anchor="start" fill="#2C2C2A">não balanceado</text>
+</svg>

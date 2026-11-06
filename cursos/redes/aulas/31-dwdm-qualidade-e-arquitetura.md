@@ -16,6 +16,9 @@ Observado num **osciloscópio**: amostras pseudoaleatórias coletadas por um rec
 - **Abertura horizontal:** **período em que o sinal pode ser amostrado**.
 - **Quanto mais fechado o olho, maior a distorção** por ruído e/ou interferência intersimbólica.
 
+![Dois diagramas do olho, um aberto, com boa distinção entre 1 e 0, e um fechado por distorção.](img/aula-31-diagrama-olho.svg)
+*Figura 31.1: Diagrama do olho aberto e fechado.*
+
 ## 3. Fator de qualidade Q
 
 Representa a **qualidade do sinal no domínio óptico, antes do FEC**, medido pelo diagrama do olho a partir dos **desvios padrão** do bit 1 (σ₁) e do bit 0 (σ₀).
@@ -32,6 +35,9 @@ Fórmula empírica (fibra única): **log₁₀(BER) = 10,7 − 1,4 · OSNR**.
 
 > **Atenção ao slide:** o exemplo escreve OSNR = 14,5 dB e log(BER) = **−10,30**, mas **10,7 − 1,4 × 14,5 = −9,60** (BER ≈ 10⁻⁹·⁶). O valor −10,30 sai com **OSNR = 15 dB**. Nos dois casos o BER é da **ordem de 10⁻¹⁰**, que é a conclusão do slide.
 
+![Reta de log10 da BER em função da OSNR segundo a fórmula da aula, com pontos em 14,5 e 15 dB e referências de BER.](img/aula-31-osnr-ber.svg)
+*Figura 31.2: Relação entre OSNR e BER pela fórmula da aula.*
+
 ## 5. Arquitetura de um sistema DWDM
 
 Elementos típicos: **Mux/Demux**, **OADM/ROADM**, **OXC**, **amplificadores (BA/LA/PA)**, **DCM**, **transponders**, **atenuadores**.
@@ -40,6 +46,9 @@ Elementos típicos: **Mux/Demux**, **OADM/ROADM**, **OXC**, **amplificadores (BA
  Tx ─► Transponder ─► [MUX] ─► BA ═══ fibra ═══ LA ═══ fibra ═══ PA ─► [DEMUX] ─► Transponder ─► Rx
                                      (DCM entre os trechos)         (OADM/ROADM no meio, OXC nas interconexões)
 ```
+
+![Cadeia de transponder, multiplexador, amplificadores booster, de linha e pré-amplificador, demultiplexador e transponder, com DCM, OADM/ROADM e OXC.](img/aula-31-arquitetura-dwdm.svg)
+*Figura 31.3: Arquitetura de um sistema DWDM.*
 
 | Elemento | Função |
 |---|---|

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" width="680" height="360" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Técnicas do MIMO</title>
+<desc id="d">Quatro esquemas com um transmissor e um receptor de várias antenas: SDM envia blocos independentes ao mesmo tempo, MRC combina os sinais para melhorar a SNR, STBC envia cópias com códigos diferentes e beamforming concentra a potência no receptor.</desc>
+<defs><marker id="a5F5E5A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#5F5E5A" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="359" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<rect x="10" y="14" width="330" height="156" rx="6" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<text x="175" y="38" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">SDM</text>
+<text x="175" y="56" font-size="12" text-anchor="middle" fill="#2C2C2A">blocos independentes ao mesmo tempo</text>
+<rect x="24" y="84" width="64" height="56" rx="6" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<text x="56.0" y="116.9" font-size="14" text-anchor="middle" fill="#712B13" font-weight="500">Tx</text>
+<rect x="262" y="84" width="64" height="56" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="294.0" y="116.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">Rx</text>
+<path d="M88 98 L262 98" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<path d="M88 126 L262 126" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<text x="175" y="92" font-size="12" text-anchor="middle" fill="#2C2C2A">bloco 1</text>
+<text x="175" y="144" font-size="12" text-anchor="middle" fill="#2C2C2A">bloco 2</text>
+<rect x="350" y="14" width="330" height="156" rx="6" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<text x="515" y="38" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">MRC</text>
+<text x="515" y="56" font-size="12" text-anchor="middle" fill="#2C2C2A">combina sinais: melhor SNR</text>
+<rect x="364" y="84" width="64" height="56" rx="6" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<text x="396.0" y="116.9" font-size="14" text-anchor="middle" fill="#712B13" font-weight="500">Tx</text>
+<rect x="602" y="84" width="64" height="56" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="634.0" y="116.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">Rx</text>
+<path d="M428 98 L602 98" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<path d="M428 126 L602 126" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<text x="515" y="92" font-size="12" text-anchor="middle" fill="#2C2C2A">sinal da antena 1</text>
+<text x="515" y="144" font-size="12" text-anchor="middle" fill="#2C2C2A">sinal da antena 2</text>
+<rect x="10" y="184" width="330" height="156" rx="6" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<text x="175" y="208" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">STBC</text>
+<text x="175" y="226" font-size="12" text-anchor="middle" fill="#2C2C2A">cópias com códigos diferentes</text>
+<rect x="24" y="254" width="64" height="56" rx="6" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<text x="56.0" y="286.9" font-size="14" text-anchor="middle" fill="#712B13" font-weight="500">Tx</text>
+<rect x="262" y="254" width="64" height="56" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="294.0" y="286.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">Rx</text>
+<path d="M88 268 L262 268" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<path d="M88 296 L262 296" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<text x="175" y="262" font-size="12" text-anchor="middle" fill="#2C2C2A">cópia, código 1</text>
+<text x="175" y="314" font-size="12" text-anchor="middle" fill="#2C2C2A">cópia, código 2</text>
+<rect x="350" y="184" width="330" height="156" rx="6" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<text x="515" y="208" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Beamforming</text>
+<text x="515" y="226" font-size="12" text-anchor="middle" fill="#2C2C2A">potência no receptor-alvo</text>
+<rect x="364" y="254" width="64" height="56" rx="6" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<text x="396.0" y="286.9" font-size="14" text-anchor="middle" fill="#712B13" font-weight="500">Tx</text>
+<rect x="602" y="254" width="64" height="56" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="634.0" y="286.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">Rx</text>
+<polygon points="428,274 602,282 428,290" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="515" y="318" font-size="12" text-anchor="middle" fill="#2C2C2A">antenas somam o sinal no alvo</text>
+</svg>

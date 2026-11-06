@@ -19,6 +19,9 @@ Operadora ══ OLT ══ fibra ══ [ splitter ] ══ ONT (casa 1)
                                   ╚══ ONU (meio da rede) ...
 ```
 
+![OLT na operadora ligada por fibra a um splitter passivo e a três ONUs; downstream em broadcast e upstream em TDMA com janelas concedidas pela OLT.](img/aula-28-arquitetura-pon.svg)
+*Figura 28.1: Arquitetura de uma EPON: downstream em broadcast e upstream em TDMA.*
+
 ## 2. Os componentes
 
 | Sigla | Nome | Função |
@@ -38,6 +41,9 @@ Dividem o sinal óptico. Quanto à divisão de potência:
 | Para quê | divisão igual para todos | atender **ramos com atenuação diferente** |
 
 *(Complemento)* Um 1:N balanceado ideal perde **10·log₁₀ N dB** (1:2 ≈ 3 dB; 1:32 ≈ 15 dB). Num 90/10, a saída de 90% perde ~0,46 dB e a de 10%, ~10 dB.
+
+![Barras da perda dos splitters balanceados de 1:2 a 1:128, de 3 a 21 dB, e do 90/10 com 0,46 dB e 10 dB.](img/aula-28-splitters-perda.svg)
+*Figura 28.2: Perda de potência dos splitters.*
 
 ## 3. Características de uma porta PON
 
@@ -79,6 +85,17 @@ Protocolo **que controla a EPON**: permite **controlar a banda de cada usuário*
 | **GATE** | OLT → ONU: **atribui banda**; leva **timestamp** (relógio global de referência) e o **tamanho da janela** |
 | **REPORT** | ONU → OLT: **solicita banda** |
 | **REGISTER_REQ**, **REGISTER**, **REGISTER_ACK** | usadas na **descoberta automática** |
+
+```mermaid
+sequenceDiagram
+    participant O as OLT
+    participant U as ONU
+    Note over O,U: Descoberta automática: REGISTER_REQ, REGISTER e REGISTER_ACK (ranging e LLID)
+    U->>O: REPORT (solicita banda)
+    O->>U: GATE (timestamp e tamanho da janela)
+    Note over U: Transmite na janela concedida e, fora dela, guarda em buffer
+```
+*Figura 28.3: mensagens do MPCP entre OLT e ONU.*
 
 ### Descoberta automática (auto-discovery)
 Serve para **determinar a distância entre ONU e OLT (*ranging*)**, **otimizar temporizações e controles** e **definir o LLID** da ONU.

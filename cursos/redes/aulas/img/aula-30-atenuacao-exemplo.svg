@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 216" width="680" height="216" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Cálculo de atenuação em uma fibra de 10 km</title>
+<desc id="d">Potência de entrada de 10 microwatts e de saída de 6 microwatts numa fibra de 10 km: perda de 2,2 dB, ou 0,22 dB por quilômetro.</desc>
+<defs><marker id="a5F5E5A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#5F5E5A" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="215" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<rect x="20" y="40" width="150" height="56" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="95.0" y="64.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">Pin = 10 µW</text>
+<text x="95.0" y="81.2" font-size="12" text-anchor="middle" fill="#085041">entrada</text>
+<rect x="510" y="40" width="150" height="56" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="585.0" y="64.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">Pout = 6 µW</text>
+<text x="585.0" y="81.2" font-size="12" text-anchor="middle" fill="#085041">saída</text>
+<path d="M170 68 L510 68" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<text x="340" y="60" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">fibra de 10 km</text>
+<rect x="100" y="140" width="220" height="56" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="210.0" y="164.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Perda total</text>
+<text x="210.0" y="181.2" font-size="12" text-anchor="middle" fill="#2C2C2A">10·log(10/6) ≈ 2,2 dB</text>
+<path d="M320 168 L360 168" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<rect x="360" y="140" width="220" height="56" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="470.0" y="164.9" font-size="14" text-anchor="middle" fill="#633806" font-weight="500">Por quilômetro</text>
+<text x="470.0" y="181.2" font-size="12" text-anchor="middle" fill="#633806">2,2 dB ÷ 10 km = 0,22 dB/km</text>
+</svg>

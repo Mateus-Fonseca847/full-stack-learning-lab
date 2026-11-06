@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 270" width="680" height="270" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Agregação de quadros: menos contenção</title>
+<desc id="d">Sem agregação dois pacotes custam duas disputas, dois cabeçalhos e dois ACKs; com agregação, uma disputa, um cabeçalho e um ACK atendem os dois pacotes.</desc>
+<defs></defs>
+<rect x="0.5" y="0.5" width="679" height="269" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<text x="20" y="30" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">Sem agregação: 2 disputas, 2 cabeçalhos, 2 ACKs</text>
+<rect x="20" y="44" width="82" height="36" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="61.0" y="66.9" font-size="14" text-anchor="middle" fill="#633806" font-weight="500">disputa</text>
+<rect x="104" y="44" width="96" height="36" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="152.0" y="66.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">cabeçalho</text>
+<rect x="202" y="44" width="76" height="36" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="240.0" y="66.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">dados</text>
+<rect x="280" y="44" width="56" height="36" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="308.0" y="66.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">ACK</text>
+<rect x="352" y="44" width="82" height="36" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="393.0" y="66.9" font-size="14" text-anchor="middle" fill="#633806" font-weight="500">disputa</text>
+<rect x="436" y="44" width="96" height="36" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="484.0" y="66.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">cabeçalho</text>
+<rect x="534" y="44" width="76" height="36" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="572.0" y="66.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">dados</text>
+<rect x="612" y="44" width="56" height="36" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="640.0" y="66.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">ACK</text>
+<text x="20" y="130" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">Com agregação: 1 disputa, 1 cabeçalho, 1 ACK</text>
+<rect x="20" y="144" width="82" height="36" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="61.0" y="166.9" font-size="14" text-anchor="middle" fill="#633806" font-weight="500">disputa</text>
+<rect x="104" y="144" width="96" height="36" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="152.0" y="166.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">cabeçalho</text>
+<rect x="202" y="144" width="84" height="36" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="244.0" y="166.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">dados 1</text>
+<rect x="288" y="144" width="84" height="36" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="330.0" y="166.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">dados 2</text>
+<rect x="374" y="144" width="56" height="36" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="402.0" y="166.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">ACK</text>
+<text x="20" y="226" font-size="12" text-anchor="start" fill="#2C2C2A">A-MSDU: pacotes de mesma origem e destino num só quadro</text>
+<text x="20" y="246" font-size="12" text-anchor="start" fill="#2C2C2A">A-MPDU: concatenação de MPDUs num quadro MAC agregado</text>
+</svg>

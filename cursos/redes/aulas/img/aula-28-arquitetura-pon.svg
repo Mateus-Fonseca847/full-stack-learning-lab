@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 376" width="680" height="376" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Arquitetura de uma EPON</title>
+<desc id="d">A OLT na operadora liga-se por fibra a um splitter passivo e daí a três ONUs; o downstream é em broadcast e o upstream em TDMA, com a OLT concedendo uma janela a cada ONU.</desc>
+<defs><marker id="a5F5E5A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#5F5E5A" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="375" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<rect x="20" y="70" width="110" height="56" rx="6" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<text x="75.0" y="94.9" font-size="14" text-anchor="middle" fill="#712B13" font-weight="500">OLT</text>
+<text x="75.0" y="111.2" font-size="12" text-anchor="middle" fill="#712B13">operadora</text>
+<rect x="290" y="70" width="110" height="56" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="345.0" y="94.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Splitter</text>
+<text x="345.0" y="111.2" font-size="12" text-anchor="middle" fill="#2C2C2A">passivo</text>
+<path d="M130 98 L290 98" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="210" y="90" font-size="12" text-anchor="middle" fill="#2C2C2A">fibra</text>
+<rect x="550" y="30" width="110" height="44" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="605.0" y="56.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">ONU 1</text>
+<path d="M400 98 L475 98 L475 52 L550 52" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<rect x="550" y="100" width="110" height="44" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="605.0" y="126.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">ONU 2</text>
+<path d="M400 98 L475 98 L475 122 L550 122" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<rect x="550" y="170" width="110" height="44" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="605.0" y="196.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">ONU 3</text>
+<path d="M400 98 L475 98 L475 192 L550 192" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="300" y="40" font-size="12" text-anchor="middle" fill="#2C2C2A">ODN: fibra e splitter</text>
+<rect x="20" y="230" width="310" height="60" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="175.0" y="256.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Downstream: broadcast</text>
+<text x="175.0" y="273.2" font-size="12" text-anchor="middle" fill="#2C2C2A">todas recebem; cada ONU filtra (1490 nm)</text>
+<rect x="350" y="230" width="310" height="60" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="505.0" y="256.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Upstream: TDMA</text>
+<text x="505.0" y="273.2" font-size="12" text-anchor="middle" fill="#2C2C2A">a OLT concede janelas (1310 nm)</text>
+<text x="350" y="316" font-size="12" text-anchor="start" fill="#2C2C2A">janelas de transmissão no upstream, uma ONU por vez</text>
+<rect x="350" y="326" width="98" height="30" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="399.0" y="345.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">ONU 1</text>
+<rect x="450" y="326" width="98" height="30" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="499.0" y="345.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">ONU 2</text>
+<rect x="550" y="326" width="98" height="30" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="599.0" y="345.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">ONU 3</text>
+</svg>

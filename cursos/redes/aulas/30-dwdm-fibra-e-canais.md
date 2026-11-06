@@ -31,6 +31,9 @@ Os sistemas de comunicação óptica operam entre **800 e 1600 nm**, no **infrav
 
 Para converter em comprimento de onda: **λ = c / f**. Exemplo: n = 0 → 193,1 THz → ~**1552,52 nm**.
 
+![Cinco canais da grade de 100 GHz com frequência e comprimento de onda, e os espaçamentos de 200 a 12,5 GHz em escala.](img/aula-30-grade-dwdm.svg)
+*Figura 30.1: Grade DWDM e espaçamentos entre canais.*
+
 ### Grade flexível (*flexible DWDM grid*)
 
 - Canais com **larguras diferentes**; permite combinar **modulações e taxas diferentes** num mesmo sistema.
@@ -51,9 +54,15 @@ Para converter em comprimento de onda: **λ = c / f**. Exemplo: n = 0 → 193,1 
 ### Cálculo
 **Perda (dB) = 10·log₁₀(Pin/Pout)**; por km: divide-se pelo comprimento. Exemplo do slide: fibra de 10 km, Pin = 10 µW, Pout = 6 µW → **10·log(10/6) = 2,2 dB → 0,22 dB/km**.
 
+![Fibra de 10 km com 10 microwatts na entrada e 6 na saída: perda de 2,2 dB, ou 0,22 dB por quilômetro.](img/aula-30-atenuacao-exemplo.svg)
+*Figura 30.2: Atenuação do exemplo: 2,2 dB em 10 km.*
+
 ## 6. Dispersão
 
 **Dispersão** vem dos **diferentes tempos de chegada** ao receptor de cada componente que se propaga; causa **alargamento temporal do sinal** e **limita a banda passante** e a **taxa de transmissão**.
+
+![Três pulsos separados na entrada e, na saída, os mesmos pulsos alargados e sobrepostos.](img/aula-30-dispersao-pulsos.svg)
+*Figura 30.3: Dispersão: o alargamento dos pulsos causa sobreposição.*
 
 | Tipo | Causa |
 |---|---|

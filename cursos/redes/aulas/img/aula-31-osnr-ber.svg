@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 369" width="680" height="369" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Relação entre OSNR e BER</title>
+<desc id="d">Reta de log10 da BER em função da OSNR, log BER = 10,7 − 1,4 × OSNR, com pontos em 14,5 dB e 15 dB, faixa de 15 a 18 dB destacada e referências de BER 10⁻¹² e 10⁻¹⁵.</desc>
+<defs><marker id="a0F6E56" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#0F6E56" stroke-width="1.2"/></marker><marker id="a5F5E5A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#5F5E5A" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="368" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<rect x="417.5" y="40" width="202.5" height="259.0" rx="0" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="518.75" y="58" font-size="12" text-anchor="middle" fill="#633806">OSNR de 15 a 18 dB ou mais</text>
+<path d="M80.0 299.0 L630.0 299.0" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<path d="M80.0 299.0 L80.0 30" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<text x="88.0" y="30" font-size="12" text-anchor="start" fill="#2C2C2A">log₁₀(BER)</text>
+<text x="630.0" y="339.0" font-size="12" text-anchor="end" fill="#2C2C2A">OSNR (dB)</text>
+<path d="M80.0 299.0 L80.0 304.0" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="80.0" y="319.0" font-size="12" text-anchor="middle" fill="#2C2C2A">10</text>
+<path d="M147.5 299.0 L147.5 304.0" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="147.5" y="319.0" font-size="12" text-anchor="middle" fill="#2C2C2A">11</text>
+<path d="M215.0 299.0 L215.0 304.0" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="215.0" y="319.0" font-size="12" text-anchor="middle" fill="#2C2C2A">12</text>
+<path d="M282.5 299.0 L282.5 304.0" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="282.5" y="319.0" font-size="12" text-anchor="middle" fill="#2C2C2A">13</text>
+<path d="M350.0 299.0 L350.0 304.0" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="350.0" y="319.0" font-size="12" text-anchor="middle" fill="#2C2C2A">14</text>
+<path d="M417.5 299.0 L417.5 304.0" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="417.5" y="319.0" font-size="12" text-anchor="middle" fill="#2C2C2A">15</text>
+<path d="M485.0 299.0 L485.0 304.0" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="485.0" y="319.0" font-size="12" text-anchor="middle" fill="#2C2C2A">16</text>
+<path d="M552.5 299.0 L552.5 304.0" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="552.5" y="319.0" font-size="12" text-anchor="middle" fill="#2C2C2A">17</text>
+<path d="M620.0 299.0 L620.0 304.0" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="620.0" y="319.0" font-size="12" text-anchor="middle" fill="#2C2C2A">18</text>
+<path d="M75.0 58.5 L80.0 58.5" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="70.0" y="62.5" font-size="12" text-anchor="end" fill="#2C2C2A">10⁻³</text>
+<path d="M75.0 114.0 L80.0 114.0" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="70.0" y="118.0" font-size="12" text-anchor="end" fill="#2C2C2A">10⁻⁶</text>
+<path d="M75.0 169.5 L80.0 169.5" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="70.0" y="173.5" font-size="12" text-anchor="end" fill="#2C2C2A">10⁻⁹</text>
+<path d="M75.0 225.0 L80.0 225.0" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="70.0" y="229.0" font-size="12" text-anchor="end" fill="#2C2C2A">10⁻¹²</text>
+<path d="M75.0 280.5 L80.0 280.5" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="70.0" y="284.5" font-size="12" text-anchor="end" fill="#2C2C2A">10⁻¹⁵</text>
+<path d="M80.0 64.05000000000001 L620.0 271.25" fill="none" stroke="#0F6E56" stroke-width="1"/>
+<path d="M80.0 225.0 L620.0 225.0" fill="none" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 3"/>
+<path d="M80.0 280.5 L620.0 280.5" fill="none" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="88.0" y="219.0" font-size="12" text-anchor="start" fill="#2C2C2A">BER mínima típica</text>
+<text x="88.0" y="274.5" font-size="12" text-anchor="start" fill="#2C2C2A">com FEC</text>
+<circle cx="383.8" cy="180.6" r="5" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<circle cx="417.5" cy="193.6" r="5" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="371.75" y="202.59999999999997" font-size="12" text-anchor="end" fill="#2C2C2A">OSNR 14,5 dB: −9,6</text>
+<text x="431.5" y="221.55" font-size="12" text-anchor="start" fill="#2C2C2A">OSNR 15 dB: −10,3</text>
+<text x="88.0" y="345.0" font-size="12" text-anchor="start" fill="#2C2C2A">log₁₀(BER) = 10,7 − 1,4 · OSNR</text>
+</svg>

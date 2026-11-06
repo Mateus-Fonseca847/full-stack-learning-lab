@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 375" width="680" height="375" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Ciclos dos modos de economia de energia</title>
+<desc id="d">Quatro linhas do tempo: no PS-Poll a estação acorda nos beacons; no APSD não agendado acorda quando a aplicação pede, por trigger frame; no agendado segue um intervalo de stream; no Wake-on-Wireless a WLAN escuta e acorda o host por magic packet.</desc>
+<defs><marker id="a854F0B" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#854F0B" stroke-width="1.2"/></marker><marker id="aB4B2A9" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#B4B2A9" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="374" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<text x="20" y="46" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">PS-Poll</text>
+<path d="M190 54 L660 54" fill="none" stroke="#B4B2A9" stroke-width="1"/>
+<text x="190" y="86" font-size="12" text-anchor="start" fill="#2C2C2A">acorda no beacon, lê o TIM e pede com PS-Poll</text>
+<path d="M210 28 L210 54" fill="none" stroke="#854F0B" stroke-width="1"/>
+<rect x="208" y="36" width="24" height="18" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<path d="M310 28 L310 54" fill="none" stroke="#854F0B" stroke-width="1"/>
+<rect x="308" y="36" width="24" height="18" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<path d="M410 28 L410 54" fill="none" stroke="#854F0B" stroke-width="1"/>
+<rect x="408" y="36" width="24" height="18" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<path d="M510 28 L510 54" fill="none" stroke="#854F0B" stroke-width="1"/>
+<rect x="508" y="36" width="24" height="18" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<path d="M610 28 L610 54" fill="none" stroke="#854F0B" stroke-width="1"/>
+<rect x="608" y="36" width="24" height="18" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="660" y="32" font-size="12" text-anchor="end" fill="#633806">beacon com TIM</text>
+<text x="20" y="124" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">APSD não agendado</text>
+<path d="M190 132 L660 132" fill="none" stroke="#B4B2A9" stroke-width="1"/>
+<text x="190" y="164" font-size="12" text-anchor="start" fill="#2C2C2A">acorda por trigger frame, no ritmo da aplicação</text>
+<rect x="200" y="114" width="24" height="18" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<path d="M212 106 L212 114" fill="none" stroke="#854F0B" stroke-width="1"/>
+<rect x="300" y="114" width="24" height="18" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<path d="M312 106 L312 114" fill="none" stroke="#854F0B" stroke-width="1"/>
+<rect x="340" y="114" width="24" height="18" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<path d="M352 106 L352 114" fill="none" stroke="#854F0B" stroke-width="1"/>
+<rect x="520" y="114" width="24" height="18" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<path d="M532 106 L532 114" fill="none" stroke="#854F0B" stroke-width="1"/>
+<text x="660" y="110" font-size="12" text-anchor="end" fill="#633806">trigger frame</text>
+<text x="20" y="202" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">APSD agendado</text>
+<path d="M190 210 L660 210" fill="none" stroke="#B4B2A9" stroke-width="1"/>
+<text x="190" y="242" font-size="12" text-anchor="start" fill="#2C2C2A">segue o intervalo de stream pedido pelo cliente</text>
+<rect x="200" y="192" width="24" height="18" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="300" y="192" width="24" height="18" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="400" y="192" width="24" height="18" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="500" y="192" width="24" height="18" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="600" y="192" width="24" height="18" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="660" y="188" font-size="12" text-anchor="end" fill="#2C2C2A">sem PS-Poll nem trigger</text>
+<text x="20" y="280" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">Wake-on-Wireless</text>
+<path d="M190 288 L660 288" fill="none" stroke="#B4B2A9" stroke-width="1"/>
+<text x="190" y="320" font-size="12" text-anchor="start" fill="#2C2C2A">a WLAN escuta; o host dorme até o magic packet</text>
+<rect x="190" y="282" width="470" height="6" rx="1" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="450" y="266" width="60" height="22" rx="2" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="480" y="264" font-size="12" text-anchor="middle" fill="#633806">host acorda</text>
+<rect x="20" y="340" width="14" height="14" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="40" y="351" font-size="12" text-anchor="start" fill="#2C2C2A">rádio ou WLAN ligados</text>
+<rect x="211" y="340" width="14" height="14" rx="3" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="231" y="351" font-size="12" text-anchor="start" fill="#2C2C2A">gatilho que acorda</text>
+</svg>

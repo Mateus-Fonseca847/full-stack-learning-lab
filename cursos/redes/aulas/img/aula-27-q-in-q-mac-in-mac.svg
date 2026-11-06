@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 355" width="680" height="355" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Do 802.1Q ao Q-in-Q e ao MAC-in-MAC</title>
+<desc id="d">Três quadros: o 802.1Q com um C-TAG; o 802.1ad com um S-TAG a mais, 4 bytes; e o 802.1ah, em que o quadro do cliente vai dentro de um novo cabeçalho com B-MAC, B-TAG e I-TAG.</desc>
+<defs></defs>
+<rect x="0.5" y="0.5" width="679" height="354" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<text x="20" y="30" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">802.1Q (VLAN do cliente)</text>
+<rect x="20" y="40" width="80" height="44" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="60.0" y="66.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Destino</text>
+<rect x="100" y="40" width="80" height="44" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="140.0" y="66.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Origem</text>
+<rect x="180" y="40" width="80" height="44" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="220.0" y="58.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">C-TAG</text>
+<text x="220.0" y="75.2" font-size="12" text-anchor="middle" fill="#2C2C2A">8100</text>
+<rect x="260" y="40" width="64" height="44" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="292.0" y="66.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Tipo</text>
+<rect x="324" y="40" width="100" height="44" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="374.0" y="66.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Dados</text>
+<rect x="424" y="40" width="64" height="44" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="456.0" y="66.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">FCS</text>
+<text x="20" y="130" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">802.1ad Q-in-Q: mais 4 bytes</text>
+<rect x="20" y="140" width="80" height="44" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="60.0" y="166.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Destino</text>
+<rect x="100" y="140" width="80" height="44" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="140.0" y="166.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Origem</text>
+<rect x="180" y="140" width="80" height="44" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="220.0" y="158.9" font-size="14" text-anchor="middle" fill="#633806" font-weight="500">S-TAG</text>
+<text x="220.0" y="175.2" font-size="12" text-anchor="middle" fill="#633806">88A8</text>
+<rect x="260" y="140" width="80" height="44" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="300.0" y="158.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">C-TAG</text>
+<text x="300.0" y="175.2" font-size="12" text-anchor="middle" fill="#2C2C2A">8100</text>
+<rect x="340" y="140" width="64" height="44" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="372.0" y="166.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Tipo</text>
+<rect x="404" y="140" width="100" height="44" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="454.0" y="166.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Dados</text>
+<rect x="504" y="140" width="64" height="44" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="536.0" y="166.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">FCS</text>
+<text x="20" y="230" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">802.1ah MAC-in-MAC</text>
+<rect x="20" y="240" width="90" height="44" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="65.0" y="258.9" font-size="14" text-anchor="middle" fill="#633806" font-weight="500">B-MAC</text>
+<text x="65.0" y="275.2" font-size="12" text-anchor="middle" fill="#633806">novo</text>
+<rect x="110" y="240" width="80" height="44" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="150.0" y="258.9" font-size="14" text-anchor="middle" fill="#633806" font-weight="500">B-TAG</text>
+<text x="150.0" y="275.2" font-size="12" text-anchor="middle" fill="#633806">B-VID</text>
+<rect x="190" y="240" width="120" height="44" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="250.0" y="258.9" font-size="14" text-anchor="middle" fill="#633806" font-weight="500">I-TAG</text>
+<text x="250.0" y="275.2" font-size="12" text-anchor="middle" fill="#633806">I-SID 24 bits</text>
+<rect x="310" y="240" width="300" height="44" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="460.0" y="266.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">quadro 802.1ad do cliente</text>
+<rect x="20" y="320" width="14" height="14" rx="3" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="40" y="331" font-size="12" text-anchor="start" fill="#2C2C2A">campos novos</text>
+<rect x="148" y="320" width="14" height="14" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="168" y="331" font-size="12" text-anchor="start" fill="#2C2C2A">quadro do cliente encapsulado</text>
+</svg>

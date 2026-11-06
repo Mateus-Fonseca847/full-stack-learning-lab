@@ -23,6 +23,19 @@ Analogia: um porteiro que **guarda a correspondência** de quem está viajando e
 - A estação acorda, lê o TIM e, se há dados para ela, envia um **PS-Poll**, que **inicia a entrega**; o AP manda os quadros (um por vez, indicando se há mais).
 - **Restrições:** há um **compromisso entre latência e energia**; um **DTIM muito longo** pode causar **dados descartados** e até prejudicar a **estabilidade da associação**; as condições são definidas pelo AP.
 
+```mermaid
+sequenceDiagram
+    participant E as Estação
+    participant P as AP
+    Note over E: Avisa que vai dormir (bit de energia = 1)
+    Note over P: Guarda os quadros da estação
+    P-->>E: Beacon com TIM (quem tem dados guardados)
+    Note over E: Acorda e lê o TIM
+    E->>P: PS-Poll
+    P->>E: Quadro guardado (indica se há mais)
+```
+*Figura 25.1: PS-Poll: o TIM no beacon, o PS-Poll e a entrega dos quadros guardados.*
+
 ### APSD — *Automatic Power Save Delivery*
 - **Não fica preso à infraestrutura** (beacon ou DTIM); é **orientado a dados** e **iniciado pelo cliente**.
 - Tenta tratar a economia **conforme o uso de Wi-Fi no nível da aplicação**.
@@ -41,6 +54,9 @@ Analogia: um porteiro que **guarda a correspondência** de quem está viajando e
 | **APSD não agendado** | a estação, por *trigger frame* | não | tráfego por demanda |
 | **APSD agendado** | agenda de *stream* | não | áudio e vídeo |
 | **Wake-on-Wireless** | a WLAN acorda o **computador** | — | acordar o host por *magic packet* |
+
+![Quatro linhas do tempo: PS-Poll acorda nos beacons, APSD não agendado por trigger frame, APSD agendado por intervalo de stream e Wake-on-Wireless com a WLAN escutando e acordando o host.](img/aula-25-modos-economia.svg)
+*Figura 25.2: Ciclos dos modos de economia de energia.*
 
 ---
 

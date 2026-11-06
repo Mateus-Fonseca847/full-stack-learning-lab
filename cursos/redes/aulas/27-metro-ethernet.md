@@ -17,6 +17,9 @@
 
 Uso: físico = a infraestrutura do provedor; lógico = as EVCs entre as UNIs (como linhas privadas ou uma LAN estendida).
 
+![Uma EVC E-LINE ligando dois clientes por suas UNIs e uma EVC E-LAN ligando três clientes através da rede do provedor.](img/aula-27-uni-evc.svg)
+*Figura 27.1: UNI e EVC: E-LINE (ponto a ponto) e E-LAN (multiponto).*
+
 ## 3. Parâmetros de tráfego (*Bandwidth Profile*)
 
 **Perfil de banda:** limite da **taxa média de quadros** que podem **entrar** na rede do provedor por uma UNI. O MEF define **três atributos** (a "granularidade"):
@@ -35,6 +38,9 @@ Uso: físico = a infraestrutura do provedor; lógico = as EVCs entre as UNIs (co
 | **CBS** | máximo de **bytes** permitidos para os quadros que entram, ainda **contados dentro do CIR** |
 | **EIR** | taxa média **excedente** ao CIR, entregue **sem garantia** |
 | **EBS** | máximo de bytes permitidos, ainda **contados dentro do EIR** |
+
+![Gráfico de taxa por tempo com a faixa garantida CIR, a faixa excedente EIR sem garantia, os limites CBS e EBS e as granularidades do perfil.](img/aula-27-perfil-de-banda.svg)
+*Figura 27.2: Perfil de banda: CIR e CBS garantidos, EIR e EBS excedentes.*
 
 ## 4. Classes de serviço (CoS)
 
@@ -88,6 +94,9 @@ Provedor:   [Dst][Src][S-TAG][C-TAG][Tipo][Dados][FCS]      (+4 bytes)
 - Os pacotes da S-VLAN são **encapsulados por um novo cabeçalho com um novo MAC**, o **B-MAC** (*Backbone MAC*), **acrescentado na entrada do backbone e removido na outra ponta**. Os comutadores intermediários **só aprendem os B-MACs** do provedor.
 - **Quadro:** **B-TAG** (marcação do backbone, com o **B-VID**) e **I-TAG** (marcação de serviço estendido: 3 bits de prioridade, 1 bit de elegibilidade de descarte, bits reservados e **I-SID de 24 bits**, que identifica o serviço: até **16 milhões** de usuários/serviços).
 - **Vantagens:** **segurança** (o provedor só comuta endereçamento administrado por ele); **operação simplificada** (sem conflito de VLAN-IDs ou MACs de clientes); **menor custo** (menos memória e processamento); **escalabilidade** de até **16 M** usuários/serviços.
+
+![Três quadros: 802.1Q com C-TAG; 802.1ad com S-TAG a mais; 802.1ah com B-MAC, B-TAG e I-TAG encapsulando o quadro do cliente.](img/aula-27-q-in-q-mac-in-mac.svg)
+*Figura 27.3: Do 802.1Q ao Q-in-Q e ao MAC-in-MAC.*
 
 ### 802.1ad e 802.1ah juntos
 

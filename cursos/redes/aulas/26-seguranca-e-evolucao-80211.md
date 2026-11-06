@@ -23,6 +23,9 @@ No **802.1X/EAP**, os quadros EAP são tratados como **dados de camada superior*
 
 Ordem de opções (da mais segura à pior): **WPA2 com AES → WPA com AES → WPA com AES e TKIP → WPA só com TKIP → WEP → rede aberta**.
 
+![Lista vertical de seis opções, de WPA2 com AES no topo até rede aberta no fim, com seta indicando segurança decrescente.](img/aula-26-ordem-seguranca.svg)
+*Figura 26.1: Opções de segurança Wi-Fi, da mais segura à pior.*
+
 ## 2. Evolução do 802.11 (as extensões)
 
 | Padrão | O que traz |
@@ -71,6 +74,9 @@ Ordem de opções (da mais segura à pior): **WPA2 com AES → WPA com AES → W
 | **STBC** (*Space-Time Block Coding*) | gera **códigos diferentes** para enviar **cópias** do fluxo por antenas diferentes (mais **confiabilidade**) |
 | **Beamforming** | os sinais das várias antenas **maximizam a potência no receptor-alvo** |
 
+![Quatro esquemas com transmissor e receptor: SDM envia blocos independentes, MRC combina sinais, STBC envia cópias com códigos diferentes e beamforming concentra potência no receptor.](img/aula-26-mimo-tecnicas.svg)
+*Figura 26.2: As quatro técnicas do MIMO.*
+
 **Por que se usa?** Para **aumentar a taxa, a confiabilidade e o alcance** aproveitando o multipercurso.
 
 ### Agregação de quadros (A-MSDU, pergunta da lista)
@@ -79,6 +85,9 @@ Reduz o **número de eventos de contenção**, porque várias unidades de dados 
 
 - **A-MSDU:** pacotes de **mesma origem e destino**.
 - **A-MPDU:** **concatenação de MPDUs** num quadro MAC agregado.
+
+![Sem agregação, dois pacotes custam duas disputas, dois cabeçalhos e dois ACKs; com agregação, uma disputa, um cabeçalho e um ACK atendem os dois.](img/aula-26-agregacao-quadros.svg)
+*Figura 26.3: Agregação de quadros reduz disputas, cabeçalhos e ACKs.*
 
 ## 4. O 802.11ac em detalhe
 

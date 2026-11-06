@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 316" width="680" height="316" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Quadro GTC no downstream e no upstream</title>
+<desc id="d">Downstream: PCBd seguido da seção de payload. Upstream: bursts de ONUs, cada um com PLOu e um ou mais intervalos de alocação associados a ALLOC_IDs.</desc>
+<defs><marker id="a5F5E5A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#5F5E5A" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="315" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<text x="20" y="30" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">Downstream</text>
+<rect x="20" y="44" width="150" height="56" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="95.0" y="68.9" font-size="14" text-anchor="middle" fill="#633806" font-weight="500">PCBd</text>
+<text x="95.0" y="85.2" font-size="12" text-anchor="middle" fill="#633806">controle físico</text>
+<rect x="170" y="44" width="490" height="56" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="415.0" y="68.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">Payload</text>
+<text x="415.0" y="85.2" font-size="12" text-anchor="middle" fill="#085041">dados</text>
+<text x="20" y="120" font-size="12" text-anchor="start" fill="#2C2C2A">o PCBd localiza o quadro, sincroniza e aloca banda</text>
+<text x="20" y="170" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">Upstream</text>
+<path d="M20 190 L20 196 L386 196 L386 190" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="205.0" y="186" font-size="12" text-anchor="middle" fill="#2C2C2A">burst da ONU 1</text>
+<rect x="20" y="204" width="100" height="56" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="70.0" y="228.9" font-size="14" text-anchor="middle" fill="#633806" font-weight="500">PLOu</text>
+<text x="70.0" y="245.2" font-size="12" text-anchor="middle" fill="#633806">overhead</text>
+<rect x="120" y="204" width="130" height="56" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="185.0" y="228.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">Alocação</text>
+<text x="185.0" y="245.2" font-size="12" text-anchor="middle" fill="#085041">ALLOC_ID 1</text>
+<rect x="250" y="204" width="130" height="56" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="315.0" y="228.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">Alocação</text>
+<text x="315.0" y="245.2" font-size="12" text-anchor="middle" fill="#085041">ALLOC_ID 2</text>
+<path d="M406 190 L406 196 L642 196 L642 190" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="526.0" y="186" font-size="12" text-anchor="middle" fill="#2C2C2A">burst da ONU 2</text>
+<rect x="406" y="204" width="100" height="56" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="456.0" y="228.9" font-size="14" text-anchor="middle" fill="#633806" font-weight="500">PLOu</text>
+<text x="456.0" y="245.2" font-size="12" text-anchor="middle" fill="#633806">overhead</text>
+<rect x="506" y="204" width="130" height="56" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="571.0" y="228.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">Alocação</text>
+<text x="571.0" y="245.2" font-size="12" text-anchor="middle" fill="#085041">ALLOC_ID 3</text>
+<text x="20" y="292" font-size="12" text-anchor="start" fill="#2C2C2A">cada burst tem uma seção PLOu e um ou mais intervalos de alocação associados a ALLOC_IDs</text>
+</svg>
