@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 272" width="680" height="272" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">IBSS (ad hoc) e ESS (infraestrutura)</title>
+<desc id="d">À esquerda, três estações conversando diretamente em um IBSS sem AP; à direita, dois BSSs, cada um com um AP, ligados por um sistema de distribuição para formar um ESS.</desc>
+<defs><marker id="a5F5E5A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#5F5E5A" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="271" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<text x="105" y="26" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">IBSS (ad hoc)</text>
+<text x="105" y="44" font-size="12" text-anchor="middle" fill="#2C2C2A">sem AP, estações se falam direto</text>
+<rect x="10" y="62" width="190" height="190" rx="30" fill="none" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 3"/>
+<rect x="80" y="80" width="50" height="32" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="105.0" y="100.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">E1</text>
+<rect x="26" y="190" width="50" height="32" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="51.0" y="210.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">E2</text>
+<rect x="134" y="190" width="50" height="32" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="159.0" y="210.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">E3</text>
+<path d="M95 112 L60 190" fill="none" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 3"/>
+<path d="M115 112 L150 190" fill="none" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 3"/>
+<path d="M76 206 L134 206" fill="none" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="105" y="244" font-size="12" text-anchor="middle" fill="#2C2C2A">IBSS</text>
+<text x="460" y="26" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">ESS (estruturada)</text>
+<text x="460" y="44" font-size="12" text-anchor="middle" fill="#2C2C2A">BSSs ligados por um DS através de APs</text>
+<rect x="300" y="62" width="320" height="36" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="460.0" y="84.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">DS: sistema de distribuição</text>
+<rect x="245" y="130" width="200" height="122" rx="30" fill="none" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 3"/>
+<rect x="320" y="140" width="50" height="30" rx="6" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<text x="345.0" y="159.9" font-size="14" text-anchor="middle" fill="#712B13" font-weight="500">AP</text>
+<path d="M345 98 L345 140" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<rect x="263" y="200" width="50" height="30" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="288.0" y="219.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">E</text>
+<rect x="377" y="200" width="50" height="30" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="402.0" y="219.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">E</text>
+<path d="M330 170 L288 200" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<path d="M360 170 L402 200" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="345" y="246" font-size="12" text-anchor="middle" fill="#2C2C2A">BSS 1</text>
+<rect x="475" y="130" width="200" height="122" rx="30" fill="none" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 3"/>
+<rect x="550" y="140" width="50" height="30" rx="6" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<text x="575.0" y="159.9" font-size="14" text-anchor="middle" fill="#712B13" font-weight="500">AP</text>
+<path d="M575 98 L575 140" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<rect x="493" y="200" width="50" height="30" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="518.0" y="219.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">E</text>
+<rect x="607" y="200" width="50" height="30" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="632.0" y="219.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">E</text>
+<path d="M560 170 L518 200" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<path d="M590 170 L632 200" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="575" y="246" font-size="12" text-anchor="middle" fill="#2C2C2A">BSS 2</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 315" width="680" height="315" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Canais do Wi-Fi em 2,4 GHz</title>
+<desc id="d">Onze canais de 20 MHz com centros espaçados de 5 MHz, desenhados em cinco linhas; os canais 1, 6 e 11 não se sobrepõem e estão em âmbar, os demais se sobrepõem aos vizinhos.</desc>
+<defs><marker id="a5F5E5A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#5F5E5A" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="314" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<rect x="74" y="30" width="140" height="28" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="144.0" y="48.9" font-size="14" text-anchor="middle" fill="#633806" font-weight="500">canal 1</text>
+<rect x="249" y="30" width="140" height="28" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="319.0" y="48.9" font-size="14" text-anchor="middle" fill="#633806" font-weight="500">canal 6</text>
+<rect x="424" y="30" width="140" height="28" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="494.0" y="48.9" font-size="14" text-anchor="middle" fill="#633806" font-weight="500">canal 11</text>
+<rect x="109" y="64" width="140" height="28" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="179.0" y="82.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">canal 2</text>
+<rect x="284" y="64" width="140" height="28" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="354.0" y="82.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">canal 7</text>
+<rect x="144" y="98" width="140" height="28" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="214.0" y="116.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">canal 3</text>
+<rect x="319" y="98" width="140" height="28" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="389.0" y="116.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">canal 8</text>
+<rect x="179" y="132" width="140" height="28" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="249.0" y="150.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">canal 4</text>
+<rect x="354" y="132" width="140" height="28" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="424.0" y="150.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">canal 9</text>
+<rect x="214" y="166" width="140" height="28" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="284.0" y="184.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">canal 5</text>
+<rect x="389" y="166" width="140" height="28" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="459.0" y="184.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">canal 10</text>
+<path d="M60 206 L620 206" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<path d="M60 206 L60 211" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="60" y="228" font-size="12" text-anchor="middle" fill="#2C2C2A">2.400</text>
+<path d="M144 206 L144 211" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="144" y="228" font-size="12" text-anchor="middle" fill="#2C2C2A">2.412</text>
+<path d="M319 206 L319 211" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="319" y="228" font-size="12" text-anchor="middle" fill="#2C2C2A">2.437</text>
+<path d="M494 206 L494 211" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="494" y="228" font-size="12" text-anchor="middle" fill="#2C2C2A">2.462</text>
+<path d="M620 206 L620 211" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="620" y="228" font-size="12" text-anchor="middle" fill="#2C2C2A">2.480</text>
+<text x="656" y="228" font-size="12" text-anchor="middle" fill="#2C2C2A">MHz</text>
+<text x="20" y="258" font-size="12" text-anchor="start" fill="#2C2C2A">espaçamento de 5 MHz entre centros e 20 MHz de largura: os canais se sobrepõem</text>
+<rect x="20" y="280" width="14" height="14" rx="3" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="40" y="291" font-size="12" text-anchor="start" fill="#2C2C2A">canais 1, 6 e 11: ortogonais</text>
+<rect x="260" y="280" width="14" height="14" rx="3" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="280" y="291" font-size="12" text-anchor="start" fill="#2C2C2A">demais canais</text>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 238" width="680" height="238" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">TDMA, FDMA, CDMA e OFDMA</title>
+<desc id="d">Quatro grades de frequência por tempo: TDMA divide o tempo em slots, FDMA divide a banda em canais, CDMA usa o mesmo tempo e banda com códigos diferentes e OFDMA reparte subportadoras ortogonais.</desc>
+<defs></defs>
+<rect x="0.5" y="0.5" width="679" height="237" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<text x="85" y="26" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">TDMA</text>
+<text x="85" y="44" font-size="12" text-anchor="middle" fill="#2C2C2A">divide o tempo</text>
+<rect x="16" y="58" width="35" height="112" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="33.5" y="118.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">1</text>
+<rect x="51" y="58" width="35" height="112" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="68.5" y="118.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">2</text>
+<rect x="86" y="58" width="35" height="112" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="103.5" y="118.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">3</text>
+<rect x="121" y="58" width="35" height="112" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="138.5" y="118.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">4</text>
+<text x="255" y="26" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">FDMA</text>
+<text x="255" y="44" font-size="12" text-anchor="middle" fill="#2C2C2A">divide a banda</text>
+<rect x="186" y="58" width="140" height="28" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="256.0" y="76.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">4</text>
+<rect x="186" y="86" width="140" height="28" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="256.0" y="104.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">3</text>
+<rect x="186" y="114" width="140" height="28" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="256.0" y="132.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">2</text>
+<rect x="186" y="142" width="140" height="28" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="256.0" y="160.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">1</text>
+<text x="425" y="26" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">CDMA</text>
+<text x="425" y="44" font-size="12" text-anchor="middle" fill="#2C2C2A">divide por código</text>
+<rect x="356" y="58" width="116" height="88" rx="0" fill="none" stroke="#0F6E56" stroke-width="1"/>
+<text x="368" y="76" font-size="12" text-anchor="middle" fill="#2C2C2A">1</text>
+<rect x="364" y="66" width="116" height="88" rx="0" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="376" y="84" font-size="12" text-anchor="middle" fill="#2C2C2A">2</text>
+<rect x="372" y="74" width="116" height="88" rx="0" fill="none" stroke="#0F6E56" stroke-width="1"/>
+<text x="384" y="92" font-size="12" text-anchor="middle" fill="#2C2C2A">3</text>
+<rect x="380" y="82" width="116" height="88" rx="0" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="392" y="100" font-size="12" text-anchor="middle" fill="#2C2C2A">4</text>
+<text x="426.0" y="180" font-size="12" text-anchor="middle" fill="#2C2C2A">códigos 1 a 4</text>
+<text x="595" y="26" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">OFDMA</text>
+<text x="595" y="44" font-size="12" text-anchor="middle" fill="#2C2C2A">subportadoras</text>
+<rect x="526" y="58" width="35" height="28" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="543.5" y="76.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">1</text>
+<rect x="561" y="58" width="35" height="28" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="578.5" y="76.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">2</text>
+<rect x="596" y="58" width="35" height="28" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="613.5" y="76.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">3</text>
+<rect x="631" y="58" width="35" height="28" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="648.5" y="76.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">4</text>
+<rect x="526" y="86" width="35" height="28" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="543.5" y="104.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">3</text>
+<rect x="561" y="86" width="35" height="28" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="578.5" y="104.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">4</text>
+<rect x="596" y="86" width="35" height="28" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="613.5" y="104.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">1</text>
+<rect x="631" y="86" width="35" height="28" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="648.5" y="104.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">2</text>
+<rect x="526" y="114" width="35" height="28" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="543.5" y="132.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">2</text>
+<rect x="561" y="114" width="35" height="28" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="578.5" y="132.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">1</text>
+<rect x="596" y="114" width="35" height="28" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="613.5" y="132.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">4</text>
+<rect x="631" y="114" width="35" height="28" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="648.5" y="132.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">3</text>
+<rect x="526" y="142" width="35" height="28" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="543.5" y="160.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">4</text>
+<rect x="561" y="142" width="35" height="28" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="578.5" y="160.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">3</text>
+<rect x="596" y="142" width="35" height="28" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="613.5" y="160.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">2</text>
+<rect x="631" y="142" width="35" height="28" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="648.5" y="160.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">1</text>
+<text x="340" y="214" font-size="12" text-anchor="middle" fill="#2C2C2A">em cada grade: horizontal = tempo, vertical = frequência; os números são os usuários</text>
+</svg>

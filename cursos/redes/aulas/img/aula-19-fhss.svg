@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 427" width="680" height="427" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Salto de frequência (FHSS)</title>
+<desc id="d">Grade de frequência por tempo: o transmissor salta de frequência a cada Tc numa sequência que só o receptor conhece; uma interferência estreita em uma frequência só atinge o sinal quando o salto passa por ela.</desc>
+<defs><marker id="a5F5E5A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#5F5E5A" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="426" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<text x="90" y="254" font-size="12" text-anchor="end" fill="#2C2C2A">f1</text>
+<rect x="100" y="236" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="160" y="236" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="220" y="236" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="280" y="236" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="340" y="236" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="400" y="236" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="460" y="236" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="520" y="236" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<text x="90" y="226" font-size="12" text-anchor="end" fill="#2C2C2A">f2</text>
+<rect x="100" y="208" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="160" y="208" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="220" y="208" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="280" y="208" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="340" y="208" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="400" y="208" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="460" y="208" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="520" y="208" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<text x="90" y="198" font-size="12" text-anchor="end" fill="#2C2C2A">f3</text>
+<rect x="100" y="180" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="160" y="180" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="220" y="180" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="280" y="180" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="340" y="180" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="400" y="180" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="460" y="180" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="520" y="180" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<text x="90" y="170" font-size="12" text-anchor="end" fill="#2C2C2A">f4</text>
+<rect x="100" y="152" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="160" y="152" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="220" y="152" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="280" y="152" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="340" y="152" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="400" y="152" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="460" y="152" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="520" y="152" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<text x="90" y="142" font-size="12" text-anchor="end" fill="#2C2C2A">f5</text>
+<rect x="100" y="124" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="160" y="124" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="220" y="124" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="280" y="124" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="340" y="124" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="400" y="124" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="460" y="124" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="520" y="124" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<text x="90" y="114" font-size="12" text-anchor="end" fill="#2C2C2A">f6</text>
+<rect x="100" y="96" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="160" y="96" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="220" y="96" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="280" y="96" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="340" y="96" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="400" y="96" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="460" y="96" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="520" y="96" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<text x="90" y="86" font-size="12" text-anchor="end" fill="#2C2C2A">f7</text>
+<rect x="100" y="68" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="160" y="68" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="220" y="68" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="280" y="68" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="340" y="68" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="400" y="68" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="460" y="68" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="520" y="68" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<text x="90" y="58" font-size="12" text-anchor="end" fill="#2C2C2A">f8</text>
+<rect x="100" y="40" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="160" y="40" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="220" y="40" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="280" y="40" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="340" y="40" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="400" y="40" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="460" y="40" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="520" y="40" width="60" height="28" rx="0" fill="#F8F8F6" stroke="#D3D1C7" stroke-width="1"/>
+<rect x="100" y="124" width="480" height="28" rx="0" fill="#FCEBEB" stroke="#A32D2D" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="590" y="142" font-size="12" text-anchor="start" fill="#2C2C2A">interferência</text>
+<rect x="102" y="182" width="56" height="24" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="162" y="70" width="56" height="24" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="222" y="238" width="56" height="24" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="282" y="126" width="56" height="24" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="282" y="126" width="56" height="24" rx="3" fill="#E1F5EE" stroke="#A32D2D" stroke-width="2"/>
+<rect x="342" y="210" width="56" height="24" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="402" y="42" width="56" height="24" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="462" y="154" width="56" height="24" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="522" y="98" width="56" height="24" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<path d="M100 272 L580 272" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<text x="580" y="292" font-size="12" text-anchor="end" fill="#2C2C2A">tempo</text>
+<path d="M220 302 L220 308 L280 308 L280 302" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="250.0" y="326" font-size="12" text-anchor="middle" fill="#2C2C2A">Tc</text>
+<text x="20" y="356" font-size="12" text-anchor="start" fill="#2C2C2A">a frequência muda a cada Tc, em sequência aparentemente aleatória; só quem a conhece recebe</text>
+<text x="20" y="374" font-size="12" text-anchor="start" fill="#2C2C2A">a interferência só atinge o sinal enquanto o salto estiver na frequência afetada</text>
+<rect x="20" y="392" width="14" height="14" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="40" y="403" font-size="12" text-anchor="start" fill="#2C2C2A">salto do sinal</text>
+<rect x="162" y="392" width="14" height="14" rx="3" fill="#FCEBEB" stroke="#A32D2D" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="182" y="403" font-size="12" text-anchor="start" fill="#2C2C2A">frequência com interferência</text>
+</svg>

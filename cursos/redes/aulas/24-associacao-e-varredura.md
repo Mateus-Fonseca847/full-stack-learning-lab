@@ -34,12 +34,24 @@ Procurar os APs disponíveis chama-se **varredura**, porque a estação **muda d
 | Detalhe | tenta associar-se ao BSS com o SSID e as informações encontradas | o *probe request* costuma conter o **SSID desejado**; se estiver **vazio, todos os APs que ouvirem respondem** |
 | Uso | descoberta geral, **gasta menos e não transmite** | **buscar uma rede conhecida**, mais rápida |
 
+![À esquerda a varredura passiva, em que a estação só escuta beacons; à direita a ativa, com probe request e probe response.](img/aula-24-varredura-passiva-ativa.svg)
+*Figura 24.1: Varredura passiva × ativa.*
+
 ## 4. Autenticação
 
 Exige que a estação **estabeleça sua identidade com o AP**. O padrão define dois tipos:
 
 - **Sistema aberto:** **sem chave compartilhada ou senha**.
 - **Chave compartilhada:** com uma **chave compartilhada (senha)**, usando criptografia simétrica e um mecanismo de **desafio e resposta**: uma das partes (normalmente o AP) envia um **desafio** e a outra o **devolve cifrado** com a chave compartilhada.
+
+```mermaid
+sequenceDiagram
+    participant E as Estação
+    participant P as AP
+    P->>E: Desafio
+    E->>P: Desafio devolvido cifrado com a chave compartilhada
+```
+*Figura 24.2: autenticação por chave compartilhada, com desafio e resposta.*
 
 ## 5. Associação
 

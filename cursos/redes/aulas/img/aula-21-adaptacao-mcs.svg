@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 336" width="680" height="336" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Adaptação de modulação e codificação com a distância</title>
+<desc id="d">Degraus de modulação, de 256-QAM perto do AP a BPSK longe dele: quanto maior a distância, menor a SNR, mais robusta a modulação e menor a taxa, sem perder o enlace de uma vez.</desc>
+<defs><marker id="a5F5E5A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#5F5E5A" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="335" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<path d="M60 250 L60 40" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<path d="M60 250 L660 250" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<text x="66" y="32" font-size="12" text-anchor="start" fill="#2C2C2A">taxa</text>
+<text x="660" y="270" font-size="12" text-anchor="end" fill="#2C2C2A">distância ao AP</text>
+<rect x="70" y="80" width="108" height="170" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="124.0" y="169.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">256-QAM</text>
+<rect x="182" y="112" width="108" height="138" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="236.0" y="185.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">64-QAM</text>
+<rect x="294" y="144" width="108" height="106" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="348.0" y="201.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">16-QAM</text>
+<rect x="406" y="176" width="108" height="74" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="460.0" y="217.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">QPSK</text>
+<rect x="518" y="208" width="108" height="42" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="572.0" y="233.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">BPSK</text>
+<text x="340" y="292" font-size="12" text-anchor="middle" fill="#2C2C2A">distância ↑ → SNR ↓ → modulação mais robusta e mais redundância → taxa ↓</text>
+<text x="340" y="312" font-size="12" text-anchor="middle" fill="#2C2C2A">a velocidade cai aos poucos, em vez de cair a zero de uma vez</text>
+</svg>

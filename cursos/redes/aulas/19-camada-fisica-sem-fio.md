@@ -18,6 +18,9 @@
 
 Analogia: dois amigos que combinam de trocar de sala a cada minuto numa ordem secreta; quem não souber a ordem não os acha.
 
+![Grade de frequência por tempo com o sinal saltando de frequência a cada Tc numa sequência que só o receptor conhece, e uma frequência com interferência em destaque.](img/aula-19-fhss.svg)
+*Figura 19.1: FHSS: salto de frequência a cada Tc; a interferência só atinge o sinal quando o salto passa por ela.*
+
 ### DSSS — Direct Sequence Spread Spectrum (sequência direta)
 
 - **Todas as estações usam a mesma frequência**; a cada usuário é dado um **código exclusivo**. Gasta **pouca energia** (menor potência possível).
@@ -29,6 +32,9 @@ Analogia: dois amigos que combinam de trocar de sala a cada minuto numa ordem se
 
 Analogia: numa festa, várias pessoas falam **idiomas diferentes** ao mesmo tempo; você só entende (e destaca) quem fala o seu idioma, e o resto soa como murmúrio.
 
+![Dois bits, 1 e 0, combinados por XOR com um código de 11 chips, o sinal espalhado e a recuperação dos bits no receptor com um novo XOR.](img/aula-19-dsss.svg)
+*Figura 19.2: DSSS: bit 0 gera o código, bit 1 o código invertido; o receptor repete o XOR.*
+
 ## 2. Múltiplo acesso
 
 | Técnica | Como divide | Detalhes |
@@ -38,6 +44,9 @@ Analogia: numa festa, várias pessoas falam **idiomas diferentes** ao mesmo temp
 | **CDMA** | por **código** (similar ao DSSS) | mais resistente a interferência e **difícil de rastrear ou ouvir escondido**; códigos **longos** são mais fáceis de identificar e **menos sensíveis a erros**; pode separar **usuários e infraestrutura** |
 | **OFDMA** | em **subportadoras ortogonais** | espaçamento tal que cada subportadora cai nos **nulos espectrais** das outras; pulsos **quadrados**, espectro de cada subcanal em forma de **sinc(f)** |
 | **SDMA** | no **espaço**, com **antenas inteligentes** | molda o **diagrama de irradiação**: usuários no lóbulo principal, interferentes em **nulos ou lóbulos secundários**; reduz **multipercurso**; combinado com TDMA/FDMA/CDMA |
+
+![Quatro grades de frequência por tempo mostrando como TDMA, FDMA, CDMA e OFDMA dividem o canal entre quatro usuários.](img/aula-19-multiplo-acesso.svg)
+*Figura 19.3: TDMA, FDMA, CDMA e OFDMA em grades de tempo e frequência.*
 
 O **código do CDMA** é uma sequência **pseudoaleatória (pseudorruído)**: determinística, mas com número **quase igual de zeros e uns**, **correlação muito baixa** entre versões deslocadas e entre duas sequências quaisquer.
 

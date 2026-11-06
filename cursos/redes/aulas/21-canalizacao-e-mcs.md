@@ -15,6 +15,9 @@ Analogia: a faixa é uma **avenida** e cada canal é uma **faixa de carro**. Em 
 
 > **Nota:** o Brasil permite os canais 1 a 13 em 2,4 GHz *(complemento)*, mas os canais **ortogonais continuam sendo 1, 6 e 11**. Na prova, use os números do slide. Frequência central: 2,4 GHz = 2407 + 5·n MHz; 5 GHz = 5000 + 5·n MHz *(complemento)*.
 
+![Onze canais de 20 MHz com centros espaçados de 5 MHz em cinco linhas; os canais 1, 6 e 11 não se sobrepõem e os demais se sobrepõem aos vizinhos.](img/aula-21-canais-24ghz.svg)
+*Figura 21.1: Canais de 2,4 GHz: só 1, 6 e 11 não se sobrepõem.*
+
 ## 2. SNR, BER e alcance (perguntas da lista)
 
 - **SNR (relação sinal-ruído)** = potência do sinal ÷ potência do ruído; em dB, **SNR = 10·log₁₀(Ps/Pn)**. Mede a **qualidade do enlace**.
@@ -46,6 +49,9 @@ O rádio **mede a qualidade do enlace** (SNR, erros, perdas de ACK) e escolhe o 
 
 É por isso que a velocidade do Wi-Fi **cai aos poucos** ao se afastar do roteador, em vez de cair a zero de uma vez.
 
+![Degraus de modulação, de 256-QAM perto do AP até BPSK longe dele, com taxa decrescente.](img/aula-21-adaptacao-mcs.svg)
+*Figura 21.2: Adaptação de modulação: a taxa cai aos poucos com a distância.*
+
 ## 4. Interleaving (entrelaçamento)
 
 - Faz parte da **codificação**. A intenção é melhorar a capacidade do receptor de **corrigir rajadas de erros**, **espalhando-as** em bits distantes entre si.
@@ -55,6 +61,9 @@ O rádio **mede a qualidade do enlace** (SNR, erros, perdas de ACK) e escolhe o 
   3. **2ª rodada:** um **deslocamento cíclico** em cada metade de ponto da constelação: **0 ou 1** para 16-QAM, **0, 1 ou 2** para 64-QAM, conforme o índice da subportadora.
 
 Analogia: embaralhar as cartas antes de distribuí-las: se uma "rajada" apagar 3 cartas seguidas, depois de reorganizar elas ficam **separadas**, e dá para corrigir cada uma.
+
+![Matriz de 16 linhas por 3 colunas para BPSK, gravada por coluna e lida por linha, com os bits 0, 16 e 32 destacados.](img/aula-21-interleaving.svg)
+*Figura 21.3: Entrelaçamento: bits consecutivos na saída vêm de posições distantes.*
 
 ---
 

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 290" width="680" height="290" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Varredura passiva e ativa</title>
+<desc id="d">À esquerda, na varredura passiva a estação só escuta os beacons do AP; à direita, na ativa a estação envia um probe request e recebe um probe response.</desc>
+<defs><marker id="a5F5E5A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#5F5E5A" stroke-width="1.2"/></marker><marker id="aD3D1C7" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#D3D1C7" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="289" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<path d="M340 20 L340 270" fill="none" stroke="#D3D1C7" stroke-width="1"/>
+<text x="170" y="26" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Varredura passiva</text>
+<text x="170" y="44" font-size="12" text-anchor="middle" fill="#2C2C2A">a estação só escuta</text>
+<rect x="20" y="62" width="110" height="36" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="75.0" y="84.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">Estação</text>
+<rect x="210" y="62" width="110" height="36" rx="6" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<text x="265.0" y="84.9" font-size="14" text-anchor="middle" fill="#712B13" font-weight="500">AP</text>
+<path d="M75 98 L75 250" fill="none" stroke="#D3D1C7" stroke-width="1" stroke-dasharray="5 3"/>
+<path d="M265 98 L265 250" fill="none" stroke="#D3D1C7" stroke-width="1" stroke-dasharray="5 3"/>
+<path d="M265 130 L75 130" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<text x="170" y="122" font-size="12" text-anchor="middle" fill="#2C2C2A">beacon (SSID, segurança)</text>
+<path d="M265 190 L75 190" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<text x="170" y="182" font-size="12" text-anchor="middle" fill="#2C2C2A">beacon (SSID, segurança)</text>
+<text x="170" y="262" font-size="12" text-anchor="middle" fill="#2C2C2A">não transmite: gasta menos</text>
+<text x="510" y="26" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Varredura ativa</text>
+<text x="510" y="44" font-size="12" text-anchor="middle" fill="#2C2C2A">a estação pergunta</text>
+<rect x="360" y="62" width="110" height="36" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="415.0" y="84.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">Estação</text>
+<rect x="550" y="62" width="110" height="36" rx="6" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<text x="605.0" y="84.9" font-size="14" text-anchor="middle" fill="#712B13" font-weight="500">AP</text>
+<path d="M415 98 L415 250" fill="none" stroke="#D3D1C7" stroke-width="1" stroke-dasharray="5 3"/>
+<path d="M605 98 L605 250" fill="none" stroke="#D3D1C7" stroke-width="1" stroke-dasharray="5 3"/>
+<path d="M415 130 L605 130" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<text x="510" y="122" font-size="12" text-anchor="middle" fill="#2C2C2A">probe request</text>
+<path d="M605 190 L415 190" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<text x="510" y="182" font-size="12" text-anchor="middle" fill="#2C2C2A">probe response</text>
+<text x="510" y="262" font-size="12" text-anchor="middle" fill="#2C2C2A">SSID vazio: todos os APs respondem</text>
+</svg>

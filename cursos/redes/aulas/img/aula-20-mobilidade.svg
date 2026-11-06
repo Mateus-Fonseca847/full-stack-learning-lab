@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 314" width="680" height="314" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Tipos de mobilidade no 802.11</title>
+<desc id="d">Dois ESS: o primeiro com dois BSSs, o segundo com um; três setas numeradas mostram movimento dentro do BSS, para outro BSS do mesmo ESS e para um BSS de outro ESS.</desc>
+<defs><marker id="a5F5E5A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#5F5E5A" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="313" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<rect x="20" y="30" width="440" height="190" rx="10" fill="none" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="36" y="52" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">ESS 1</text>
+<rect x="480" y="30" width="180" height="190" rx="10" fill="none" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="496" y="52" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">ESS 2</text>
+<rect x="36" y="80" width="190" height="126" rx="30" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="131.0" y="198" font-size="12" text-anchor="middle" fill="#2C2C2A">BSS 1</text>
+<rect x="109.0" y="90" width="44" height="28" rx="6" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<text x="131.0" y="108.9" font-size="14" text-anchor="middle" fill="#712B13" font-weight="500">AP</text>
+<rect x="250" y="80" width="190" height="126" rx="30" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="345.0" y="198" font-size="12" text-anchor="middle" fill="#2C2C2A">BSS 2</text>
+<rect x="323.0" y="90" width="44" height="28" rx="6" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<text x="345.0" y="108.9" font-size="14" text-anchor="middle" fill="#712B13" font-weight="500">AP</text>
+<rect x="496" y="80" width="150" height="126" rx="30" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="571.0" y="198" font-size="12" text-anchor="middle" fill="#2C2C2A">BSS 3</text>
+<rect x="549.0" y="90" width="44" height="28" rx="6" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<text x="571.0" y="108.9" font-size="14" text-anchor="middle" fill="#712B13" font-weight="500">AP</text>
+<rect x="52" y="138" width="56" height="28" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="80.0" y="156.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">Est.</text>
+<path d="M108 152 L160 152" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<circle cx="134" cy="140" r="9" fill="#F8F8F6" stroke="#5F5E5A" stroke-width="1"/>
+<text x="134" y="144" font-size="12" text-anchor="middle" fill="#2C2C2A">1</text>
+<rect x="170" y="124" width="56" height="28" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="198.0" y="142.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">Est.</text>
+<path d="M226 138 L290 138" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<circle cx="258" cy="126" r="9" fill="#F8F8F6" stroke="#5F5E5A" stroke-width="1"/>
+<text x="258" y="130" font-size="12" text-anchor="middle" fill="#2C2C2A">2</text>
+<rect x="366" y="150" width="56" height="28" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="394.0" y="168.9" font-size="14" text-anchor="middle" fill="#3C3489" font-weight="500">Est.</text>
+<path d="M422 164 L520 164" fill="none" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 3" marker-end="url(#a5F5E5A)"/>
+<circle cx="470" cy="152" r="9" fill="#F8F8F6" stroke="#5F5E5A" stroke-width="1"/>
+<text x="470" y="156" font-size="12" text-anchor="middle" fill="#2C2C2A">3</text>
+<text x="20" y="250" font-size="12" text-anchor="start" fill="#2C2C2A">1 no-transition: a estação se move só dentro do seu BSS</text>
+<text x="20" y="270" font-size="12" text-anchor="start" fill="#2C2C2A">2 BSS-transition: vai para outro BSS do mesmo ESS (roaming)</text>
+<text x="20" y="290" font-size="12" text-anchor="start" fill="#2C2C2A">3 ESS-transition: vai para um BSS de outro ESS; o padrão não garante</text>
+</svg>

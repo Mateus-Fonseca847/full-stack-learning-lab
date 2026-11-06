@@ -16,6 +16,9 @@ A transmite para B. C quer transmitir para B, **escuta o canal e não ouve ningu
 ### Estação exposta
 B está transmitindo para A. C quer transmitir para D, **ouve B** e **não transmite**, embora **não atrapalhasse** A. Capacidade desperdiçada.
 
+![Quatro estações A, B, C e D em linha, com os alcances: na estação oculta A e C colidem em B; na exposta C ouve B e deixa de transmitir a D.](img/aula-22-oculta-exposta.svg)
+*Figura 22.1: Estação oculta e estação exposta.*
+
 ## 2. MACA e MACAW
 
 **MACA** (*Multiple Access with Collision Avoidance*, protocolo antigo):
@@ -25,7 +28,27 @@ B está transmitindo para A. C quer transmitir para D, **ouve B** e **não trans
 3. Quem **ouve o RTS** está perto de A e **fica quieto** o tempo do CTS voltar. Quem **ouve o CTS** está perto de B e **fica quieto durante a transmissão** dos dados.
 4. **Ainda pode haver colisão** (B e C mandam RTS ao mesmo tempo). Quem não recebe CTS no tempo esperado **espera um tempo aleatório** (**recuo binário exponencial**).
 
+```mermaid
+sequenceDiagram
+    participant X as Perto de A
+    participant A
+    participant B
+    participant Y as Perto de B
+    A->>B: RTS (com o tamanho do quadro)
+    A->>X: RTS
+    Note over X: Ouviu o RTS: fica quieto até o CTS voltar
+    B->>A: CTS (com o tamanho do quadro)
+    B->>Y: CTS
+    Note over Y: Ouviu o CTS: fica quieto durante os dados
+    A->>B: Dados
+    B->>A: ACK (acrescentado no MACAW)
+```
+*Figura 22.2: troca RTS/CTS do MACA e quem fica quieto.*
+
 **Recuo binário exponencial:** após a 1ª colisão, 0 ou 1 slot; após a 2ª, 0 a 3; em geral, após *i* colisões sorteia-se de **0 a 2^i − 1**. Depois de **10** colisões o teto fica em **1023 slots**; depois de **16**, o controlador desiste e informa o erro.
+
+![Barras da janela de sorteio, de 0 a 2^i − 1, para 1, 2, 3, 4, 5 e 10 colisões, e a desistência após 16.](img/aula-22-recuo-exponencial.svg)
+*Figura 22.3: Recuo binário exponencial: a janela dobra a cada colisão.*
 
 **MACAW** (MACA para *wireless*) acrescenta: **ACK após cada quadro**; uso de **CSMA** (para não mandar RTS enquanto outra estação transmite); **recuo individual por fluxo** (origem → destino); **troca de informação sobre congestionamento**.
 

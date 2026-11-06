@@ -13,6 +13,9 @@ Uma **WLAN** (rede local sem fio) deve dar **mobilidade às estações, de forma
 
 **Ad hoc × estruturada (pergunta da lista):** em uma ad hoc as estações **conversam diretamente**, **sem AP**, em geral de forma temporária. Na estruturada elas conversam **por meio de um AP**, que dá acesso ao sistema de distribuição e à rede cabeada.
 
+![À esquerda, três estações conversando direto em um IBSS; à direita, dois BSSs, cada um com um AP, ligados por um sistema de distribuição formando um ESS.](img/aula-20-ibss-ess.svg)
+*Figura 20.1: IBSS (ad hoc) × ESS (infraestrutura).*
+
 ### Os componentes da rede estruturada
 
 Analogia: pense num **prédio com várias salas** ligadas por corredores.
@@ -33,6 +36,9 @@ Analogia: pense num **prédio com várias salas** ligadas por corredores.
 | **No-transition** | a estação se move **só dentro da sua BSS** |
 | **BSS-transition** | migra de um BSS para **outro dentro do mesmo ESS** (roaming) |
 | **ESS-transition** | migra para um BSS de **um ESS diferente**; **não é garantida pelo padrão** |
+
+![Dois ESS com três BSSs e três setas numeradas: movimento dentro do BSS, para outro BSS do mesmo ESS e para um BSS de outro ESS.](img/aula-20-mobilidade.svg)
+*Figura 20.2: Mobilidade: no-transition, BSS-transition e ESS-transition.*
 
 ## 2. Camada física do 802.11 original e das primeiras extensões
 

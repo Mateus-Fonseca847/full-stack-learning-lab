@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 274" width="680" height="274" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Quadro 802.11 e o campo Controle de quadro</title>
+<desc id="d">O quadro 802.11 com seus campos e tamanhos, e o campo Controle de quadro de 16 bits aberto em versão, tipo, subtipo e oito indicadores de 1 bit.</desc>
+<defs><marker id="a5F5E5A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#5F5E5A" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="273" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<rect x="1" y="30" width="80" height="44" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="41.0" y="48.2" font-size="12" text-anchor="middle" fill="#633806">Controle</text>
+<text x="41.0" y="64.2" font-size="12" text-anchor="middle" fill="#633806">2 B</text>
+<rect x="81" y="30" width="76" height="44" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="119.0" y="48.2" font-size="12" text-anchor="middle" fill="#2C2C2A">Duração</text>
+<text x="119.0" y="64.2" font-size="12" text-anchor="middle" fill="#2C2C2A">2 B</text>
+<rect x="157" y="30" width="66" height="44" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="190.0" y="48.2" font-size="12" text-anchor="middle" fill="#2C2C2A">End. 1</text>
+<text x="190.0" y="64.2" font-size="12" text-anchor="middle" fill="#2C2C2A">6 B</text>
+<rect x="223" y="30" width="66" height="44" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="256.0" y="48.2" font-size="12" text-anchor="middle" fill="#2C2C2A">End. 2</text>
+<text x="256.0" y="64.2" font-size="12" text-anchor="middle" fill="#2C2C2A">6 B</text>
+<rect x="289" y="30" width="66" height="44" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="322.0" y="48.2" font-size="12" text-anchor="middle" fill="#2C2C2A">End. 3</text>
+<text x="322.0" y="64.2" font-size="12" text-anchor="middle" fill="#2C2C2A">6 B</text>
+<rect x="355" y="30" width="96" height="44" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="403.0" y="48.2" font-size="12" text-anchor="middle" fill="#2C2C2A">Sequência</text>
+<text x="403.0" y="64.2" font-size="12" text-anchor="middle" fill="#2C2C2A">2 B</text>
+<rect x="451" y="30" width="76" height="44" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="489.0" y="48.2" font-size="12" text-anchor="middle" fill="#2C2C2A">End. 4</text>
+<text x="489.0" y="64.2" font-size="12" text-anchor="middle" fill="#2C2C2A">6 B, opc.</text>
+<rect x="527" y="30" width="96" height="44" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="575.0" y="48.2" font-size="12" text-anchor="middle" fill="#085041">Dados</text>
+<text x="575.0" y="64.2" font-size="12" text-anchor="middle" fill="#085041">0 a 2312 B</text>
+<rect x="623" y="30" width="56" height="44" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="651.0" y="48.2" font-size="12" text-anchor="middle" fill="#2C2C2A">CRC</text>
+<text x="651.0" y="64.2" font-size="12" text-anchor="middle" fill="#2C2C2A">4 B</text>
+<path d="M1 76 L1 98 L20 98 L20 118" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<path d="M81 76 L81 98 L660 98 L660 118" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<rect x="20" y="118" width="150" height="44" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="95.0" y="136.2" font-size="12" text-anchor="middle" fill="#633806">Versão</text>
+<text x="95.0" y="152.2" font-size="12" text-anchor="middle" fill="#633806">2 bits</text>
+<rect x="170" y="118" width="150" height="44" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="245.0" y="136.2" font-size="12" text-anchor="middle" fill="#633806">Tipo</text>
+<text x="245.0" y="152.2" font-size="12" text-anchor="middle" fill="#633806">2 bits</text>
+<rect x="320" y="118" width="340" height="44" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="490.0" y="136.2" font-size="12" text-anchor="middle" fill="#633806">Subtipo</text>
+<text x="490.0" y="152.2" font-size="12" text-anchor="middle" fill="#633806">4 bits</text>
+<rect x="20" y="176" width="80" height="44" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="60.0" y="194.2" font-size="12" text-anchor="middle" fill="#2C2C2A">Para DS</text>
+<text x="60.0" y="210.2" font-size="12" text-anchor="middle" fill="#2C2C2A">1 bit</text>
+<rect x="100" y="176" width="80" height="44" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="140.0" y="194.2" font-size="12" text-anchor="middle" fill="#2C2C2A">De DS</text>
+<text x="140.0" y="210.2" font-size="12" text-anchor="middle" fill="#2C2C2A">1 bit</text>
+<rect x="180" y="176" width="80" height="44" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="220.0" y="194.2" font-size="12" text-anchor="middle" fill="#2C2C2A">MF</text>
+<text x="220.0" y="210.2" font-size="12" text-anchor="middle" fill="#2C2C2A">1 bit</text>
+<rect x="260" y="176" width="80" height="44" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="300.0" y="194.2" font-size="12" text-anchor="middle" fill="#2C2C2A">Rept</text>
+<text x="300.0" y="210.2" font-size="12" text-anchor="middle" fill="#2C2C2A">1 bit</text>
+<rect x="340" y="176" width="80" height="44" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="380.0" y="194.2" font-size="12" text-anchor="middle" fill="#2C2C2A">Potência</text>
+<text x="380.0" y="210.2" font-size="12" text-anchor="middle" fill="#2C2C2A">1 bit</text>
+<rect x="420" y="176" width="80" height="44" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="460.0" y="194.2" font-size="12" text-anchor="middle" fill="#2C2C2A">Mais</text>
+<text x="460.0" y="210.2" font-size="12" text-anchor="middle" fill="#2C2C2A">1 bit</text>
+<rect x="500" y="176" width="80" height="44" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="540.0" y="194.2" font-size="12" text-anchor="middle" fill="#2C2C2A">W</text>
+<text x="540.0" y="210.2" font-size="12" text-anchor="middle" fill="#2C2C2A">1 bit</text>
+<rect x="580" y="176" width="80" height="44" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="620.0" y="194.2" font-size="12" text-anchor="middle" fill="#2C2C2A">O</text>
+<text x="620.0" y="210.2" font-size="12" text-anchor="middle" fill="#2C2C2A">1 bit</text>
+<text x="340" y="250" font-size="12" text-anchor="middle" fill="#2C2C2A">tipo: gerenciamento (00), controle (01) ou dados (10); subtipo diz qual quadro é, como RTS ou CTS</text>
+</svg>

@@ -26,6 +26,9 @@ Assim PCF e DCF **coexistem** na mesma rede.
 
 Ordem de prioridade: **SIFS < PIFS < DIFS < EIFS**. Exemplo numérico (802.11a): SIFS = 16 µs, slot = 9 µs → PIFS = 25 µs, DIFS = 34 µs.
 
+![Superquadro com beacon, CFP, CF-End e CP, e barras proporcionais de SIFS, PIFS e DIFS com SIFS de 16 microssegundos e slot de 9.](img/aula-23-superquadro-ifs.svg)
+*Figura 23.1: Superquadro e IFS: SIFS < PIFS < DIFS.*
+
 ## 3. As três classes de quadro
 
 | Classe | Para que serve |
@@ -43,6 +46,9 @@ Ordem de prioridade: **SIFS < PIFS < DIFS < EIFS**. Exemplo numérico (802.11a):
 │de quadro│       │      │      │      │       │(opc.)│          │     │
 └────────┴────────┴──────┴──────┴──────┴───────┴──────┴──────────┴─────┘
 ```
+
+![Quadro 802.11 com seus campos e tamanhos e o campo Controle de quadro aberto em versão, tipo, subtipo e oito indicadores de 1 bit.](img/aula-23-quadro-80211.svg)
+*Figura 23.2: Quadro 802.11 e o campo Controle de quadro.*
 
 ### Campo Controle de quadro (16 bits)
 
@@ -86,6 +92,9 @@ Num ambiente com AP há endereços **fim a fim** e **de salto**:
 | 1 | 1 | RA | TA | DA | SA |
 
 (Fonte do slide: tutorial 802.11, Berkeley.) O **End. 4** só aparece quando **dois APs** se comunicam por rádio (Para DS = De DS = 1).
+
+![Tabela dos quatro casos de Para DS e De DS com o significado dos endereços 1 a 4.](img/aula-23-enderecos-ds.svg)
+*Figura 23.3: Endereços do quadro 802.11 conforme Para DS e De DS.*
 
 **O emissor é um AP?** Pelo par de bits: **De DS = 1 e Para DS = 0** → o quadro **veio de um AP**.
 
