@@ -65,6 +65,9 @@ A distância do **código** é a menor distância entre quaisquer duas palavras 
 
 **Exemplo da aula:** código `0000000000`, `0000011111`, `1111100000`, `1111111111` → distância **5** → detecta **4**, corrige **2**.
 
+![Duas palavras de 8 bits comparadas por XOR, com distância 3, e as regras D = d + 1 para detectar e D = 2d + 1 para corrigir, com o código da aula de distância 5.](img/aula-09-distancia-hamming.svg)
+*Figura 09.1: Distância de Hamming e as regras para detectar e corrigir erros.*
+
 **Resposta às perguntas da lista:**
 - Detectar 3 erros → D = **4**; com D = 4 corrige ⌊3/2⌋ = **1** erro.
 - Corrigir 3 erros → D = **7**; com D = 7 detecta **6** erros.
@@ -95,6 +98,9 @@ Organiza os dados em linhas e colunas e calcula paridade de **cada linha** e de 
 ```
 Se **1 bit** inverte, **uma linha e uma coluna** ficam com paridade errada: a interseção **localiza o bit** → dá para **corrigir**.
 
+![Bloco de paridade bidimensional com um bit invertido; a linha 3 e a coluna 4 ficam com paridade errada e a interseção localiza o bit.](img/aula-09-paridade-2d.svg)
+*Figura 09.2: Paridade em blocos: a interseção da linha e da coluna com erro localiza o bit.*
+
 ## 7. CRC (Cyclic Redundancy Check)
 
 Ideia: tratar a mensagem como **um número binário enorme**, dividi-lo por um **gerador G** fixo (divisão **módulo 2**, usando XOR) e usar o **resto** como código. O receptor faz a mesma divisão; resto ≠ 0 → erro.
@@ -109,6 +115,9 @@ Ideia: tratar a mensagem como **um número binário enorme**, dividi-lo por um *
 101110000 ÷ 1001  →  resto = 011
 enviado = 101110 011 = 101110011
 ```
+
+![Divisão módulo 2 de 101110000 por 1001 em passos de XOR, com resto 011, e a mensagem enviada 101110011.](img/aula-09-crc-divisao.svg)
+*Figura 09.3: CRC: divisão módulo 2 de 101110000 por 1001, resto 011.*
 **Exercício da aula:** G = `10011`, d = `1101011011` → resto `1110` → enviado `11010110111110`.
 
 Receptor: divide o quadro **inteiro** por G; **resto 0** = nenhum erro detectado.

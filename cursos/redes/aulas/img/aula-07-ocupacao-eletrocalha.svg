@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 364" width="680" height="364" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Cálculo de ocupação de uma eletrocalha</title>
+<desc id="d">Seção de uma calha 150 por 50 mm com metade ocupada e o cálculo: 3.750 mm² divididos por 28,27 mm² de um cabo de 6 mm dão cerca de 132 cabos.</desc>
+<defs><marker id="a5F5E5A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#5F5E5A" stroke-width="1.2"/></marker><marker id="a5F5E5As" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M9 1 L1 5 L9 9" fill="none" stroke="#5F5E5A" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="363" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<text x="170" y="30" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Seção da calha (150 × 50 mm)</text>
+<rect x="20" y="50" width="300" height="100" rx="2" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<rect x="20" y="100" width="300" height="50" rx="0" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="170" y="80" font-size="12" text-anchor="middle" fill="#2C2C2A">metade livre</text>
+<text x="170" y="130" font-size="12" text-anchor="middle" fill="#633806">ocupação máxima: 50%</text>
+<path d="M20 172 L320 172" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)" marker-start="url(#a5F5E5As)"/>
+<text x="170" y="192" font-size="12" text-anchor="middle" fill="#2C2C2A">150 mm</text>
+<path d="M336 50 L336 150" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)" marker-start="url(#a5F5E5As)"/>
+<text x="346" y="104" font-size="12" text-anchor="start" fill="#2C2C2A">50 mm</text>
+<circle cx="40" cy="240" r="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="56" y="245" font-size="12" text-anchor="start" fill="#2C2C2A">cabo de 6 mm de diâmetro (escala 2 px por mm)</text>
+<rect x="400" y="30" width="260" height="52" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="530.0" y="52.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Área do cabo</text>
+<text x="530.0" y="69.2" font-size="12" text-anchor="middle" fill="#2C2C2A">π · 3² ≈ 28,27 mm²</text>
+<path d="M530 82 L530 104" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<rect x="400" y="104" width="260" height="52" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="530.0" y="126.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Área da calha</text>
+<text x="530.0" y="143.2" font-size="12" text-anchor="middle" fill="#2C2C2A">150 × 50 = 7.500 mm²</text>
+<path d="M530 156 L530 178" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<rect x="400" y="178" width="260" height="52" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="530.0" y="200.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Máximo de 50%</text>
+<text x="530.0" y="217.2" font-size="12" text-anchor="middle" fill="#2C2C2A">3.750 mm²</text>
+<path d="M530 230 L530 252" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<rect x="400" y="252" width="260" height="52" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="530.0" y="274.9" font-size="14" text-anchor="middle" fill="#633806" font-weight="500">Cabos na calha</text>
+<text x="530.0" y="291.2" font-size="12" text-anchor="middle" fill="#633806">3.750 ÷ 28,27 ≈ 132,6 → 132</text>
+<text x="660" y="340" font-size="12" text-anchor="end" fill="#2C2C2A">a aula arredonda para 133; sem passar de 50%, são 132</text>
+</svg>

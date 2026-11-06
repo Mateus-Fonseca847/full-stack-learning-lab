@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 240" width="680" height="240" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Campos do quadro Ethernet</title>
+<desc id="d">Quadro Ethernet com preâmbulo de 8 bytes, destino 6, origem 6, tipo 2, dados de 46 a 1500 e CRC de 4 bytes; o quadro vai de 64 a 1518 bytes sem o preâmbulo; o preâmbulo detalhado em 7 bytes 10101010 e 1 byte 10101011.</desc>
+<defs><marker id="a5F5E5A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#5F5E5A" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="239" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<rect x="55" y="50" width="104" height="40" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="107.0" y="66.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Preâmbulo</text>
+<text x="107.0" y="83.2" font-size="12" text-anchor="middle" fill="#2C2C2A">8 B</text>
+<rect x="159" y="50" width="84" height="40" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="201.0" y="66.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Destino</text>
+<text x="201.0" y="83.2" font-size="12" text-anchor="middle" fill="#2C2C2A">6 B</text>
+<rect x="243" y="50" width="84" height="40" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="285.0" y="66.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Origem</text>
+<text x="285.0" y="83.2" font-size="12" text-anchor="middle" fill="#2C2C2A">6 B</text>
+<rect x="327" y="50" width="64" height="40" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="359.0" y="66.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Tipo</text>
+<text x="359.0" y="83.2" font-size="12" text-anchor="middle" fill="#2C2C2A">2 B</text>
+<rect x="391" y="50" width="170" height="40" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="476.0" y="66.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">Dados</text>
+<text x="476.0" y="83.2" font-size="12" text-anchor="middle" fill="#085041">46 a 1500 B</text>
+<rect x="561" y="50" width="64" height="40" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="593.0" y="66.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">CRC</text>
+<text x="593.0" y="83.2" font-size="12" text-anchor="middle" fill="#2C2C2A">4 B</text>
+<path d="M159 40 L159 34 L391 34 L391 40" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="275.0" y="24" font-size="12" text-anchor="middle" fill="#2C2C2A">cabeçalho: 14 B</text>
+<path d="M159 100 L159 108 L625 108 L625 100" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text x="392.0" y="128" font-size="12" text-anchor="middle" fill="#2C2C2A">quadro: 64 a 1518 B (sem o preâmbulo)</text>
+<path d="M74 92 L74 166" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<path d="M122 92 L122 152 L295 152 L295 166" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<rect x="20" y="168" width="190" height="52" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="115.0" y="190.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">7 bytes 10101010</text>
+<text x="115.0" y="207.2" font-size="12" text-anchor="middle" fill="#085041">sincronizam o relógio</text>
+<rect x="220" y="168" width="190" height="52" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="315.0" y="190.9" font-size="14" text-anchor="middle" fill="#633806" font-weight="500">1 byte 10101011</text>
+<text x="315.0" y="207.2" font-size="12" text-anchor="middle" fill="#633806">o 11 final avisa: dados</text>
+</svg>

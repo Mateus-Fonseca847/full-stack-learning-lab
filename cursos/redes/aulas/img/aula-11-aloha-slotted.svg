@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 397" width="680" height="397" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Aloha puro e slotted Aloha</title>
+<desc id="d">Duas linhas do tempo: no Aloha puro um quadro colide com qualquer outro iniciado em duas durações de quadro; no slotted Aloha, com intervalos, só colide com quadros do mesmo intervalo.</desc>
+<defs><marker id="a854F0B" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#854F0B" stroke-width="1.2"/></marker><marker id="aA32D2D" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#A32D2D" stroke-width="1.2"/></marker><marker id="aB4B2A9" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#B4B2A9" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="396" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<text x="20" y="24" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">Aloha puro</text>
+<text x="140" y="24" font-size="12" text-anchor="start" fill="#2C2C2A">sem sincronismo; eficiência máxima ≈ 18%</text>
+<text x="20" y="76" font-size="12" text-anchor="start" fill="#2C2C2A">estação X</text>
+<text x="20" y="112" font-size="12" text-anchor="start" fill="#2C2C2A">estação Y</text>
+<rect x="280" y="58" width="100" height="26" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="330" y="76" font-size="12" text-anchor="middle" fill="#085041">X</text>
+<rect x="200" y="94" width="100" height="26" rx="3" fill="#FCEBEB" stroke="#A32D2D" stroke-width="1"/>
+<text x="250" y="112" font-size="12" text-anchor="middle" fill="#791F1F">Y</text>
+<path d="M280 54 L280 124" fill="none" stroke="#A32D2D" stroke-width="1" stroke-dasharray="5 3"/>
+<path d="M300 54 L300 124" fill="none" stroke="#A32D2D" stroke-width="1" stroke-dasharray="5 3"/>
+<path d="M180 138 L180 146 L380 146 L380 138" fill="none" stroke="#854F0B" stroke-width="1"/>
+<text x="280" y="166" font-size="12" text-anchor="middle" fill="#2C2C2A">período vulnerável: 2 quadros</text>
+<text x="20" y="190" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">Slotted Aloha</text>
+<text x="158" y="190" font-size="12" text-anchor="start" fill="#2C2C2A">quadros no início do intervalo; máxima ≈ 37%</text>
+<text x="20" y="242" font-size="12" text-anchor="start" fill="#2C2C2A">estação X</text>
+<text x="20" y="278" font-size="12" text-anchor="start" fill="#2C2C2A">estação Y</text>
+<path d="M180 218 L180 292" fill="none" stroke="#B4B2A9" stroke-width="1" stroke-dasharray="5 3"/>
+<path d="M280 218 L280 292" fill="none" stroke="#B4B2A9" stroke-width="1" stroke-dasharray="5 3"/>
+<path d="M380 218 L380 292" fill="none" stroke="#B4B2A9" stroke-width="1" stroke-dasharray="5 3"/>
+<path d="M480 218 L480 292" fill="none" stroke="#B4B2A9" stroke-width="1" stroke-dasharray="5 3"/>
+<path d="M580 218 L580 292" fill="none" stroke="#B4B2A9" stroke-width="1" stroke-dasharray="5 3"/>
+<rect x="280" y="224" width="100" height="26" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="330" y="242" font-size="12" text-anchor="middle" fill="#085041">X</text>
+<rect x="280" y="260" width="100" height="26" rx="3" fill="#FCEBEB" stroke="#A32D2D" stroke-width="1"/>
+<text x="330" y="278" font-size="12" text-anchor="middle" fill="#791F1F">Y</text>
+<path d="M280 304 L280 312 L380 312 L380 304" fill="none" stroke="#854F0B" stroke-width="1"/>
+<text x="330" y="332" font-size="12" text-anchor="middle" fill="#2C2C2A">período vulnerável: 1 quadro</text>
+<rect x="20" y="362" width="14" height="14" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="40" y="373" font-size="12" text-anchor="start" fill="#2C2C2A">quadro</text>
+<rect x="106" y="362" width="14" height="14" rx="3" fill="#FCEBEB" stroke="#A32D2D" stroke-width="1"/>
+<text x="126" y="373" font-size="12" text-anchor="start" fill="#2C2C2A">quadro em colisão</text>
+<rect x="269" y="362" width="14" height="14" rx="3" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="289" y="373" font-size="12" text-anchor="start" fill="#2C2C2A">período vulnerável</text>
+</svg>

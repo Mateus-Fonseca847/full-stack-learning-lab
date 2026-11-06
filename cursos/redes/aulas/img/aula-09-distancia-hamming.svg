@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 316" width="680" height="316" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Distância de Hamming</title>
+<desc id="d">Duas palavras de 8 bits comparadas bit a bit pelo XOR, com 3 posições diferentes e distância 3; e as regras: detectar d erros exige D = d + 1, corrigir d erros exige D = 2d + 1.</desc>
+<defs></defs>
+<rect x="0.5" y="0.5" width="679" height="315" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<text x="20" y="42" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">Palavra 1</text>
+<rect x="160" y="24" width="28" height="28" rx="0" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="174.0" y="42.0" font-size="12" text-anchor="middle" fill="#2C2C2A">1</text>
+<rect x="188" y="24" width="28" height="28" rx="0" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="202.0" y="42.0" font-size="12" text-anchor="middle" fill="#2C2C2A">0</text>
+<rect x="216" y="24" width="28" height="28" rx="0" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="230.0" y="42.0" font-size="12" text-anchor="middle" fill="#2C2C2A">0</text>
+<rect x="244" y="24" width="28" height="28" rx="0" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="258.0" y="42.0" font-size="12" text-anchor="middle" fill="#2C2C2A">0</text>
+<rect x="272" y="24" width="28" height="28" rx="0" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="286.0" y="42.0" font-size="12" text-anchor="middle" fill="#2C2C2A">1</text>
+<rect x="300" y="24" width="28" height="28" rx="0" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="314.0" y="42.0" font-size="12" text-anchor="middle" fill="#2C2C2A">0</text>
+<rect x="328" y="24" width="28" height="28" rx="0" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="342.0" y="42.0" font-size="12" text-anchor="middle" fill="#2C2C2A">0</text>
+<rect x="356" y="24" width="28" height="28" rx="0" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="370.0" y="42.0" font-size="12" text-anchor="middle" fill="#2C2C2A">1</text>
+<text x="20" y="80" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">Palavra 2</text>
+<rect x="160" y="62" width="28" height="28" rx="0" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="174.0" y="80.0" font-size="12" text-anchor="middle" fill="#2C2C2A">1</text>
+<rect x="188" y="62" width="28" height="28" rx="0" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="202.0" y="80.0" font-size="12" text-anchor="middle" fill="#2C2C2A">0</text>
+<rect x="216" y="62" width="28" height="28" rx="0" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="230.0" y="80.0" font-size="12" text-anchor="middle" fill="#2C2C2A">1</text>
+<rect x="244" y="62" width="28" height="28" rx="0" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="258.0" y="80.0" font-size="12" text-anchor="middle" fill="#2C2C2A">1</text>
+<rect x="272" y="62" width="28" height="28" rx="0" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="286.0" y="80.0" font-size="12" text-anchor="middle" fill="#2C2C2A">0</text>
+<rect x="300" y="62" width="28" height="28" rx="0" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="314.0" y="80.0" font-size="12" text-anchor="middle" fill="#2C2C2A">0</text>
+<rect x="328" y="62" width="28" height="28" rx="0" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="342.0" y="80.0" font-size="12" text-anchor="middle" fill="#2C2C2A">0</text>
+<rect x="356" y="62" width="28" height="28" rx="0" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="370.0" y="80.0" font-size="12" text-anchor="middle" fill="#2C2C2A">1</text>
+<text x="20" y="126" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">Diferenças</text>
+<rect x="160" y="108" width="28" height="28" rx="0" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="174.0" y="126.0" font-size="12" text-anchor="middle" fill="#2C2C2A">0</text>
+<rect x="188" y="108" width="28" height="28" rx="0" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="202.0" y="126.0" font-size="12" text-anchor="middle" fill="#2C2C2A">0</text>
+<rect x="216" y="108" width="28" height="28" rx="0" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="230.0" y="126.0" font-size="12" text-anchor="middle" fill="#633806">1</text>
+<rect x="244" y="108" width="28" height="28" rx="0" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="258.0" y="126.0" font-size="12" text-anchor="middle" fill="#633806">1</text>
+<rect x="272" y="108" width="28" height="28" rx="0" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="286.0" y="126.0" font-size="12" text-anchor="middle" fill="#633806">1</text>
+<rect x="300" y="108" width="28" height="28" rx="0" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="314.0" y="126.0" font-size="12" text-anchor="middle" fill="#2C2C2A">0</text>
+<rect x="328" y="108" width="28" height="28" rx="0" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="342.0" y="126.0" font-size="12" text-anchor="middle" fill="#2C2C2A">0</text>
+<rect x="356" y="108" width="28" height="28" rx="0" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="370.0" y="126.0" font-size="12" text-anchor="middle" fill="#2C2C2A">0</text>
+<text x="400" y="128" font-size="14" text-anchor="start" fill="#2C2C2A" font-weight="500">distância = 3</text>
+<rect x="20" y="150" width="300" height="56" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="170.0" y="174.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Detectar d erros</text>
+<text x="170.0" y="191.2" font-size="12" text-anchor="middle" fill="#2C2C2A">D = d + 1</text>
+<rect x="340" y="150" width="300" height="56" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="490.0" y="174.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Corrigir d erros</text>
+<text x="490.0" y="191.2" font-size="12" text-anchor="middle" fill="#2C2C2A">D = 2d + 1</text>
+<rect x="20" y="226" width="620" height="70" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="330.0" y="257.9" font-size="14" text-anchor="middle" fill="#633806" font-weight="500">Código da aula: D = 5, detecta 4 e corrige 2</text>
+<text x="330.0" y="274.2" font-size="12" text-anchor="middle" fill="#633806">0000000000, 0000011111, 1111100000, 1111111111</text>
+</svg>

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 301" width="680" height="301" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Inserção de bytes (byte stuffing)</title>
+<desc id="d">Quatro casos: dados originais com FLAG ou ESC recebem um ESC antes de cada FLAG ou ESC, marcado em âmbar.</desc>
+<defs><marker id="a5F5E5A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#5F5E5A" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="300" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<text x="110" y="30" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Dados originais</text>
+<text x="500" y="30" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Depois da inserção</text>
+<rect x="20" y="46" width="32" height="32" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="36.0" y="66.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">A</text>
+<rect x="56" y="46" width="60" height="32" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="86.0" y="66.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">FLAG</text>
+<rect x="120" y="46" width="32" height="32" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="136.0" y="66.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">B</text>
+<path d="M250 62 L330 62" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<rect x="350" y="46" width="32" height="32" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="366.0" y="66.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">A</text>
+<rect x="386" y="46" width="52" height="32" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="412.0" y="66.9" font-size="14" text-anchor="middle" fill="#633806" font-weight="500">ESC</text>
+<rect x="442" y="46" width="60" height="32" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="472.0" y="66.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">FLAG</text>
+<rect x="506" y="46" width="32" height="32" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="522.0" y="66.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">B</text>
+<rect x="20" y="98" width="32" height="32" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="36.0" y="118.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">A</text>
+<rect x="56" y="98" width="52" height="32" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="82.0" y="118.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">ESC</text>
+<rect x="112" y="98" width="32" height="32" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="128.0" y="118.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">B</text>
+<path d="M250 114 L330 114" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<rect x="350" y="98" width="32" height="32" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="366.0" y="118.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">A</text>
+<rect x="386" y="98" width="52" height="32" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="412.0" y="118.9" font-size="14" text-anchor="middle" fill="#633806" font-weight="500">ESC</text>
+<rect x="442" y="98" width="52" height="32" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="468.0" y="118.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">ESC</text>
+<rect x="498" y="98" width="32" height="32" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="514.0" y="118.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">B</text>
+<rect x="20" y="150" width="32" height="32" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="36.0" y="170.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">A</text>
+<rect x="56" y="150" width="52" height="32" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="82.0" y="170.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">ESC</text>
+<rect x="112" y="150" width="60" height="32" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="142.0" y="170.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">FLAG</text>
+<rect x="176" y="150" width="32" height="32" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="192.0" y="170.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">B</text>
+<path d="M250 166 L330 166" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<rect x="350" y="150" width="32" height="32" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="366.0" y="170.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">A</text>
+<rect x="386" y="150" width="52" height="32" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="412.0" y="170.9" font-size="14" text-anchor="middle" fill="#633806" font-weight="500">ESC</text>
+<rect x="442" y="150" width="52" height="32" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="468.0" y="170.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">ESC</text>
+<rect x="498" y="150" width="52" height="32" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="524.0" y="170.9" font-size="14" text-anchor="middle" fill="#633806" font-weight="500">ESC</text>
+<rect x="554" y="150" width="60" height="32" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="584.0" y="170.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">FLAG</text>
+<rect x="618" y="150" width="32" height="32" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="634.0" y="170.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">B</text>
+<rect x="20" y="202" width="32" height="32" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="36.0" y="222.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">A</text>
+<rect x="56" y="202" width="52" height="32" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="82.0" y="222.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">ESC</text>
+<rect x="112" y="202" width="52" height="32" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="138.0" y="222.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">ESC</text>
+<rect x="168" y="202" width="32" height="32" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="184.0" y="222.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">B</text>
+<path d="M250 218 L330 218" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<rect x="350" y="202" width="32" height="32" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="366.0" y="222.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">A</text>
+<rect x="386" y="202" width="52" height="32" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="412.0" y="222.9" font-size="14" text-anchor="middle" fill="#633806" font-weight="500">ESC</text>
+<rect x="442" y="202" width="52" height="32" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="468.0" y="222.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">ESC</text>
+<rect x="498" y="202" width="52" height="32" rx="6" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="524.0" y="222.9" font-size="14" text-anchor="middle" fill="#633806" font-weight="500">ESC</text>
+<rect x="554" y="202" width="52" height="32" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="580.0" y="222.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">ESC</text>
+<rect x="610" y="202" width="32" height="32" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="626.0" y="222.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">B</text>
+<rect x="20" y="266" width="14" height="14" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="40" y="277" font-size="12" text-anchor="start" fill="#2C2C2A">FLAG</text>
+<rect x="92" y="266" width="14" height="14" rx="3" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="112" y="277" font-size="12" text-anchor="start" fill="#2C2C2A">ESC inserido</text>
+<rect x="220" y="266" width="14" height="14" rx="3" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="240" y="277" font-size="12" text-anchor="start" fill="#2C2C2A">dados</text>
+</svg>

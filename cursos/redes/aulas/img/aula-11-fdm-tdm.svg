@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 310" width="680" height="310" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">FDM e TDM</title>
+<desc id="d">Dois gráficos de frequência por tempo: no FDM cada nó ocupa uma faixa de frequência o tempo todo; no TDM cada nó usa o canal inteiro apenas no seu intervalo.</desc>
+<defs><marker id="a5F5E5A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#5F5E5A" stroke-width="1.2"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="309" rx="8" fill="#F8F8F6" stroke="#D3D1C7"/>
+<text x="170" y="28" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">FDM</text>
+<text x="170" y="46" font-size="12" text-anchor="middle" fill="#2C2C2A">divide a banda em faixas</text>
+<path d="M40 220 L40 68" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<path d="M40 220 L326 220" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<text x="46" y="62" font-size="12" text-anchor="start" fill="#2C2C2A">frequência</text>
+<text x="326" y="238" font-size="12" text-anchor="end" fill="#2C2C2A">tempo</text>
+<rect x="46" y="184" width="270" height="34" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="181.0" y="205.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">Nó 1</text>
+<rect x="46" y="148" width="270" height="34" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="181.0" y="169.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Nó 2</text>
+<rect x="46" y="112" width="270" height="34" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="181.0" y="133.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">Nó 3</text>
+<rect x="46" y="76" width="270" height="34" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="181.0" y="97.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">Nó 4</text>
+<text x="170" y="268" font-size="12" text-anchor="middle" fill="#2C2C2A">cada nó usa sua faixa o tempo todo</text>
+<text x="510" y="28" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">TDM</text>
+<text x="510" y="46" font-size="12" text-anchor="middle" fill="#2C2C2A">divide o tempo em intervalos</text>
+<path d="M380 220 L380 68" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<path d="M380 220 L666 220" fill="none" stroke="#5F5E5A" stroke-width="1" marker-end="url(#a5F5E5A)"/>
+<text x="386" y="62" font-size="12" text-anchor="start" fill="#2C2C2A">frequência</text>
+<text x="666" y="238" font-size="12" text-anchor="end" fill="#2C2C2A">tempo</text>
+<rect x="386.0" y="76" width="33.75" height="138" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="402.875" y="149.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">1</text>
+<rect x="419.75" y="76" width="33.75" height="138" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="436.625" y="149.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">2</text>
+<rect x="453.5" y="76" width="33.75" height="138" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="470.375" y="149.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">3</text>
+<rect x="487.25" y="76" width="33.75" height="138" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="504.125" y="149.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">4</text>
+<rect x="521.0" y="76" width="33.75" height="138" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="537.875" y="149.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">1</text>
+<rect x="554.75" y="76" width="33.75" height="138" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="571.625" y="149.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">2</text>
+<rect x="588.5" y="76" width="33.75" height="138" rx="6" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="605.375" y="149.9" font-size="14" text-anchor="middle" fill="#085041" font-weight="500">3</text>
+<rect x="622.25" y="76" width="33.75" height="138" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="639.125" y="149.9" font-size="14" text-anchor="middle" fill="#2C2C2A" font-weight="500">4</text>
+<text x="510" y="268" font-size="12" text-anchor="middle" fill="#2C2C2A">cada nó usa o canal inteiro no seu slot</text>
+<text x="510" y="286" font-size="12" text-anchor="middle" fill="#2C2C2A">números: nó dono de cada slot</text>
+</svg>

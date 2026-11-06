@@ -33,6 +33,9 @@ Em comunicação **bidirecional**, a **confirmação viaja junto com um quadro d
 - Confirmação (supondo ACK minúsculo): 270 + 250 = **520 ms**.
 - O transmissor ficou **bloqueado 500 ms de 520 ms** ≈ **96%** do tempo → utiliza só **~4%** da banda.
 
+![Diagrama de tempo entre transmissor e receptor no enlace de satélite: 20 ms de envio, 250 ms de ida, 250 ms de volta do ACK; transmissor bloqueado 500 de 520 ms.](img/aula-10-para-e-espera-satelite.svg)
+*Figura 10.1: Para-e-espera no enlace de satélite: 20 ms úteis em 520 ms.*
+
 **Solução: paralelismo (pipeline) → janela deslizante.**
 
 ## 4. Janela deslizante
@@ -57,6 +60,9 @@ $$ U \le \frac{w}{1 + 2\,BD} $$
 
 Se *w* < 26, não se aproveita 100% do enlace. Ex.: w = 13 → U = 13/26 = **50%**; w = 1 (para-e-espera) → 1/26 ≈ **3,85%**.
 
+![Linha do tempo com 26 quadros enviados em sequência, o ACK do primeiro chegando em 520 ms, e a utilização para w igual a 1, 13 e 26.](img/aula-10-janela-deslizante.svg)
+*Figura 10.2: Janela deslizante com w = 26: o transmissor nunca fica parado.*
+
 ## 5. Retransmissão na janela deslizante — extra
 
 Quando um quadro se perde no meio de uma janela, há duas estratégias clássicas:
@@ -66,6 +72,9 @@ Quando um quadro se perde no meio de uma janela, há duas estratégias clássica
 | Receptor | só aceita em ordem (janela de recepção = 1) | guarda quadros fora de ordem (buffer) |
 | Retransmissão | reenvia o quadro com erro **e todos os seguintes** | reenvia **só** o quadro perdido |
 | Complexidade | simples | maior (buffer no receptor) |
+
+![Com o quadro 2 perdido: no Go-Back-N os quadros 3 e 4 são descartados e 2, 3 e 4 são reenviados; na repetição seletiva 3 e 4 são guardados e só o 2 é reenviado.](img/aula-10-gbn-vs-sr.svg)
+*Figura 10.3: Go-Back-N × repetição seletiva quando o quadro 2 se perde.*
 
 ## 6. Pratique
 

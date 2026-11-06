@@ -35,6 +35,9 @@ Entrada de serviços → Sala de equipamentos → Backbone (óptico ou metálico
 - **Channel** (canal): permanent link + patch cords = até **100 m**.
 - Patch cords são de cabo **flexível**, que **atenua ~20% mais** que o cabo sólido.
 
+![Duas cadeias de componentes, cross-connect e interconexão, com colchetes marcando o permanent link de até 90 m e o channel de até 100 m.](img/aula-07-permanent-link-channel.svg)
+*Figura 07.1: Permanent link (90 m) e channel (100 m) no cross-connect e na interconexão.*
+
 ## 3. Evolução dos cabos metálicos
 
 | Padrão IEEE | Taxa | Cabo |
@@ -104,6 +107,9 @@ Formato `[blindagem global] / [blindagem dos pares] TP`: **U** = sem, **F** = fo
 | **Teto** | não apoiar direto no forro: afastar **≥ 7,62 cm** |
 
 **Cálculo de eletrocalha (exemplo do material):** cabo de 6 mm → área = π·3² ≈ 28,27 mm². Calha 150×50 mm = 7.500 mm²; a 50% = 3.750 mm² → 3.750/28,27 ≈ 132,6. O material mostra 133 (arredondando para cima); na prática use **132** para não passar de 50%.
+
+![Seção de uma calha de 150 por 50 mm com metade ocupada e o cálculo em quatro passos até cerca de 132 cabos de 6 mm.](img/aula-07-ocupacao-eletrocalha.svg)
+*Figura 07.2: Cálculo da ocupação de 50% de uma eletrocalha 150×50 mm.*
 
 ## 6. Testes e certificação (metálico)
 

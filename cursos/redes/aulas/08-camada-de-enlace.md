@@ -60,6 +60,9 @@ Um campo no cabeçalho diz **quantos caracteres** tem o quadro; com isso o recep
 ```
 **Problema:** se a contagem for **adulterada** (ex.: o 5 vira 7), o receptor perde a sincronia e **não sabe onde começa o próximo quadro** — nem o checksum ajuda a ressincronizar.
 
+![Mesmo fluxo de caracteres em duas linhas: sem erro, quatro quadros bem delimitados; com a primeira contagem adulterada de 5 para 7, os quadros são delimitados em outros pontos.](img/aula-08-contagem-caracteres.svg)
+*Figura 08.1: Contagem de caracteres: o erro na contagem faz o receptor perder a sincronia.*
+
 ### 5.2 Flags (delimitadores)
 Cada quadro começa e termina com um padrão especial (**flag**), o que **permite ressincronizar** depois de um erro: basta varrer até a próxima flag. O problema: a flag pode aparecer **dentro dos dados**. Solução: **stuffing** (inserção).
 
@@ -73,6 +76,9 @@ Flag de 8 bits. Se a flag (ou o caractere de escape **ESC**) aparece nos dados, 
 | A ESC FLAG B | A **ESC ESC ESC** FLAG B |
 | A ESC ESC B | A **ESC ESC ESC ESC** B |
 
+![Quatro casos de byte stuffing: um ESC é inserido, em âmbar, antes de cada FLAG ou ESC dos dados.](img/aula-08-byte-stuffing.svg)
+*Figura 08.2: Byte stuffing: um ESC é inserido antes de cada FLAG ou ESC nos dados.*
+
 Desvantagem: depende de caracteres de **8 bits**.
 
 #### Inserção de **bits** (bit stuffing)
@@ -82,6 +88,9 @@ Flag = **01111110**. Regra do transmissor: **depois de cinco 1s consecutivos nos
 dados:    0110 11111 11111 11111 0010      (cinco 1s a cada grupo)
 enviado:  0110 111110 111110 111110 0010   (0 inserido após cada 11111)
 ```
+
+![A flag 01111110 e o exemplo de bit stuffing: depois de cada sequência de cinco 1s nos dados entra um 0, destacado em âmbar.](img/aula-08-bit-stuffing.svg)
+*Figura 08.3: Bit stuffing: um 0 é inserido depois de cada cinco 1s seguidos.*
 
 Se o receptor perder o controle, **varre a entrada procurando 01111110**.
 

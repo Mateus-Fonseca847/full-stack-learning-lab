@@ -27,6 +27,9 @@ Mídias: coaxial (10BASE2, 10BASE5), **par trançado (10BASE-T, 100BASE-TX, 1000
 - **24 primeiros bits:** identificam o **fabricante** (OUI); **24 restantes:** número da placa (atribuído pelo fabricante). Identificação **única** da interface.
 - **Broadcast:** `FF-FF-FF-FF-FF-FF` (todos os bits em 1).
 
+![Endereço MAC em seis bytes: três do fabricante, três da placa, e o broadcast com todos os bytes FF.](img/aula-12-endereco-mac.svg)
+*Figura 12.1: Endereço MAC de 48 bits: 24 do fabricante e 24 da placa.*
+
 **Descubra o MAC da sua máquina:**
 ```bash
 # Windows
@@ -51,6 +54,20 @@ Traduz **endereço de rede (IP)** → **endereço de enlace (MAC)**. Necessário
 4. A resposta é UNICAST (direto para o MAC de A): "Eu tenho, meu MAC é 66-AB-F9-1A-B1".
 5. A guarda IP→MAC na tabela ARP (com timer). Agora monta o quadro.
 ```
+
+```mermaid
+sequenceDiagram
+    participant A
+    participant B
+    participant C
+    Note over A: Consulta a tabela ARP e não acha
+    A->>B: ARP query em broadcast (FF-FF-FF-FF-FF-FF)
+    A->>C: ARP query em broadcast: quem tem o IP 192.168.0.3?
+    Note over B: Não é o alvo e normalmente não guarda nada
+    C-->>A: ARP reply em unicast: eu tenho, este é o meu MAC
+    Note over A: Guarda IP e MAC na tabela ARP e monta o quadro
+```
+*Figura 12.2: troca de mensagens do ARP entre A, B e C.*
 
 - A tabela ARP **expira** entradas (timeout), por isso a rede aprende de novo se algo mudar.
 - Pergunta da aula: *depois dessa conversa, como estão as tabelas ARP de B e C?* **C** aprendeu o IP/MAC de A (veio na consulta); **B** viu a consulta em broadcast, mas não era o alvo, então normalmente **não** guarda nada.
@@ -78,6 +95,9 @@ arp -a        # mostra a tabela ARP (Windows, Linux, macOS)
 | **Tipo** | 2 B | **multiplexa protocolos de rede**: diz a quem entregar os dados (IP, ARP, IPX, AppleTalk...) |
 | **Dados** | 46–1500 B | carrega o pacote encapsulado (ex.: IP) |
 | **CRC** | 4 B | detecta erro; cobre todos os campos **exceto o preâmbulo** |
+
+![Campos do quadro Ethernet com seus tamanhos e o detalhe do preâmbulo em 7 bytes 10101010 e 1 byte 10101011.](img/aula-12-quadro-ethernet.svg)
+*Figura 12.3: Quadro Ethernet: campos, tamanhos e detalhe do preâmbulo.*
 
 > **Sobre o nome do campo Tipo:** na lista e nos slides ele aparece como "tipo (ToS)". O nome técnico do campo Ethernet é **EtherType** (ou *Length*, no 802.3 puro). **ToS (Type of Service) é outro campo, do cabeçalho IP.** Na prova, responda como a professora ensina, mas saiba a distinção.
 

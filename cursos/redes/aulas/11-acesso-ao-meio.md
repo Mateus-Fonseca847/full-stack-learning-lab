@@ -38,6 +38,9 @@ Protocolos de acesso múltiplo
 | Cada nó usa | sua faixa **o tempo todo** | o canal **inteiro**, só no seu slot |
 | Exemplo | rádio/TV, cabo | telefonia digital (PCM) |
 
+![Dois gráficos de frequência por tempo: no FDM cada nó ocupa uma faixa o tempo todo; no TDM cada nó usa o canal inteiro no seu intervalo.](img/aula-11-fdm-tdm.svg)
+*Figura 11.1: FDM (faixas de frequência) × TDM (intervalos de tempo).*
+
 **Por que FDM precisa de modulação e filtragem?** Os sinais de voz/dados estão em banda básica (começam perto de 0 Hz) e todos ocupariam a mesma faixa. A **modulação** desloca cada sinal para uma **portadora diferente**, e os **filtros** separam/limitam cada faixa na recepção, evitando que uma invada a vizinha.
 
 **TDM síncrono × assíncrono (estatístico):**
@@ -66,6 +69,9 @@ Protocolos de acesso múltiplo
 
 **Slotted Aloha × Aloha:** o slotted **sincroniza o início** dos quadros, reduzindo à metade o período vulnerável e **dobrando** a eficiência.
 
+![Duas linhas do tempo: no Aloha puro o período vulnerável é de dois quadros; no slotted Aloha, de um quadro.](img/aula-11-aloha-slotted.svg)
+*Figura 11.2: Período vulnerável do Aloha puro (2 quadros) e do slotted Aloha (1 quadro).*
+
 ### 3.3 CSMA (Carrier Sense Multiple Access)
 - **"Escute antes de falar":** o nó verifica se o canal está livre. Se **ocupado**, espera um tempo aleatório e tenta de novo.
 - **Diferença principal Aloha × CSMA:** o Aloha transmite **sem olhar** o canal; o CSMA **ouve a portadora** antes.
@@ -75,6 +81,9 @@ Protocolos de acesso múltiplo
 - Igual ao CSMA, **mais detecção de colisão:** o nó **continua escutando enquanto transmite**. Se percebe que outro também transmite, **aborta imediatamente** a transmissão e espera um tempo aleatório antes de retentar.
 - **Diferença para o CSMA:** não desperdiça o quadro inteiro; para no início da colisão.
 - Usado na **Ethernet** (802.3) em meio compartilhado. No Ethernet real o tempo aleatório vem do **backoff exponencial binário** (a janela de sorteio dobra a cada colisão).
+
+![Diagrama de tempo entre as estações A e B: transmissões que se cruzam, colisão e aborto de cada estação ao detectá-la.](img/aula-11-csma-cd-colisao.svg)
+*Figura 11.3: CSMA/CD: colisão por atraso de propagação e aborto imediato.*
 
 > **Extra:** o quadro Ethernet tem **mínimo de 64 bytes** para que o transmissor ainda esteja transmitindo quando a notícia da colisão voltar — só assim ele consegue detectá-la.
 
